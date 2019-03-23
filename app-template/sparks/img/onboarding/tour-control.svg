@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 247 247"
+   style="enable-background:new 0 0 247 247;"
+   xml:space="preserve"
+   sodipodi:docname="tour-control.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata1119"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>tour-control</dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs1117" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1052"
+   id="namedview1115"
+   showgrid="false"
+   inkscape:zoom="4.7464901"
+   inkscape:cx="111.202"
+   inkscape:cy="171.55137"
+   inkscape:window-x="0"
+   inkscape:window-y="7"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Group-3" />
+<style
+   type="text/css"
+   id="style1090">
+	.st0{opacity:0.3;fill:url(#Oval-2_1_);enable-background:new    ;}
+	.st1{fill:#192C3A;fill-opacity:0.65;stroke:#707D89;stroke-width:2;}
+	.st2{fill:none;stroke:#707D89;stroke-width:2;stroke-linecap:square;}
+	.st3{fill:#192C3A;stroke:#0069B6;stroke-width:2;}
+	.st4{fill:none;stroke:#0069B6;stroke-width:2;}
+	.st5{fill:#F9F9F9;stroke:#0069B6;stroke-width:2;}
+	.st6{fill:#FFFFFF;}
+</style>
+<title
+   id="title1092">tour-control</title>
+<desc
+   id="desc1094">Created with Sketch.</desc>
+<g
+   id="_x30_.2.3---Tour-3">
+	<g
+   id="bg-3">
+		
+			<linearGradient
+   id="Oval-2_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="-622.9656"
+   y1="871.4656"
+   x2="-622.9656"
+   y2="870.5709"
+   gradientTransform="matrix(247 0 0 -247 153996 215252)">
+			<stop
+   offset="0"
+   style="stop-color:#192C3A"
+   id="stop1096" />
+			<stop
+   offset="1"
+   style="stop-color:#192C3A"
+   id="stop1098" />
+		</linearGradient>
+		<path
+   id="Oval-2"
+   class="st0"
+   d="M123.5,247c68.2,0,123.5-55.3,123.5-123.5S191.7,0,123.5,0S0,55.3,0,123.5S55.3,247,123.5,247z" />
+		<path
+   id="Combined-Shape"
+   class="st1"
+   d="M71,24h83.8c4.4,0,8,3.6,8,8v167.9c0,4.4-3.6,8-8,8H71c-4.4,0-8-3.6-8-8V32    C63,27.6,66.6,24,71,24z" />
+		<path
+   id="Line"
+   class="st2"
+   d="M63.5,180.6h98.8" />
+		<path
+   id="Line_1_"
+   class="st2"
+   d="M104.1,194.3h18.7" />
+		<g
+   id="Group-3"
+   transform="translate(125.000000, 122.000000)">
+			<path
+   id="Rectangle-path"
+   class="st3"
+   d="M4,37.6h66.8c2.2,0,4,1.8,4,4v57.7c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V41.6     C0,39.4,1.8,37.6,4,37.6z"
+   style="stroke:#ff5555;stroke-opacity:1" />
+			<path
+   id="Shape_6_"
+   class="st4"
+   d="M18.7,37.6V18.9c0-10.3,8.4-18.8,18.7-18.8l0,0c10.3,0,18.7,8.4,18.7,18.8v18.8"
+   style="stroke:#ff5555;stroke-opacity:1" />
+			<path
+   id="Shape_7_"
+   class="st5"
+   d="M36.6,65.8v9.4"
+   style="stroke:#ff5555;stroke-opacity:1" />
+		</g>
+	</g>
+</g>
+
+<path
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;fill-opacity:0.97536944;stroke-width:0.24889663"
+   d="m 112.52024,64.649159 c -0.0976,0 0.29083,0.530703 0.86207,1.179666 2.24772,2.553549 3.90356,7.252665 4.14698,11.763765 0.24238,4.49174 -0.64637,7.48966 -2.88224,9.72318 -1.57835,1.57668 -2.93828,2.16754 -5.5104,2.39336 -3.04206,0.26707 -5.54008,-0.93266 -6.78422,-3.2577 -0.47606,-0.88966 -0.54559,-1.40598 -0.54559,-4.06758 0,-1.67694 -0.0347,-3.04898 -0.0783,-3.04898 -0.23772,0 -2.350138,4.98979 -3.107968,7.34229 -1.43702,4.46087 -1.78534,6.67819 -1.76042,11.20002 0.0178,3.22833 0.12203,4.34938 0.549,5.92329 1.78155,6.56732 7.309058,11.78667 16.429118,15.51261 1.45987,0.59642 2.78351,1.08544 2.94122,1.08665 0.20515,0.002 0.18149,-0.33391 -0.0805,-1.17966 -0.20145,-0.65024 -0.4291,-2.24645 -0.5059,-3.54694 -0.11577,-1.96037 -0.0462,-2.70302 0.40495,-4.34662 0.71036,-2.58783 1.52604,-4.06957 4.35001,-7.90036 4.68486,-6.35512 6.87167,-12.07421 6.86702,-17.95928 -0.006,-7.9343 -4.86178,-15.02293 -13.71815,-20.027108 -0.76958,-0.434838 -1.47903,-0.790603 -1.57668,-0.790603 z"
+   id="path5712" /><path
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;fill-opacity:0.97536944;stroke-width:0.24889663"
+   d="m 130.30598,86.20643 v 1.77403 c 0,4.34895 -2.58621,11.74544 -5.38109,15.38898 -2.62511,3.42223 -3.35298,4.48889 -4.29103,6.29193 -1.03168,1.98302 -1.76617,4.4552 -1.77291,5.96298 -0.002,0.45211 0.17297,1.59868 0.38906,2.54877 l 0.39248,1.72753 2.03378,-1.57214 c 1.11862,-0.86485 3.31123,-2.45976 4.8718,-3.54467 3.31304,-2.30322 5.35973,-4.25207 6.57664,-6.26017 3.43764,-5.67268 2.65314,-13.68998 -2.06782,-21.13417 z"
+   id="path5665" /></svg>
