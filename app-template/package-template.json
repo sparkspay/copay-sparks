@@ -50,7 +50,7 @@
    "npm": "3"
   },
   "dependencies": {
-    "adm-zip": "0.4.7",
+    "adm-zip": "0.4.11",
     "angular": "1.4.6",
     "angular-mocks": "1.4.10",
     "bezier-easing": "2.0.3",
