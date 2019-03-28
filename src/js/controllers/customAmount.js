@@ -35,8 +35,6 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         data.stateParams.amount,
         data.stateParams.currency);
 
-      console.log(parsedAmount);
-
       // Amount in USD or BTC
       var amount = parsedAmount.amount;
       var currency = parsedAmount.currency;
@@ -51,6 +49,10 @@ angular.module('copayApp.controllers').controller('customAmountController', func
           var value_object = response.data[0];
           var spk_to_usd = parseFloat(value_object.price_usd);
           var spk_to_btc = parseFloat(value_object.price_btc);
+          $scope.amountBtc = data.stateParams.amount / spk_to_usd;
+          $scope.amountBtc = $scope.amountBtc.toFixed(8);
+          $scope.altAmountStr = $scope.amountBtc.toFixed(3)+" SPK"
+          $scope.amountUnitStr = data.stateParams.amount+" USD"
         },function (err) {
           conosle.log(err);
         });
@@ -59,6 +61,13 @@ angular.module('copayApp.controllers').controller('customAmountController', func
           var value_object = response.data[0];
           var spk_to_usd = parseFloat(value_object.price_usd);
           var spk_to_btc = parseFloat(value_object.price_btc);
+
+          $scope.amountBtc = data.stateParams.amount
+          $scope.amountUnitStr = $scope.amountBtc+ " SPK";
+          var altAmountStr_x = 0;
+          altAmountStr_x = data.stateParams.amount * spk_to_usd;
+          $scope.altAmountStr = altAmountStr_x.toFixed(8)+ " USD"
+          
         });
       }
     });
