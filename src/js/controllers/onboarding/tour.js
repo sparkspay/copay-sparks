@@ -21,7 +21,7 @@ angular.module('copayApp.controllers').controller('tourController',
       $scope.data.index = data.slider.activeIndex;
     });
 
-    $scope.$on("$ionicSlides.slideChangeEnd", function (event, data) { });
+    $scope.$on("$ionicSlides.slideChangeEnd", function (event, data) {});
 
     $scope.$on("$ionicView.enter", function (event, data) {
       rateService.whenAvailable(function () {
@@ -33,13 +33,14 @@ angular.module('copayApp.controllers').controller('tourController',
         $scope.localCurrencyPerBtc = $filter('formatFiatAmount')(parseFloat(rate.toFixed(2), 10));
 
         $http.get('https://api.coinmarketcap.com/v1/ticker/sparkspay/').then(function (response) {
-          var value_object = response.data[0];
+            var value_object = response.data[0];
 
-          $scope.localCurrencySymbol = '$';
-          $scope.localCurrencyPerDin = $filter('formatFiatAmount')(parseFloat(parseFloat(value_object['price_usd']).toFixed(4), 10));},
-            function (err) {
-          conosle.log(err);
-        });
+            $scope.localCurrencySymbol = '$';
+            $scope.localCurrencyPerDin = $filter('formatFiatAmount')(parseFloat(parseFloat(value_object['price_usd']).toFixed(4), 10));
+          },
+          function (err) {
+            conosle.log(err);
+          });
 
         $timeout(function () {
           $scope.$apply();
@@ -74,15 +75,19 @@ angular.module('copayApp.controllers').controller('tourController',
           var wallet = walletClient;
           var walletId = wallet.credentials.walletId;
 
+          /* ## DISABLED ##
           $state.go('onboarding.collectEmail', {
             walletId: walletId
           });
-
-          /*
-        $state.go('onboarding.backupRequest', {
-          walletId: walletId
-        });
           */
+
+          /* ## ENABLED ## /*
+          /* ## DISABLED ## if collectEmail is ENABLED */
+          $state.go('onboarding.backupRequest', {
+            walletId: walletId
+          });
+
+
         });
       }, 300);
     };

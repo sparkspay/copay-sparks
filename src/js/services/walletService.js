@@ -9,13 +9,13 @@ angular.module('copayApp.services').service('walletService', function($log, $tim
   var TOTAL_LOW_WARNING_RATIO = .3;
 
   var root = {};
-  var inn_to_usd;
-  var inn_to_btc;
-  
+  var spk_to_usd;
+  var spk_to_btc;
+
   $http.get('https://api.coinmarketcap.com/v1/ticker/sparkspay/').then(function (response) {
     var value_object = response.data[0];
-    inn_to_usd = parseFloat(value_object.price_usd);
-    inn_to_btc = parseFloat(value_object.price_btc);
+    spk_to_usd = parseFloat(value_object.price_usd);
+    spk_to_btc = parseFloat(value_object.price_btc);
   },function (err) {
     conosle.log(err);
   });
@@ -247,11 +247,11 @@ angular.module('copayApp.services').service('walletService', function($log, $tim
 
       rateService.whenAvailable(function() {
 
-        var totalBalanceAlternative = rateService.toFiat(cache.totalBalanceSat, cache.alternativeIsoCode, wallet.coin)* inn_to_btc;
-        var pendingBalanceAlternative = rateService.toFiat(cache.pendingAmount, cache.alternativeIsoCode, wallet.coin)* inn_to_btc;
-        var lockedBalanceAlternative = rateService.toFiat(cache.lockedBalanceSat, cache.alternativeIsoCode, wallet.coin)* inn_to_btc;
-        var spendableBalanceAlternative = rateService.toFiat(cache.spendableAmount, cache.alternativeIsoCode, wallet.coin)* inn_to_btc;
-        var alternativeConversionRate = rateService.toFiat(100000000, cache.alternativeIsoCode, wallet.coin)* inn_to_btc;
+        var totalBalanceAlternative = rateService.toFiat(cache.totalBalanceSat, cache.alternativeIsoCode, wallet.coin)* spk_to_btc;
+        var pendingBalanceAlternative = rateService.toFiat(cache.pendingAmount, cache.alternativeIsoCode, wallet.coin)* spk_to_btc;
+        var lockedBalanceAlternative = rateService.toFiat(cache.lockedBalanceSat, cache.alternativeIsoCode, wallet.coin)* spk_to_btc;
+        var spendableBalanceAlternative = rateService.toFiat(cache.spendableAmount, cache.alternativeIsoCode, wallet.coin)* spk_to_btc;
+        var alternativeConversionRate = rateService.toFiat(100000000, cache.alternativeIsoCode, wallet.coin)* spk_to_btc;
 
         cache.totalBalanceAlternative = $filter('formatFiatAmount')(totalBalanceAlternative);
         cache.pendingBalanceAlternative = $filter('formatFiatAmount')(pendingBalanceAlternative);

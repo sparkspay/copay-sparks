@@ -35,6 +35,8 @@ angular.module('copayApp.controllers').controller('customAmountController', func
         data.stateParams.amount,
         data.stateParams.currency);
 
+      console.log(parsedAmount);
+
       // Amount in USD or BTC
       var amount = parsedAmount.amount;
       var currency = parsedAmount.currency;
@@ -47,16 +49,16 @@ angular.module('copayApp.controllers').controller('customAmountController', func
 
         $http.get('https://api.coinmarketcap.com/v1/ticker/sparkspay/').then(function (response) {
           var value_object = response.data[0];
-          var inn_to_usd = parseFloat(value_object.price_usd);
-          var inn_to_btc = parseFloat(value_object.price_btc);
+          var spk_to_usd = parseFloat(value_object.price_usd);
+          var spk_to_btc = parseFloat(value_object.price_btc);
         },function (err) {
           conosle.log(err);
         });
       } else {
         $http.get('https://api.coinmarketcap.com/v1/ticker/sparkspay/').then(function (response) {
           var value_object = response.data[0];
-          var inn_to_usd = parseFloat(value_object.price_usd);
-          var inn_to_btc = parseFloat(value_object.price_btc);
+          var spk_to_usd = parseFloat(value_object.price_usd);
+          var spk_to_btc = parseFloat(value_object.price_btc);
         });
       }
     });
