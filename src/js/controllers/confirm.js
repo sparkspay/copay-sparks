@@ -130,7 +130,7 @@ angular.module('copayApp.controllers').controller('confirmController', function(
     try {
       networkName = (new B.Address(data.stateParams.toAddress)).network.name;
     } catch (e) {
-      var message = gettextCatalog.getString('Copay only supports Sparks using new version numbers addresses');
+      var message = gettextCatalog.getString('Copay only supports SparksPay using new version numbers addresses');
       var backText = gettextCatalog.getString('Go back');
       var learnText = gettextCatalog.getString('Learn more');
       popupService.showConfirm(null, message, backText, learnText, function(back) {

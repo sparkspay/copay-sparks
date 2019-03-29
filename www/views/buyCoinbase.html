@@ -18,7 +18,7 @@
           <div class="amount">{{amountUnitStr}}</div>
           <div class="alternative" ng-if="buyPrice">
             <span ng-show="isFiat">{{buyRequestInfo.amount.amount}} {{buyRequestInfo.amount.currency}}</span>
-            @ ${{buyPrice.amount}} per BTC
+            @ ${{buyPrice.amount}} per SPK
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@
     slide-success-hide-on-confirm="true">
     <span>Bought</span>
     <div class="m10 size-14">
-      Sparks purchase completed. Coinbase has queued the transfer to your selected wallet
+      SparksPay purchase completed. Coinbase has queued the transfer to your selected wallet
     </div>
   </slide-to-accept-success>
 

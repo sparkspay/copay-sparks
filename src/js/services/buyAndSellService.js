@@ -23,7 +23,7 @@ angular.module('copayApp.services').service('buyAndSellService', function($log, 
 
     if (linkedServices.length == 0) {
       nextStepsService.register({
-        title: 'Buy or Sell Sparks',
+        title: 'Buy or Sell SparksPay',
         name: 'buyandsell',
         icon: 'icon-buy-sparks',
         sref: 'tabs.buyandsell',

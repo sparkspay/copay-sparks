@@ -81,7 +81,7 @@ angular.module('copayApp.services').service('configService', function(storageSer
     },
 
     emailNotifications: {
-      enabled: true,
+      enabled: false,
     },
 
     log: {

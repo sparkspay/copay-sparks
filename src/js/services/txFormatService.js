@@ -2,13 +2,13 @@
 
 angular.module('copayApp.services').service('txFormatService', function($filter, bwcService, rateService, configService, bitcoreCash, lodash, $http) {
 
-  var inn_to_usd;
-  var inn_to_btc;
-  
+  var spk_to_usd;
+  var spk_to_btc;
+
   $http.get('https://api.coinmarketcap.com/v1/ticker/sparkspay/').then(function (response) {
     var value_object = response.data[0];
-    inn_to_usd = parseFloat(value_object.price_usd);
-    inn_to_btc = parseFloat(value_object.price_btc);
+    spk_to_usd = parseFloat(value_object.price_usd);
+    spk_to_btc = parseFloat(value_object.price_btc);
 
   },function (err) {
     conosle.log(err);
@@ -91,7 +91,7 @@ angular.module('copayApp.services').service('txFormatService', function($filter,
 
     var val = function() {
       // var v1 = parseFloat((rateService.toFiat(satoshis, config.alternativeIsoCode, coin)).toFixed(2));
-      var v1 = parseFloat((rateService.toFiat(satoshis, config.alternativeIsoCode, coin) * inn_to_btc).toFixed(8));
+      var v1 = parseFloat((rateService.toFiat(satoshis, config.alternativeIsoCode, coin) * spk_to_btc).toFixed(8));
       v1 = $filter('formatFiatAmount')(v1);
       if (!v1) return null;
 

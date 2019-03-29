@@ -54,10 +54,10 @@
          href ui-sref="tabs.buyandsell.coinbase.amount({nextStep: 'tabs.buyandsell.coinbase.buy', currency: currency})">
         <img src="img/buy-bitcoin.svg" alt="buy sparks" width="30" class="item-img-buy" style="vertical-align:
         text-bottom;">
-        Buy Sparks
+        Buy SparksPay
         <span class="item-note">
           <ion-spinner class="spinner-dark recent" icon="crescent" ng-show="!buyPrice"></ion-spinner>
-          <span ng-show="buyPrice">{{buyPrice.amount|currency:'$':2}} {{buyPrice.currency}}/BTC</span>
+          <span ng-show="buyPrice">{{buyPrice.amount|currency:'$':2}} {{buyPrice.currency}}/SPK</span>
         </span>
         <i class="icon bp-arrow-right"></i>
       </a>
@@ -65,10 +65,10 @@
          href ui-sref="tabs.buyandsell.coinbase.amount({nextStep: 'tabs.buyandsell.coinbase.sell', currency: currency})" no-low-fee>
         <img src="img/sell-bitcoin.svg" alt="sell sparks" width="30" class="item-img-sell" style="vertical-align:
         text-bottom;">
-        Sell Sparks
+        Sell SparksPay
         <span class="item-note">
           <ion-spinner class="spinner-dark recent" icon="crescent" ng-show="!sellPrice"></ion-spinner>
-          <span ng-show="sellPrice">{{sellPrice.amount|currency:'$':2}} {{sellPrice.currency}}/BTC</span>
+          <span ng-show="sellPrice">{{sellPrice.amount|currency:'$':2}} {{sellPrice.currency}}/SPK</span>
         </span>
         <i class="icon bp-arrow-right"></i>
       </a>

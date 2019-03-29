@@ -1,4 +1,4 @@
-Asegura tus sparks con tus propias reglas con el monedero de código abierto, multifirma de Sparks Dev. 
+Asegura tus sparks con tus propias reglas con el monedero de código abierto, multifirma de SparksPay Dev. 
 Los usuario de Copay pueden mantener sus fondos individuales o compartir sus finanzas de forma segura con otros usuarios utilizando monederos multifirmas, que previenen de pagos sin autorización al requerir múltiples aprobaciones. Estas son algunas formas en que puede ser utilizado Copay con otros usuarios:
 
 Ahorrar para vacaciones o compras conjuntas con amigos 
@@ -15,7 +15,7 @@ Seguridad basada en el dispositivo: todas las claves privadas se guardan localme
 Soporta monederos sparks en testnet
 Acceso sincrónico desde las principales plataformas móviles y de escritorio
 Soporte al protocolo de pago (BIP70-BIP73): solicitudes de pagos fácilmente identificable y verificables como pago seguro en sparks
-Soporte a más de 150 precios de monedas y unidades de denominación en BTC o bits
+Soporte a más de 150 precios de monedas y unidades de denominación en SPK o bits
 Notificaciones por email de pagos y transferencias
 Monederos con nombres y colores de fondo personalizables
 Soporte en 9 idiomas (EN, CS, FR, DE, IT, ES, JA, PL, RU)

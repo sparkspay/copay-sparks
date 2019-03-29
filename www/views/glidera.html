@@ -67,9 +67,9 @@
             class="item item-icon-right"
             href ui-sref="tabs.buyandsell.glidera.amount({nextStep: 'tabs.buyandsell.glidera.buy', currency: currency})">
           <img src="img/buy-bitcoin.svg" alt="buy sparks" width="25" class="item-img-buy">
-          Buy Sparks
+          Buy SparksPay
           <span class="item-note" ng-show="account.price.buy">
-            ${{account.price.buy}}/BTC
+            ${{account.price.buy}}/SPK
           </span>
           <i class="icon bp-arrow-right"></i>
         </a>
@@ -77,9 +77,9 @@
             ng-show="account.status.userCanSell"
             href ui-sref="tabs.buyandsell.glidera.amount({nextStep: 'tabs.buyandsell.glidera.sell', currency: currency})"  no-low-fee>
           <img src="img/sell-bitcoin.svg" alt="buy sparks" width="25" class="item-img-sell">
-          Sell Sparks
+          Sell SparksPay
           <span class="item-note" ng-show="account.price.sell">
-            ${{account.price.sell}}/BTC
+            ${{account.price.sell}}/SPK
           </span>
           <i class="icon bp-arrow-right"></i>
         </a>
@@ -111,7 +111,7 @@
           <h2>
             <span ng-show="tx.type == 'BUY'">Bought</span>
             <span ng-show="tx.type == 'SELL'">Sold</span>
-            <b>{{tx.qty}}</b> BTC
+            <b>{{tx.qty}}</b> SPK
           </h2>
           <p>
             {{tx.subtotal|currency:'':2}} {{tx.currency}}
