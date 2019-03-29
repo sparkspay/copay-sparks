@@ -4,21 +4,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: copay\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Crowdin-Project: copay\n"
 "X-Crowdin-Language: de\n"
 "X-Crowdin-File: template.pot\n"
 "Last-Translator: cmgustavo83\n"
 "Language-Team: German\n"
 "Language: de\n"
-"PO-Revision-Date: 2017-11-22 10:34-0500\n"
+"PO-Revision-Date: 2019-03-29 21:14+0100\n"
+"POT-Creation-Date: \n"
+"MIME-Version: 1.0\n"
 
 #: www/views/modals/paypro.html:34
 msgid "(Trusted)"
 msgstr "(Vertraut)"
 
-#: www/views/includes/txp.html:23
-#: www/views/includes/walletHistory.html:64
+#: www/views/includes/txp.html:23 www/views/includes/walletHistory.html:64
 msgid "(possible double spend)"
 msgstr "(mögliche Doppelausgabe)"
 
@@ -38,13 +39,11 @@ msgstr "{{tx.feeRateStr}} von die transaccion"
 msgid "5-star ratings help us get {{appName}} into more hands, and more users means more resources can be committed to the app!"
 msgstr "Eine 5-Sterne Bewertung hilft uns, {{appName}} unter die Leute zu bringen. Und mehr Nutzer bedeuten, dass uns mehr Ressourcen für die App-Entwicklung zur Verfügung stehen!"
 
-#: www/views/mercadoLibre.html:18
-#: www/views/mercadoLibre.html:40
+#: www/views/mercadoLibre.html:18 www/views/mercadoLibre.html:40
 msgid "<b>Only</b> redeemable on Mercado Livre (Brazil)"
 msgstr ""
 
-#: src/js/controllers/feedback/send.js:27
-#: www/views/feedback/complete.html:21
+#: src/js/controllers/feedback/send.js:27 www/views/feedback/complete.html:21
 msgid "A member of the team will review your feedback as soon as possible."
 msgstr "Ein Mitarbeiter wird Ihr Feedback so bald wie möglich überprüfen."
 
@@ -56,8 +55,7 @@ msgstr "Insgesamt wurden {{amountAboveMaxSizeStr}} ausgeschlossen. Die maximale 
 msgid "A total of {{amountBelowFeeStr}} were excluded. These funds come from UTXOs smaller than the network fee provided."
 msgstr "Insgesamt wurden {{amountBelowFeeStr}} ausgeschlossen. Diese Gelder stammen aus UTXOs, die kleiner sind als die Netzwerkgebühr."
 
-#: src/js/controllers/preferencesAbout.js:6
-#: www/views/tab-settings.html:149
+#: src/js/controllers/preferencesAbout.js:6 www/views/tab-settings.html:149
 msgid "About"
 msgstr "Über"
 
@@ -70,10 +68,8 @@ msgstr "Akzeptiert"
 msgid "Account"
 msgstr "Benutzerkonto"
 
-#: www/views/join.html:72
-#: www/views/tab-create-personal.html:45
-#: www/views/tab-create-shared.html:74
-#: www/views/tab-import-hardware.html:19
+#: www/views/join.html:72 www/views/tab-create-personal.html:45
+#: www/views/tab-create-shared.html:74 www/views/tab-import-hardware.html:19
 msgid "Account Number"
 msgstr "Kontonummer"
 
@@ -90,11 +86,10 @@ msgid "Add Account"
 msgstr "Konto hinzufügen"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add Sparks Dev Account?"
-msgstr "Sparks Dev-Konto hinzufügen?"
+msgid "Add SparksPay Dev Account?"
+msgstr "SparksPay Dev-Konto hinzufügen?"
 
-#: www/views/addressbook.add.html:4
-#: www/views/addressbook.html:22
+#: www/views/addressbook.add.html:4 www/views/addressbook.html:22
 msgid "Add Contact"
 msgstr "Kontakt hinzufügen"
 
@@ -106,8 +101,7 @@ msgstr "Guthaben aufladen"
 msgid "Add Memo"
 msgstr "Notiz hinzufügen"
 
-#: www/views/join.html:87
-#: www/views/tab-create-personal.html:59
+#: www/views/join.html:87 www/views/tab-create-personal.html:59
 #: www/views/tab-create-shared.html:88
 msgid "Add a password"
 msgstr "Passwort festlegen"
@@ -116,15 +110,14 @@ msgstr "Passwort festlegen"
 msgid "Add account"
 msgstr "Konto hinzufügen"
 
-#: www/views/join.html:90
-#: www/views/tab-create-personal.html:62
+#: www/views/join.html:90 www/views/tab-create-personal.html:62
 #: www/views/tab-create-shared.html:91
 msgid "Add an optional password to secure the recovery phrase"
 msgstr "Ein optionales Passwort zur Sicherung der Wiederherstellungsphrase hinzufügen"
 
 #: www/views/includes/incomingDataMenu.html:41
 msgid "Add as a contact"
-msgstr ""
+msgstr "Als Kontakt hinzufügen"
 
 #: src/js/controllers/confirm.js:424
 msgid "Add description"
@@ -132,24 +125,22 @@ msgstr "Beschreibung hinzufügen"
 
 #: www/views/topup.html:6
 msgid "Add funds"
-msgstr ""
+msgstr "Geldmittel hinzufügen"
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this Sparks Dev account ({{email}})?"
-msgstr ""
+msgid "Add this SparksPay Dev account ({{email}})?"
+msgstr "Hinzufügen eines SparksPay Dev accounts ({{email}})?"
 
 #: www/views/add.html:3
 msgid "Add wallet"
 msgstr "Wallet hinzufügen"
 
-#: www/views/addressbook.view.html:26
-#: www/views/customAmount.html:28
+#: www/views/addressbook.view.html:26 www/views/customAmount.html:28
 #: www/views/modals/paypro.html:24
 msgid "Address"
 msgstr "Adresse"
 
-#: www/views/addressbook.html:6
-#: www/views/tab-settings.html:13
+#: www/views/addressbook.html:6 www/views/tab-settings.html:13
 msgid "Address Book"
 msgstr "Addressbuch"
 
@@ -179,11 +170,11 @@ msgstr "Alle Adressen"
 
 #: www/views/modals/wallet-balance.html:18
 msgid "All of your sparks wallet balance may not be available for immediate spending."
-msgstr "Möglicherweise kann nicht ihr gesamtes Sparks Guthaben sofort ausgegeben werden."
+msgstr "Möglicherweise kann nicht ihr gesamtes SparksPay Guthaben sofort ausgegeben werden."
 
 #: www/views/tab-receive.html:25
 msgid "All signing devices must be added to this multisig wallet before sparks addresses can be created."
-msgstr "Alle unterzeichnenden Geräte müssen zu dieser Multi-Signatur Wallet hinzugefügt werden, bevor Sparks-Adressen erstellt werden können."
+msgstr "Alle unterzeichnenden Geräte müssen zu dieser Multi-Signatur Wallet hinzugefügt werden, bevor SparksPay-Adressen erstellt werden können."
 
 #: www/views/tab-scan.html:21
 msgid "Allow Camera Access"
@@ -197,8 +188,7 @@ msgstr "Benachrichtigungen erlauben"
 msgid "Almost done! Let's review."
 msgstr "Fast fertig! Fassen wir zusammen."
 
-#: www/views/preferencesAltCurrency.html:4
-#: www/views/tab-settings.html:72
+#: www/views/preferencesAltCurrency.html:4 www/views/tab-settings.html:72
 msgid "Alternative Currency"
 msgstr "Alternative Währung"
 
@@ -206,8 +196,7 @@ msgstr "Alternative Währung"
 msgid "Amazon.com is not available at this moment. Please try back later."
 msgstr ""
 
-#: www/views/amount.html:44
-#: www/views/customAmount.html:34
+#: www/views/amount.html:44 www/views/customAmount.html:34
 #: www/views/includes/output.html:7
 msgid "Amount"
 msgstr "Betrag"
@@ -222,7 +211,7 @@ msgstr "Betrag zu hoch"
 
 #: www/views/includes/walletHistory.html:31
 msgid "Amount too low to spend"
-msgstr ""
+msgstr "Betrag zu klein"
 
 #: src/js/controllers/tab-home.js:148
 msgid "An update to this app is available. For your security, please update to the latest version."
@@ -230,11 +219,11 @@ msgstr "Ein Aktualisierung für diese App ist verfügbar. Zu Ihrer Sicherheit bi
 
 #: www/views/backupWarning.html:14
 msgid "Anyone with your backup phrase can access or spend your sparks."
-msgstr "Jeder mit Ihrer Wiederherstellungsphrase hat Zugriff auf ihre Sparks und kann diese ausgeben."
+msgstr "Jeder mit Ihrer Wiederherstellungsphrase hat Zugriff auf ihre SparksPay und kann diese ausgeben."
 
 #: www/views/addresses.html:94
-msgid "Approximate Sparks network fee to transfer wallet's balance (with normal priority)"
-msgstr ""
+msgid "Approximate SparksPay network fee to transfer wallet's balance (with normal priority)"
+msgstr "Ungefähre SparksPay-Netzwerkgebühr für die Überweisung des Wallet-Kontos (mit normaler Priorität)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -242,7 +231,7 @@ msgstr "Werden Sie beobachtet?"
 
 #: src/js/controllers/preferencesExternal.js:15
 msgid "Are you being watched? Anyone with your recovery phrase can access or spend your sparks."
-msgstr "Werden Sie beobachtet? Jeder der Ihre Wiederherstellungsphrase kennt, kann auf Ihre Sparks zugreifen und diese ausgeben."
+msgstr "Werden Sie beobachtet? Jeder der Ihre Wiederherstellungsphrase kennt, kann auf Ihre SparksPay zugreifen und diese ausgeben."
 
 #: src/js/controllers/copayers.js:56
 msgid "Are you sure you want to cancel and delete this wallet?"
@@ -250,7 +239,7 @@ msgstr "Wollen Sie wirklich abbrechen und dieses Wallet löschen?"
 
 #: src/js/controllers/addressbookView.js:37
 msgid "Are you sure you want to delete this contact?"
-msgstr ""
+msgstr "Möchten Sie diesen Kontakt wirklich löschen?"
 
 #: src/js/controllers/preferencesDelete.js:25
 msgid "Are you sure you want to delete this wallet?"
@@ -269,13 +258,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "Sind Sie sicher dass Sie es überspringen möchten?"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your Sparks Dev Card account?"
-msgstr ""
+msgid "Are you sure you would like to log out of your SparksPay Dev Card account?"
+msgstr "Möchten Sie sich wirklich von Ihrem Konto bei der SparksPay Dev Card abmelden?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your Sparks Dev Card ({{lastFourDigits}}) from this device?"
-msgstr "Sind Sie sicher, dass Sie Ihre Sparks Dev-Karte ({{lastFourDigits}}) von diesem Gerät entfernen möchten?"
+msgid "Are you sure you would like to remove your SparksPay Dev Card ({{lastFourDigits}}) from this device?"
+msgstr "Sind Sie sicher, dass Sie Ihre SparksPay Dev-Karte ({{lastFourDigits}}) von diesem Gerät entfernen möchten?"
 
 #: www/views/includes/walletInfo.html:10
 msgid "Auditable"
@@ -289,21 +278,18 @@ msgstr "Verfügbar"
 msgid "Available Balance"
 msgstr "Verfügbarer Gesamtbetrag"
 
-#: www/views/modals/chooseFeeLevel.html:24
-#: www/views/preferencesFee.html:15
+#: www/views/modals/chooseFeeLevel.html:24 www/views/preferencesFee.html:15
 msgid "Average confirmation time"
 msgstr "Durchschnittliche Bestätigungzeit"
 
-#: www/views/join.html:143
-#: www/views/tab-create-personal.html:113
-#: www/views/tab-create-shared.html:142
-#: www/views/tab-import-phrase.html:51
+#: www/views/join.html:143 www/views/tab-create-personal.html:113
+#: www/views/tab-create-shared.html:142 www/views/tab-import-phrase.html:51
 msgid "BIP32 path for address derivation"
 msgstr "BIP32 Pfad für die Adressen-Ableitung"
 
 #: www/views/preferencesCash.html:25
 msgid "BTC wallets"
-msgstr ""
+msgstr "BTC walltes"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -318,8 +304,7 @@ msgid "Backup all livenet wallets before using this function"
 msgstr "Sichern Sie alle Livenet Wallets, bevor Sie diese Funktion nutzen"
 
 #: src/js/controllers/preferencesCash.js:64
-#: www/views/includes/walletListSettings.html:12
-#: www/views/preferences.html:36
+#: www/views/includes/walletListSettings.html:12 www/views/preferences.html:36
 msgid "Backup needed"
 msgstr "Backup benötigt"
 
@@ -327,8 +312,7 @@ msgstr "Backup benötigt"
 msgid "Backup now"
 msgstr "Jetzt sichern"
 
-#: www/views/onboarding/backupRequest.html:11
-#: www/views/tab-export-file.html:89
+#: www/views/onboarding/backupRequest.html:11 www/views/tab-export-file.html:89
 msgid "Backup wallet"
 msgstr "Sicherung der Wallet"
 
@@ -349,55 +333,52 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "Achten Sie darauf Ihre Wiederherstellungsphrase an einem sicheren Ort abzulegen. Ihr Geld kann nicht ohne dieser Phrase wiederhergestellt werden falls die App deinstalliert wird."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "Sparks Dev Visa&reg; Cards"
-msgstr "Sparks Dev Visa&reg; Karten"
+msgid "SparksPay Dev Visa&reg; Cards"
+msgstr "SparksPay Dev Visa&reg; Karten"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Sparks Address"
-msgstr "Sparks-Adresse"
+msgid "SparksPay Address"
+msgstr "SparksPay-Adresse"
 
-#: www/views/includes/walletSelector.html:42
-#: www/views/tab-home.html:112
+#: www/views/includes/walletSelector.html:42 www/views/tab-home.html:112
 #: www/views/tab-settings.html:108
-msgid "Sparks Cash Wallets"
+msgid "SparksPay Cash Wallets"
 msgstr ""
 
-#: www/views/modals/chooseFeeLevel.html:4
-#: www/views/preferencesFee.html:4
+#: www/views/modals/chooseFeeLevel.html:4 www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:83
-msgid "Sparks Network Fee Policy"
-msgstr "Sparks-Netzwerk Gebührenübersicht"
+msgid "SparksPay Network Fee Policy"
+msgstr "SparksPay-Netzwerk Gebührenübersicht"
 
-#: www/views/includes/walletSelector.html:11
-#: www/views/tab-home.html:97
+#: www/views/includes/walletSelector.html:11 www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Sparks Wallets"
-msgstr ""
+msgid "SparksPay Wallets"
+msgstr "SparksPay Wallets"
 
 #: src/js/services/incomingData.js:151
-msgid "Sparks cash Payment"
+msgid "SparksPay cash Payment"
 msgstr ""
 
 #: www/views/onboarding/tour.html:31
-msgid "Sparks is a currency."
-msgstr "Sparks ist eine Währung."
+msgid "SparksPay is a currency."
+msgstr "SparksPay ist eine Währung."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Sparks is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Sparks sind anders &ndash; sie können nicht sicher in einer Bank oder einem Onlinedienst aufbewahrt werden."
+msgid "SparksPay is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "SparksPay sind anders &ndash; sie können nicht sicher in einer Bank oder einem Onlinedienst aufbewahrt werden."
 
 #: www/views/onboarding/tour.html:18
-msgid "Sparks is secure,<br>digital money."
-msgstr "Sparks ist sicheres,<br>digitales Geld."
+msgid "SparksPay is secure,<br>digital money."
+msgstr "SparksPay ist sicheres,<br>digitales Geld."
 
 #: www/views/preferencesFee.html:11
-msgid "Sparks transactions include a fee collected by miners on the network."
-msgstr "Sparks Transaktionen enthalten eine Gebühr für die \"Miners\" im Netzwerk."
+msgid "SparksPay transactions include a fee collected by miners on the network."
+msgstr "SparksPay Transaktionen enthalten eine Gebühr für die \"Miners\" im Netzwerk."
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
-msgstr ""
+msgstr "Gekauft {{amountUnitStr}}"
 
 #: www/views/modals/txp-details.html:36
 msgid "Broadcast Payment"
@@ -416,50 +397,43 @@ msgstr "Übermittlung der Transaktion"
 msgid "Browser unsupported"
 msgstr "Browser wird nicht unterstützt"
 
-#: www/views/buyAmazon.html:5
-#: www/views/buyMercadoLibre.html:6
+#: www/views/buyAmazon.html:5 www/views/buyMercadoLibre.html:6
 msgid "Buy"
-msgstr ""
+msgstr "Kaufen"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Sparks"
-msgstr "Kaufe &amp; Verkaufe Sparks"
+msgid "Buy &amp; Sell SparksPay"
+msgstr "Kaufe &amp; Verkaufe SparksPay"
 
 #: www/views/tab-send.html:40
-msgid "Buy Sparks"
-msgstr "Kaufe Sparks"
+msgid "Buy SparksPay"
+msgstr "Kaufe SparksPay"
 
-#: www/views/mercadoLibre.html:22
-#: www/views/mercadoLibre.html:50
+#: www/views/mercadoLibre.html:22 www/views/mercadoLibre.html:50
 msgid "Buy a Gift Card"
-msgstr ""
+msgstr "Gift Card kaufen"
 
 #: src/js/controllers/buyAmazon.js:336
 msgid "Buy from"
-msgstr ""
+msgstr "Kaufen von"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Sparks..."
-msgstr "Kaufe Sparks..."
+msgid "Buying SparksPay..."
+msgstr "Kaufe SparksPay..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
 msgstr "Mining-Fee Berechnung"
 
 #: src/js/controllers/buyAmazon.js:315
-#: src/js/controllers/buyMercadoLibre.js:309
-#: src/js/controllers/confirm.js:550
-#: src/js/controllers/topup.js:287
-#: src/js/services/incomingData.js:154
-#: src/js/services/popupService.js:62
-#: src/js/services/popupService.js:73
-#: www/views/addressbook.add.html:10
-#: www/views/feedback/send.html:5
+#: src/js/controllers/buyMercadoLibre.js:309 src/js/controllers/confirm.js:550
+#: src/js/controllers/topup.js:287 src/js/services/incomingData.js:154
+#: src/js/services/popupService.js:62 src/js/services/popupService.js:73
+#: www/views/addressbook.add.html:10 www/views/feedback/send.html:5
 #: www/views/includes/incomingDataMenu.html:22
 #: www/views/includes/incomingDataMenu.html:54
 #: www/views/includes/incomingDataMenu.html:73
-#: www/views/includes/incomingDataMenu.html:97
-#: www/views/includes/note.html:6
+#: www/views/includes/incomingDataMenu.html:97 www/views/includes/note.html:6
 #: www/views/modals/bitpay-card-confirmation.html:8
 #: www/views/modals/confirmation.html:13
 msgid "Cancel"
@@ -467,7 +441,7 @@ msgstr "Abbruch"
 
 #: www/views/copayers.html:36
 msgid "Cancel invitation"
-msgstr ""
+msgstr "Einladung canceln"
 
 #: src/js/controllers/onboarding/tour.js:52
 msgid "Cannot Create Wallet"
@@ -509,34 +483,29 @@ msgstr "Leeren"
 msgid "Clear cache"
 msgstr "Cache leeren"
 
-#: src/js/controllers/confirm.js:373
-#: src/js/controllers/modals/txpDetails.js:49
+#: src/js/controllers/confirm.js:373 src/js/controllers/modals/txpDetails.js:49
 msgid "Click to accept"
-msgstr ""
+msgstr "Klicken Sie, um zu akzeptieren"
 
 #: src/js/controllers/confirm.js:367
 msgid "Click to pay"
-msgstr ""
+msgstr "Klicken Sie, um zu zahlen"
 
-#: src/js/controllers/confirm.js:379
-#: src/js/controllers/modals/txpDetails.js:42
+#: src/js/controllers/confirm.js:379 src/js/controllers/modals/txpDetails.js:42
 msgid "Click to send"
-msgstr ""
+msgstr "Klicken Sie, um zu senden"
 
 #: www/views/customAmount.html:4
 #: www/views/modals/mercadolibre-card-details.html:3
-#: www/views/modals/paypro.html:4
-#: www/views/modals/pin.html:3
-#: www/views/modals/search.html:3
-#: www/views/modals/wallet-balance.html:3
+#: www/views/modals/paypro.html:4 www/views/modals/pin.html:3
+#: www/views/modals/search.html:3 www/views/modals/wallet-balance.html:3
 #: www/views/modals/wallets.html:5
 msgid "Close"
 msgstr "Schließen"
 
-#: www/views/includes/cash.html:2
-#: www/views/preferencesInformation.html:17
+#: www/views/includes/cash.html:2 www/views/preferencesInformation.html:17
 msgid "Coin"
-msgstr ""
+msgstr "Coin"
 
 #: www/views/preferences.html:22
 msgid "Color"
@@ -552,28 +521,23 @@ msgstr "Beenden Sie den Backupvorgang um diese Option zu nutzen"
 
 #: www/views/bitpayCard.html:93
 msgid "Completed"
-msgstr ""
+msgstr "Vollendet"
 
 #: src/js/controllers/buyAmazon.js:313
-#: src/js/controllers/buyMercadoLibre.js:307
-#: src/js/controllers/confirm.js:549
-#: src/js/controllers/copayers.js:55
-#: src/js/controllers/topup.js:285
-#: www/views/backup.html:60
-#: www/views/backup.html:79
-#: www/views/confirm.html:4
+#: src/js/controllers/buyMercadoLibre.js:307 src/js/controllers/confirm.js:549
+#: src/js/controllers/copayers.js:55 src/js/controllers/topup.js:285
+#: www/views/backup.html:60 www/views/backup.html:79 www/views/confirm.html:4
 #: www/views/onboarding/collectEmail.html:32
 msgid "Confirm"
 msgstr "Bestätigen"
 
-#: www/views/modals/terms.html:26
-#: www/views/onboarding/disclaimer.html:44
+#: www/views/modals/terms.html:26 www/views/onboarding/disclaimer.html:44
 msgid "Confirm &amp; Finish"
 msgstr "Bestätigen &amp; Beenden"
 
 #: www/views/buyAmazon.html:90
 msgid "Confirm purchase"
-msgstr ""
+msgstr "Kauf bestätigen"
 
 #: www/views/modals/pin.html:10
 msgid "Confirm your PIN"
@@ -587,14 +551,13 @@ msgstr "Bestätigen Sie Ihr neues Passwort"
 msgid "Confirmations"
 msgstr "Bestätigungen"
 
-#: www/views/bitpayCard.html:68
-#: www/views/modals/wallet-balance.html:61
+#: www/views/bitpayCard.html:68 www/views/modals/wallet-balance.html:61
 msgid "Confirming"
 msgstr "Bestätigen"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my Sparks Dev Card"
-msgstr "Verbinde meine Sparks Dev-Karte"
+msgid "Connect my SparksPay Dev Card"
+msgstr "Verbinde meine SparksPay Dev-Karte"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -621,8 +584,8 @@ msgid "Contribute Translations"
 msgstr "Übersetzungen beitragen"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Sparks Cash using new version numbers addresses"
-msgstr ""
+msgid "Copay only supports SparksPay Cash using new version numbers addresses"
+msgstr "Copay unterstützt nur SparksPay Cash mit neuen Versionsnummernadressen"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
@@ -644,8 +607,7 @@ msgstr "Copayer beigetreten"
 msgid "Copayer {{$index}}"
 msgstr "Copayer {{$index}}"
 
-#: src/js/controllers/copayers.js:79
-#: src/js/controllers/export.js:193
+#: src/js/controllers/copayers.js:79 src/js/controllers/export.js:193
 #: www/views/includes/copyToClipboard.html:4
 msgid "Copied to clipboard"
 msgstr "In die Zwischenablage kopiert"
@@ -657,14 +619,13 @@ msgstr "Diesen Text an einem sichern Ort einfügen (Notepad oder E-Mail)"
 #: www/views/includes/incomingDataMenu.html:51
 #: www/views/includes/incomingDataMenu.html:70
 #: www/views/includes/incomingDataMenu.html:94
-#: www/views/includes/logOptions.html:9
-#: www/views/tab-export-file.html:78
+#: www/views/includes/logOptions.html:9 www/views/tab-export-file.html:78
 msgid "Copy to clipboard"
 msgstr "In die Zwischenablage kopieren"
 
 #: src/js/controllers/buyMercadoLibre.js:102
 msgid "Could not access Gift Card Service"
-msgstr ""
+msgstr "Zugriff auf Geschenkkarten-Service nicht möglich"
 
 #: www/views/tab-import-phrase.html:2
 msgid "Could not access the wallet at the server. Please check:"
@@ -672,7 +633,7 @@ msgstr "Kein Zugriff auf Wallet des Servers. Überprüfen Sie bitte:"
 
 #: src/js/controllers/buyAmazon.js:102
 msgid "Could not access to Amazon.com"
-msgstr ""
+msgstr "Zugriff auf Amazon.com nicht möglich"
 
 #: src/js/services/profileService.js:511
 msgid "Could not access wallet"
@@ -696,13 +657,12 @@ msgstr "Adresse konnte nicht erstellt werden"
 
 #: src/js/controllers/topup.js:92
 msgid "Could not create the invoice"
-msgstr ""
+msgstr "Die Rechnung konnte nicht erstellt werden"
 
 #: src/js/controllers/buyAmazon.js:164
-#: src/js/controllers/buyMercadoLibre.js:164
-#: src/js/controllers/topup.js:142
+#: src/js/controllers/buyMercadoLibre.js:164 src/js/controllers/topup.js:142
 msgid "Could not create transaction"
-msgstr ""
+msgstr "Transaktion konnte nicht erstellt werden"
 
 #: src/js/services/profileService.js:350
 msgid "Could not create using the specified extended private key"
@@ -726,7 +686,7 @@ msgstr "Zahlungsvorschlag konnte nicht gelöscht werden"
 
 #: src/js/controllers/preferencesCash.js:117
 msgid "Could not duplicate"
-msgstr ""
+msgstr "Konnte nicht dupliziert werden"
 
 #: src/js/services/feeService.js:73
 msgid "Could not get dynamic fee"
@@ -738,20 +698,18 @@ msgstr "Dynamische Gebühr für den Level konnte nicht abgerufen werden: {{feeLe
 
 #: src/js/controllers/modals/feeLevels.js:112
 msgid "Could not get fee levels"
-msgstr ""
+msgstr "Gebühren konnten nicht abgerufen werden"
 
 #: src/js/controllers/buyAmazon.js:122
-#: src/js/controllers/buyMercadoLibre.js:122
-#: src/js/controllers/topup.js:100
+#: src/js/controllers/buyMercadoLibre.js:122 src/js/controllers/topup.js:100
 msgid "Could not get the invoice"
-msgstr ""
+msgstr "Die Rechnung konnte nicht abgerufen werden"
 
 #: src/js/controllers/bitpayCard.js:66
 msgid "Could not get transactions"
 msgstr "Transaktionen konnten nicht gefunden werden"
 
-#: src/js/services/profileService.js:615
-#: src/js/services/profileService.js:650
+#: src/js/services/profileService.js:615 src/js/services/profileService.js:650
 #: src/js/services/profileService.js:674
 msgid "Could not import"
 msgstr "Import nicht möglich"
@@ -786,19 +744,16 @@ msgid "Could not send payment"
 msgstr "Zahlung kann nicht gesendet werden"
 
 #: src/js/controllers/buyAmazon.js:327
-#: src/js/controllers/buyMercadoLibre.js:320
-#: src/js/controllers/topup.js:299
+#: src/js/controllers/buyMercadoLibre.js:320 src/js/controllers/topup.js:299
 msgid "Could not send transaction"
-msgstr ""
+msgstr "Transaktion konnte nicht gesendet werden"
 
 #: www/views/walletDetails.html:210
 msgid "Could not update transaction history"
 msgstr "Die Transaktionshistorie konnte nicht aktualisiert werden"
 
-#: src/js/controllers/addresses.js:29
-#: src/js/controllers/addresses.js:37
-#: src/js/controllers/copayers.js:30
-#: src/js/controllers/walletDetails.js:78
+#: src/js/controllers/addresses.js:29 src/js/controllers/addresses.js:37
+#: src/js/controllers/copayers.js:30 src/js/controllers/walletDetails.js:78
 msgid "Could not update wallet"
 msgstr "Wallet konnte nicht aktualisiert werden"
 
@@ -810,11 +765,10 @@ msgstr "Erstelle eine persönliche Wallet"
 msgid "Create Shared Wallet"
 msgstr "Erstelle eine gemeinsame Wallet"
 
-#: www/views/onboarding/tour.html:51
-#: www/views/tab-home.html:89
+#: www/views/onboarding/tour.html:51 www/views/tab-home.html:89
 #: www/views/tab-send.html:41
 msgid "Create sparks wallet"
-msgstr "Erstelle Sparks-Wallet"
+msgstr "Erstelle SparksPay-Wallet"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -828,8 +782,7 @@ msgstr "Erstelle gemeinsame Wallet"
 msgid "Create {{formData.requiredCopayers}}-of-{{formData.totalCopayers}} wallet"
 msgstr "Ein {{formData.requiredCopayers}}-von-{{formData.totalCopayers}} Wallet erzeugen"
 
-#: www/views/modals/txp-details.html:81
-#: www/views/tx-details.html:60
+#: www/views/modals/txp-details.html:81 www/views/tx-details.html:60
 msgid "Created by"
 msgstr "Erstellt von"
 
@@ -841,14 +794,13 @@ msgstr "Wallet erstellen..."
 msgid "Creating transaction"
 msgstr "Transaktion erstellen"
 
-#: www/views/modals/chooseFeeLevel.html:34
-#: www/views/preferencesFee.html:20
+#: www/views/modals/chooseFeeLevel.html:34 www/views/preferencesFee.html:20
 msgid "Current fee rate for this policy"
 msgstr "Aktuelle Gebühr für dieses Verfahren"
 
 #: src/js/services/feeService.js:15
 msgid "Custom"
-msgstr ""
+msgstr "Benutzerdefiniert"
 
 #: www/views/customAmount.html:9
 msgid "Custom Amount"
@@ -856,11 +808,10 @@ msgstr "Benutzerdefinierter Betrag"
 
 #: src/js/controllers/preferencesFee.js:85
 msgid "Custom Fee"
-msgstr ""
+msgstr "Benutzerdefinierte Gebühr"
 
 #: www/views/modals/mercadolibre-card-details.html:56
-#: www/views/modals/txp-details.html:87
-#: www/views/tx-details.html:66
+#: www/views/modals/txp-details.html:87 www/views/tx-details.html:66
 msgid "Date"
 msgstr "Datum"
 
@@ -889,10 +840,8 @@ msgstr "Wallet wird gelöscht..."
 msgid "Deleting payment proposal"
 msgstr "Lösche Zahlungsvorschlag"
 
-#: www/views/join.html:141
-#: www/views/tab-create-personal.html:111
-#: www/views/tab-create-shared.html:140
-#: www/views/tab-import-phrase.html:49
+#: www/views/join.html:141 www/views/tab-create-personal.html:111
+#: www/views/tab-create-shared.html:140 www/views/tab-import-phrase.html:49
 msgid "Derivation Path"
 msgstr "Ableitungsstruktur"
 
@@ -900,15 +849,12 @@ msgstr "Ableitungsstruktur"
 msgid "Derivation Strategy"
 msgstr "Ableitungstrategie"
 
-#: www/views/buyAmazon.html:39
-#: www/views/buyMercadoLibre.html:38
-#: www/views/modals/mercadolibre-card-details.html:6
-#: www/views/topup.html:45
+#: www/views/buyAmazon.html:39 www/views/buyMercadoLibre.html:38
+#: www/views/modals/mercadolibre-card-details.html:6 www/views/topup.html:45
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
-#: src/js/controllers/lockSetup.js:9
-#: src/js/controllers/tab-settings.js:61
+#: src/js/controllers/lockSetup.js:9 src/js/controllers/tab-settings.js:61
 msgid "Disabled"
 msgstr "Deaktiviert"
 
@@ -925,22 +871,21 @@ msgstr "Den privaten Schlüssel nicht einbeziehen"
 msgid "Don't see your language on Crowdin? Contact the Owner on Crowdin! We'd love to support your language."
 msgstr "Wird deine Sprache auf Crowdin nicht angezeigt? Kontaktiere den Support von Crowdin, denn wir würden deine Sprache gerne hinzufügen."
 
-#: www/views/tab-export-file.html:59
-#: www/views/tab-home.html:36
+#: www/views/tab-export-file.html:59 www/views/tab-home.html:36
 msgid "Download"
 msgstr "Herunterladen"
 
 #: www/views/preferencesCash.html:37
 msgid "Duplicate for BCH"
-msgstr ""
+msgstr "Duplikat für BCH"
 
 #: src/js/services/onGoingProcess.js:49
 msgid "Duplicating wallet..."
-msgstr ""
+msgstr "Wallet duplizieren"
 
 #: www/views/addresses.html:19
 msgid "Each sparks wallet can generate billions of addresses from your 12-word backup. A new address is automatically generated and shown each time you receive a payment."
-msgstr "Jede Sparks-Wallet kann Milliarden von Adressen aus Ihrem 12-Wort Backup erzeugen. Jedesmal wenn Sie eine Zahlung erhalten wird neue Adresse automatisch generiert und dargestellten."
+msgstr "Jede SparksPay-Wallet kann Milliarden von Adressen aus Ihrem 12-Wort Backup erzeugen. Jedesmal wenn Sie eine Zahlung erhalten wird neue Adresse automatisch generiert und dargestellten."
 
 #: src/js/services/feeService.js:13
 msgid "Economy"
@@ -948,10 +893,9 @@ msgstr "Wirtschaftlich"
 
 #: www/views/onboarding/collectEmail.html:27
 msgid "Edit"
-msgstr ""
+msgstr "Bearbeiten"
 
-#: www/views/addressbook.add.html:29
-#: www/views/addressbook.view.html:22
+#: www/views/addressbook.add.html:29 www/views/addressbook.view.html:22
 msgid "Email"
 msgstr "E-Mail"
 
@@ -979,97 +923,68 @@ msgstr "Pushbenachrichtigungen aktivieren"
 msgid "Enable the camera to get started."
 msgstr "Aktivieren Sie die Kamera um loszulegen."
 
-#: src/js/services/walletService.js:1077
-#: src/js/services/walletService.js:1092
+#: src/js/services/walletService.js:1077 src/js/services/walletService.js:1092
 msgid "Enter Spending Password"
 msgstr "Berechtigungscode eingeben"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your Sparks Dev account"
-msgstr "Eingabe des Zwei-Faktor-Authentifizierungs-Codes für das Sparks Dev Konto"
+msgid "Enter Two Factor for your SparksPay Dev account"
+msgstr "Eingabe des Zwei-Faktor-Authentifizierungs-Codes für das SparksPay Dev Konto"
 
 #: www/views/amount.html:4
 msgid "Enter amount"
-msgstr ""
+msgstr "Menge eingeben"
 
 #: www/views/modals/chooseFeeLevel.html:41
 msgid "Enter custom fee"
-msgstr ""
+msgstr "Geben Sie eine benutzerdefinierte Gebühr ein"
 
 #: src/js/services/walletService.js:1059
 msgid "Enter new spending password"
 msgstr "Neuen Berechtigungscode eingeben"
 
-#: www/views/join.html:79
-#: www/views/tab-create-personal.html:51
+#: www/views/join.html:79 www/views/tab-create-personal.html:51
 #: www/views/tab-create-shared.html:80
 msgid "Enter the recovery phrase (BIP39)"
 msgstr "Wiederherstellungsphrase eingeben (BIP39)"
 
 #: www/views/onboarding/collectEmail.html:13
 msgid "Enter your email"
-msgstr ""
+msgstr "Geben sie ihre E-Mail Adresse ein"
 
 #: www/views/backup.html:69
 msgid "Enter your password"
 msgstr "Passwort eingeben"
 
 #. Trying to import a malformed wallet export QR code
-#: src/js/controllers/activity.js:45
-#: src/js/controllers/addressbookAdd.js:30
-#: src/js/controllers/addressbookView.js:42
-#: src/js/controllers/addresses.js:125
-#: src/js/controllers/addresses.js:126
-#: src/js/controllers/bitpayCard.js:66
+#: src/js/controllers/activity.js:45 src/js/controllers/addressbookAdd.js:30
+#: src/js/controllers/addressbookView.js:42 src/js/controllers/addresses.js:125
+#: src/js/controllers/addresses.js:126 src/js/controllers/bitpayCard.js:66
 #: src/js/controllers/bitpayCardIntro.js:40
-#: src/js/controllers/bitpayCardIntro.js:81
-#: src/js/controllers/buyAmazon.js:24
-#: src/js/controllers/buyAmazon.js:35
-#: src/js/controllers/buyMercadoLibre.js:24
-#: src/js/controllers/buyMercadoLibre.js:35
-#: src/js/controllers/confirm.js:307
-#: src/js/controllers/copayers.js:67
-#: src/js/controllers/create.js:159
-#: src/js/controllers/create.js:172
-#: src/js/controllers/create.js:178
-#: src/js/controllers/create.js:184
-#: src/js/controllers/create.js:206
-#: src/js/controllers/create.js:213
-#: src/js/controllers/create.js:231
-#: src/js/controllers/export.js:109
-#: src/js/controllers/export.js:115
-#: src/js/controllers/export.js:126
-#: src/js/controllers/export.js:154
-#: src/js/controllers/export.js:160
-#: src/js/controllers/export.js:171
-#: src/js/controllers/export.js:47
-#: src/js/controllers/export.js:53
-#: src/js/controllers/feedback/send.js:23
-#: src/js/controllers/import.js:117
-#: src/js/controllers/import.js:129
-#: src/js/controllers/import.js:147
-#: src/js/controllers/import.js:198
-#: src/js/controllers/import.js:227
-#: src/js/controllers/import.js:236
-#: src/js/controllers/import.js:252
-#: src/js/controllers/import.js:264
-#: src/js/controllers/import.js:276
-#: src/js/controllers/import.js:286
-#: src/js/controllers/import.js:310
-#: src/js/controllers/import.js:323
-#: src/js/controllers/import.js:333
-#: src/js/controllers/import.js:343
-#: src/js/controllers/import.js:367
-#: src/js/controllers/import.js:380
-#: src/js/controllers/import.js:83
-#: src/js/controllers/import.js:96
-#: src/js/controllers/join.js:124
-#: src/js/controllers/join.js:138
-#: src/js/controllers/join.js:144
-#: src/js/controllers/join.js:150
-#: src/js/controllers/join.js:173
-#: src/js/controllers/join.js:181
-#: src/js/controllers/join.js:199
+#: src/js/controllers/bitpayCardIntro.js:81 src/js/controllers/buyAmazon.js:24
+#: src/js/controllers/buyAmazon.js:35 src/js/controllers/buyMercadoLibre.js:24
+#: src/js/controllers/buyMercadoLibre.js:35 src/js/controllers/confirm.js:307
+#: src/js/controllers/copayers.js:67 src/js/controllers/create.js:159
+#: src/js/controllers/create.js:172 src/js/controllers/create.js:178
+#: src/js/controllers/create.js:184 src/js/controllers/create.js:206
+#: src/js/controllers/create.js:213 src/js/controllers/create.js:231
+#: src/js/controllers/export.js:109 src/js/controllers/export.js:115
+#: src/js/controllers/export.js:126 src/js/controllers/export.js:154
+#: src/js/controllers/export.js:160 src/js/controllers/export.js:171
+#: src/js/controllers/export.js:47 src/js/controllers/export.js:53
+#: src/js/controllers/feedback/send.js:23 src/js/controllers/import.js:117
+#: src/js/controllers/import.js:129 src/js/controllers/import.js:147
+#: src/js/controllers/import.js:198 src/js/controllers/import.js:227
+#: src/js/controllers/import.js:236 src/js/controllers/import.js:252
+#: src/js/controllers/import.js:264 src/js/controllers/import.js:276
+#: src/js/controllers/import.js:286 src/js/controllers/import.js:310
+#: src/js/controllers/import.js:323 src/js/controllers/import.js:333
+#: src/js/controllers/import.js:343 src/js/controllers/import.js:367
+#: src/js/controllers/import.js:380 src/js/controllers/import.js:83
+#: src/js/controllers/import.js:96 src/js/controllers/join.js:124
+#: src/js/controllers/join.js:138 src/js/controllers/join.js:144
+#: src/js/controllers/join.js:150 src/js/controllers/join.js:173
+#: src/js/controllers/join.js:181 src/js/controllers/join.js:199
 #: src/js/controllers/modals/feeLevels.js:9
 #: src/js/controllers/modals/txpDetails.js:140
 #: src/js/controllers/paperWallet.js:47
@@ -1078,17 +993,12 @@ msgstr "Passwort eingeben"
 #: src/js/controllers/preferencesBitpayServices.js:50
 #: src/js/controllers/preferencesDelete.js:36
 #: src/js/controllers/preferencesExternal.js:20
-#: src/js/controllers/tab-home.js:180
-#: src/js/controllers/tab-send.js:149
+#: src/js/controllers/tab-home.js:180 src/js/controllers/tab-send.js:149
 #: src/js/controllers/tabsController.js:36
-#: src/js/controllers/tabsController.js:7
-#: src/js/controllers/topup.js:21
-#: src/js/controllers/topup.js:32
-#: src/js/controllers/tx-details.js:119
-#: src/js/services/incomingData.js:101
-#: src/js/services/incomingData.js:125
-#: src/js/services/incomingData.js:168
-#: www/views/mercadoLibreCards.html:19
+#: src/js/controllers/tabsController.js:7 src/js/controllers/topup.js:21
+#: src/js/controllers/topup.js:32 src/js/controllers/tx-details.js:119
+#: src/js/services/incomingData.js:101 src/js/services/incomingData.js:125
+#: src/js/services/incomingData.js:168 www/views/mercadoLibreCards.html:19
 #: www/views/modals/mercadolibre-card-details.html:45
 msgid "Error"
 msgstr "Fehler"
@@ -1099,12 +1009,11 @@ msgstr "Fehler beim bestätigen"
 
 #: src/js/controllers/buyAmazon.js:179
 msgid "Error creating gift card"
-msgstr ""
+msgstr "Fehler beim Erstellen der Geschenkkarte"
 
-#: src/js/controllers/buyAmazon.js:94
-#: src/js/controllers/buyMercadoLibre.js:94
+#: src/js/controllers/buyAmazon.js:94 src/js/controllers/buyMercadoLibre.js:94
 msgid "Error creating the invoice"
-msgstr ""
+msgstr "Fehler beim Erstellen der Rechnung"
 
 #: src/js/services/profileService.js:412
 msgid "Error creating wallet"
@@ -1112,17 +1021,16 @@ msgstr "Fehler beim Erstellen des Wallets"
 
 #: src/js/controllers/confirm.js:296
 msgid "Error getting SendMax information"
-msgstr ""
+msgstr "Fehler beim Abrufen von SendMax-Informationen"
 
 #: src/js/controllers/buyAmazon.js:136
-#: src/js/controllers/buyMercadoLibre.js:136
-#: src/js/controllers/topup.js:114
+#: src/js/controllers/buyMercadoLibre.js:136 src/js/controllers/topup.js:114
 msgid "Error in Payment Protocol"
-msgstr ""
+msgstr "Error im Payment Protocol"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing Sparks Dev Account"
-msgstr ""
+msgid "Error pairing SparksPay Dev Account"
+msgstr "Fehler beim Pairing von SparksPay Dev Account"
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
@@ -1140,16 +1048,14 @@ msgstr "Fehler beim Aktualisieren der Debitkarten"
 msgid "Exceeded daily limit of $500 per user"
 msgstr "Tageslimit von $500 pro Benutzer überschritten"
 
-#: src/js/controllers/confirm.js:461
-#: www/views/confirm.html:27
+#: src/js/controllers/confirm.js:461 www/views/confirm.html:27
 #: www/views/mercadoLibreCards.html:25
 #: www/views/modals/mercadolibre-card-details.html:34
 #: www/views/modals/txp-details.html:119
 msgid "Expired"
 msgstr "Abgelaufen"
 
-#: www/views/modals/paypro.html:54
-#: www/views/modals/txp-details.html:125
+#: www/views/modals/paypro.html:54 www/views/modals/txp-details.html:125
 msgid "Expires"
 msgstr "Gültig bis"
 
@@ -1157,8 +1063,7 @@ msgstr "Gültig bis"
 msgid "Export Wallet"
 msgstr "Wallet exportieren"
 
-#: www/views/preferencesHistory.html:11
-#: www/views/preferencesHistory.html:14
+#: www/views/preferencesHistory.html:11 www/views/preferencesHistory.html:14
 msgid "Export to file"
 msgstr "In eine Datei exportieren"
 
@@ -1166,15 +1071,14 @@ msgstr "In eine Datei exportieren"
 msgid "Export wallet"
 msgstr "Wallet exportieren"
 
-#: src/js/services/walletService.js:1204
-#: www/views/tab-export-qrCode.html:9
+#: src/js/services/walletService.js:1204 www/views/tab-export-qrCode.html:9
 msgid "Exporting via QR not supported for this wallet"
 msgstr "Für diese Wallet ist Export per QR nicht unterstützt"
 
 #: www/views/preferencesInformation.html:104
 #: www/views/preferencesPrivateKey.html:6
 msgid "Extended Private Key"
-msgstr ""
+msgstr "Extended Private Key"
 
 #: www/views/preferencesInformation.html:89
 msgid "Extended Public Keys"
@@ -1182,18 +1086,15 @@ msgstr "Erweiterte öffentliche Schlüssel"
 
 #: src/js/services/onGoingProcess.js:20
 msgid "Extracting Wallet information..."
-msgstr ""
+msgstr "Wallet information extrahieren ..."
 
-#: src/js/controllers/export.js:115
-#: src/js/controllers/export.js:126
-#: src/js/controllers/export.js:160
-#: src/js/controllers/export.js:171
+#: src/js/controllers/export.js:115 src/js/controllers/export.js:126
+#: src/js/controllers/export.js:160 src/js/controllers/export.js:171
 #: www/views/tab-export-file.html:4
 msgid "Failed to export"
 msgstr "Fehler beim Exportieren"
 
-#: www/views/tab-create-personal.html:14
-#: www/views/tab-create-shared.html:14
+#: www/views/tab-create-personal.html:14 www/views/tab-create-shared.html:14
 msgid "Family vacation funds"
 msgstr "Familienurlaub"
 
@@ -1203,70 +1104,63 @@ msgstr "Gebühr"
 
 #: www/views/modals/chooseFeeLevel.html:75
 msgid "Fee level"
-msgstr ""
+msgstr "Gebühr level"
 
 #: src/js/controllers/modals/feeLevels.js:100
 msgid "Fee level is not defined"
-msgstr ""
+msgstr "Gebühr level ist nicht definiert"
 
-#: www/views/confirm.html:79
-#: www/views/modals/txp-details.html:99
+#: www/views/confirm.html:79 www/views/modals/txp-details.html:99
 msgid "Fee:"
-msgstr ""
+msgstr "Gebühr:"
 
 #: src/js/controllers/feedback/send.js:23
 msgid "Feedback could not be submitted. Please try again later."
 msgstr "Feedback konnte nicht abgeschickt werden. Bitte versuchen Sie es später erneut."
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching Sparks Dev Account..."
-msgstr "Sparks Dev Konto abrufen..."
+msgid "Fetching SparksPay Dev Account..."
+msgstr "SparksPay Dev Konto abrufen..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching payment information"
-msgstr ""
+msgstr "Zahlungsinformationen abrufen"
 
-#: www/views/export.html:14
-#: www/views/import.html:16
+#: www/views/export.html:14 www/views/import.html:16
 msgid "File/Text"
 msgstr "Datei/Text"
 
 #: www/views/preferencesLogs.html:17
 msgid "Filter setting"
-msgstr ""
+msgstr "Einstellungen filtern"
 
 #: src/js/services/fingerprintService.js:42
 #: src/js/services/fingerprintService.js:47
 msgid "Finger Scan Failed"
 msgstr "Abtasten des Fingerabdrucks gescheitert"
 
-#: src/js/controllers/feedback/send.js:34
-#: www/views/feedback/complete.html:7
+#: src/js/controllers/feedback/send.js:34 www/views/feedback/complete.html:7
 msgid "Finish"
 msgstr "Beenden"
 
-#: www/views/tab-create-personal.html:123
-#: www/views/tab-create-shared.html:152
+#: www/views/tab-create-personal.html:123 www/views/tab-create-shared.html:152
 msgid "For audit purposes"
 msgstr "Zur Kontrolle"
 
-#: src/js/controllers/topup.js:308
-#: www/views/buyAmazon.html:29
-#: www/views/buyMercadoLibre.html:28
-#: www/views/confirm.html:65
-#: www/views/modals/txp-details.html:74
-#: www/views/topup.html:34
+#: src/js/controllers/topup.js:308 www/views/buyAmazon.html:29
+#: www/views/buyMercadoLibre.html:28 www/views/confirm.html:65
+#: www/views/modals/txp-details.html:74 www/views/topup.html:34
 #: www/views/tx-details.html:52
 msgid "From"
 msgstr "Von"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From Sparks Dev account"
-msgstr "Von Sparks Dev Konto"
+msgid "From SparksPay Dev account"
+msgstr "Von SparksPay Dev Konto"
 
 #: www/views/tab-import-phrase.html:57
 msgid "From Hardware Wallet"
-msgstr ""
+msgstr "Von der Hardware Wallet"
 
 #: www/views/tab-export-qrCode.html:5
 msgid "From the destination device, go to Add wallet &gt; Import wallet and scan this QR code"
@@ -1282,7 +1176,7 @@ msgstr "Betrag gefunden:"
 
 #: www/views/topup.html:49
 msgid "Funds to be added"
-msgstr ""
+msgstr "Mittel die hinzugefügt werden sollten"
 
 #: www/views/paperWallet.html:51
 msgid "Funds transferred"
@@ -1290,7 +1184,7 @@ msgstr "Betrag übermittelt"
 
 #: www/views/topup.html:103
 msgid "Funds were added to debit card"
-msgstr ""
+msgstr "Die Debitkarte wurde mit Geldern ausgestattet"
 
 #: www/views/paperWallet.html:22
 msgid "Funds will be transferred to"
@@ -1298,7 +1192,7 @@ msgstr "Beträge werden überwiesen an"
 
 #: www/views/tab-receive.html:51
 msgid "Generate new address"
-msgstr ""
+msgstr "Neue Adresse generieren"
 
 #: src/js/services/onGoingProcess.js:22
 msgid "Generating .csv file..."
@@ -1313,8 +1207,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "Erhalten Sie Bargeld überall von einem Visa<sup>&reg;</sup> kompatiblen Bankomaten. Es fallen eventuell Bankomatgebühren an."
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from Sparks Dev"
-msgstr "Erhalten Sie Neuigkeiten und Aktualisierungen von Sparks Dev"
+msgid "Get news and updates from SparksPay Dev"
+msgstr "Erhalten Sie Neuigkeiten und Aktualisierungen von SparksPay Dev"
 
 #: www/views/bitpayCard.html:49
 msgid "Get started"
@@ -1323,7 +1217,7 @@ msgstr "Los geht’s"
 #: www/views/onboarding/welcome.html:8
 msgctxt "button"
 msgid "Get started"
-msgstr ""
+msgstr "[button] Los gehts"
 
 #: www/views/addressbook.html:20
 msgid "Get started by adding your first one."
@@ -1333,36 +1227,32 @@ msgstr "Starten Sie indem Sie ihr erstes hinzufügen."
 msgid "Getting fee levels..."
 msgstr "Entgelt-Level werden abgerufen..."
 
-#: www/views/buyAmazon.html:43
-#: www/views/buyMercadoLibre.html:42
+#: www/views/buyAmazon.html:43 www/views/buyMercadoLibre.html:42
 msgid "Gift Card"
 msgstr ""
 
 #: www/views/modals/mercadolibre-card-details.html:30
 #: www/views/modals/mercadolibre-card-details.html:35
 msgid "Gift Card is not available to use anymore"
-msgstr ""
+msgstr "Die Gift Card ist nicht mehr verfügbar"
 
 #: src/js/controllers/buyAmazon.js:204
 msgid "Gift card expired"
-msgstr ""
+msgstr "Gift card ausgelaufen"
 
 #: www/views/buyAmazon.html:111
 msgid "Gift card generated and ready to use."
-msgstr ""
+msgstr "Ihre Gift card wurde generiert und is bereit für die Verwendung"
 
-#: src/js/controllers/bitpayCard.js:114
-#: src/js/controllers/bitpayCard.js:124
+#: src/js/controllers/bitpayCard.js:114 src/js/controllers/bitpayCard.js:124
 #: src/js/controllers/modals/mercadoLibreCardDetails.js:27
 #: src/js/controllers/onboarding/terms.js:23
 #: src/js/controllers/preferences.js:67
 #: src/js/controllers/preferencesAbout.js:16
 #: src/js/controllers/preferencesCash.js:20
 #: src/js/controllers/preferencesLanguage.js:14
-#: src/js/controllers/tab-home.js:150
-#: src/js/controllers/tab-settings.js:49
-#: src/js/controllers/tx-details.js:193
-#: src/js/controllers/tx-details.js:56
+#: src/js/controllers/tab-home.js:150 src/js/controllers/tab-settings.js:49
+#: src/js/controllers/tx-details.js:193 src/js/controllers/tx-details.js:56
 msgid "Go Back"
 msgstr "Zurück"
 
@@ -1373,8 +1263,7 @@ msgstr "Zurück"
 msgid "Go back"
 msgstr "Zurück"
 
-#: www/views/backupWarning.html:15
-#: www/views/includes/confirmBackupPopup.html:8
+#: www/views/backupWarning.html:15 www/views/includes/confirmBackupPopup.html:8
 #: www/views/onboarding/tour.html:23
 msgid "Got it"
 msgstr "Habe verstanden"
@@ -1392,9 +1281,8 @@ msgstr "Hardware nicht verbunden."
 msgid "Hardware wallet"
 msgstr "Hardware-Wallet"
 
-#: src/js/controllers/create.js:178
-#: src/js/controllers/join.js:144
-msgid "Hardware wallets are not yet supported with Sparks Cash"
+#: src/js/controllers/create.js:178 src/js/controllers/join.js:144
+msgid "Hardware wallets are not yet supported with SparksPay Cash"
 msgstr ""
 
 #: www/views/modals/mercadolibre-card-details.html:69
@@ -1420,12 +1308,9 @@ msgstr "Guthaben Verstecken"
 msgid "Hide Next Steps Card"
 msgstr "Nächste Schritte der Karte ausblenden"
 
-#: www/views/join.html:49
-#: www/views/tab-create-personal.html:28
-#: www/views/tab-create-shared.html:57
-#: www/views/tab-export-file.html:25
-#: www/views/tab-import-file.html:30
-#: www/views/tab-import-hardware.html:31
+#: www/views/join.html:49 www/views/tab-create-personal.html:28
+#: www/views/tab-create-shared.html:57 www/views/tab-export-file.html:25
+#: www/views/tab-import-file.html:30 www/views/tab-import-hardware.html:31
 #: www/views/tab-import-phrase.html:36
 msgid "Hide advanced options"
 msgstr "Erweiterte Optionen ausblenden"
@@ -1456,8 +1341,7 @@ msgstr "Ich habe die <a ng-click=\"openTerms()\" translate=\"\">Nutzungsbedingun
 msgid "I have read, understood, and agree with the Terms of use."
 msgstr "Ich habe die Nutzungsbedingungen gelesen und stimme ihnen zu."
 
-#: www/views/join.html:137
-#: www/views/tab-create-personal.html:107
+#: www/views/join.html:137 www/views/tab-create-personal.html:107
 #: www/views/tab-create-shared.html:136
 msgid "I have written it down"
 msgstr "Ich habe es aufgeschrieben"
@@ -1477,7 +1361,7 @@ msgstr "Ich verstehe"
 
 #: www/views/onboarding/disclaimer.html:21
 msgid "I understand that if this app is moved to another device or deleted, my sparks can only be recovered with the backup phrase."
-msgstr "Ich verstehe, dass wenn diese App auf ein anderes Gerät verschoben oder gelöscht wird, meine Sparks nur mit der Wiederherstellungsphrase wiederhergestellt werden können."
+msgstr "Ich verstehe, dass wenn diese App auf ein anderes Gerät verschoben oder gelöscht wird, meine SparksPay nur mit der Wiederherstellungsphrase wiederhergestellt werden können."
 
 #: www/views/onboarding/disclaimer.html:18
 msgid "I understand that my funds are held securely on this device, not by a company."
@@ -1500,8 +1384,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Wenn aktiviert werden Wallets auch versuchen unbestätigtes Vermögen auszugeben. Diese Option kann zu Transaktionsverzögerungen führen."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor Sparks Dev can recover your funds without a backup."
-msgstr "Wenn dieses Gerät ersetzt oder diese App gelöscht wird, so können weder Sie noch Sparks Dev Ihr Geld ohne eine Sicherung wiederherstellen."
+msgid "If this device is replaced or this app is deleted, neither you nor SparksPay Dev can recover your funds without a backup."
+msgstr "Wenn dieses Gerät ersetzt oder diese App gelöscht wird, so können weder Sie noch SparksPay Dev Ihr Geld ohne eine Sicherung wiederherstellen."
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1511,8 +1395,7 @@ msgstr "Wenn Sie zusätzliches Feedback haben, so lassen Sie uns es wissen indem
 msgid "If you take a screenshot, your backup may be viewed by other apps. You can make a safe backup with physical paper and a pen."
 msgstr "Wenn Sie einen Screenshot erstellen, kann die Sicherung von anderen Apps angesehen werden. Sie können ein sicheres Backup mit Papier und Stift erstellen."
 
-#: www/views/tab-import-hardware.html:42
-#: www/views/tab-import-phrase.html:80
+#: www/views/tab-import-hardware.html:42 www/views/tab-import-phrase.html:80
 msgid "Import"
 msgstr "Import"
 
@@ -1539,10 +1422,9 @@ msgstr "Um die Sicherung der Wallet zu überprüfen, geben Sie bitte Ihr Passwor
 #: www/views/mercadoLibreCards.html:24
 #: www/views/modals/mercadolibre-card-details.html:29
 msgid "Inactive"
-msgstr ""
+msgstr "Inaktiv"
 
-#: www/views/includes/walletItem.html:9
-#: www/views/includes/walletList.html:6
+#: www/views/includes/walletItem.html:9 www/views/includes/walletList.html:6
 #: www/views/includes/walletListSettings.html:9
 #: www/views/includes/walletSelector.html:25
 #: www/views/includes/walletSelector.html:56
@@ -1564,36 +1446,32 @@ msgstr "QR code hat falsches Format"
 
 #: src/js/services/bwcError.js:113
 msgid "Incorrect network address"
-msgstr ""
+msgstr "Falsche Netzwerkadresse"
 
-#: src/js/controllers/confirm.js:114
-#: src/js/controllers/confirm.js:306
+#: src/js/controllers/confirm.js:114 src/js/controllers/confirm.js:306
 #: src/js/services/bwcError.js:44
 msgid "Insufficient funds"
 msgstr "Nicht ausreichendes Guthaben"
 
-#: src/js/controllers/topup.js:165
-#: src/js/controllers/topup.js:177
+#: src/js/controllers/topup.js:165 src/js/controllers/topup.js:177
 #: src/js/services/bwcError.js:71
 msgid "Insufficient funds for fee"
 msgstr "Nicht ausreichendes Guthaben für die Gebühr"
 
 #: www/views/tab-settings.html:116
 msgid "Integrations"
-msgstr ""
+msgstr "Integration"
 
 #: www/views/includes/walletHistory.html:49
 msgid "Invalid"
 msgstr "Ungültig"
 
 #: src/js/controllers/buyAmazon.js:137
-#: src/js/controllers/buyMercadoLibre.js:137
-#: src/js/controllers/topup.js:115
+#: src/js/controllers/buyMercadoLibre.js:137 src/js/controllers/topup.js:115
 msgid "Invalid URL"
-msgstr ""
+msgstr "Falsche URL"
 
-#: src/js/controllers/create.js:184
-#: src/js/controllers/import.js:343
+#: src/js/controllers/create.js:184 src/js/controllers/import.js:343
 #: src/js/controllers/join.js:150
 msgid "Invalid account number"
 msgstr "Ungültige Kontonummer"
@@ -1606,8 +1484,7 @@ msgstr "Ungültige Adresse"
 msgid "Invalid data"
 msgstr "Ungültige Daten"
 
-#: src/js/controllers/create.js:159
-#: src/js/controllers/import.js:264
+#: src/js/controllers/create.js:159 src/js/controllers/import.js:264
 #: src/js/controllers/join.js:124
 msgid "Invalid derivation path"
 msgstr "Ungültige Ableitungsstruktur"
@@ -1619,7 +1496,7 @@ msgstr "Einladung um eine {{appName}} Wallet zu teilen"
 #: www/views/mercadoLibreCards.html:20
 #: www/views/modals/mercadolibre-card-details.html:48
 msgid "Invoice expired"
-msgstr ""
+msgstr "Rechnung abgelaufen"
 
 #: src/js/controllers/feedback/send.js:79
 msgid "Is there anything we could do better?"
@@ -1635,7 +1512,7 @@ msgstr "Ist diese E-Mail Adresse korrekt?"
 
 #: www/views/addresses.html:25
 msgid "It's a good idea to avoid reusing addresses - this both protects your privacy and keeps your sparkss secure against hypothetical attacks by quantum computers."
-msgstr "Es ist eine gute Idee Adressen nicht wiederzuverwenden - dies schützt Ihre Privatsphäre und hält Ihre Sparks vor hypothetischen Angriffen durch Quanten-Computern sicher."
+msgstr "Es ist eine gute Idee Adressen nicht wiederzuverwenden - dies schützt Ihre Privatsphäre und hält Ihre SparksPay vor hypothetischen Angriffen durch Quanten-Computern sicher."
 
 #: src/js/controllers/backup.js:76
 msgid "It's important that you write your backup phrase down correctly. If something happens to your wallet, you'll need this backup to recover your money. Please review your backup and try again."
@@ -1649,8 +1526,7 @@ msgstr "Teilnehmen"
 msgid "Join my {{appName}} Wallet. Here is the invitation code: {{secret}} You can download {{appName}} for your phone or desktop at {{appUrl}}"
 msgstr "Meiner {{appName}} Wallet beitreten. Hier ist der Einladungs-Code: {{secret}} Sie können {{appName}} für Ihr Telefon oder Desktop auf {{appUrl}} herunterladen"
 
-#: www/views/add.html:30
-#: www/views/join.html:5
+#: www/views/add.html:30 www/views/join.html:5
 msgid "Join shared wallet"
 msgstr "Gemeinschaftliches Wallet"
 
@@ -1666,8 +1542,7 @@ msgstr "Scannen Sie einfach den Code um zu zahlen."
 msgid "Key already associated with an existing wallet"
 msgstr "Schlüssel ist bereits mit einem existierenden Wallet verbunden"
 
-#: www/views/preferencesLanguage.html:4
-#: www/views/tab-settings.html:61
+#: www/views/preferencesLanguage.html:4 www/views/tab-settings.html:61
 msgid "Language"
 msgstr "Sprache"
 
@@ -1675,19 +1550,16 @@ msgstr "Sprache"
 msgid "Last Month"
 msgstr "Letzter Monat"
 
-#: src/js/controllers/confirm.js:132
-#: www/views/preferences.html:48
-#: www/views/tab-home.html:24
-#: www/views/tx-details.html:94
+#: src/js/controllers/confirm.js:132 www/views/preferences.html:48
+#: www/views/tab-home.html:24 www/views/tx-details.html:94
 msgid "Learn more"
-msgstr ""
+msgstr "Mehr lernen"
 
 #: www/views/backup.html:43
 msgid "Let's verify your backup phrase."
 msgstr "Überprüfen Sie Ihre Wiederherstellungsphrase."
 
-#: www/views/addresses.html:45
-#: www/views/allAddresses.html:14
+#: www/views/addresses.html:45 www/views/allAddresses.html:14
 msgid "Loading addresses..."
 msgstr "Lade Adressen..."
 
@@ -1725,11 +1597,11 @@ msgstr ""
 
 #: www/views/modals/bitpay-card-confirmation.html:14
 msgid "Log out"
-msgstr ""
+msgstr "Ausloggen"
 
 #: www/views/addresses.html:87
 msgid "Low amount inputs"
-msgstr ""
+msgstr "Niedrige Mengeneingaben"
 
 #: www/views/includes/walletHistory.html:27
 msgid "Low fees"
@@ -1743,8 +1615,7 @@ msgstr "Macht Sinn"
 msgid "Matches:"
 msgstr "Übereinstimmungen:"
 
-#: www/views/includes/copayers.html:4
-#: www/views/preferencesInformation.html:85
+#: www/views/includes/copayers.html:4 www/views/preferencesInformation.html:85
 msgid "Me"
 msgstr "Ich"
 
@@ -1752,10 +1623,8 @@ msgstr "Ich"
 msgid "Meh - it's alright"
 msgstr "Meh - ist in Ordnung"
 
-#: src/js/controllers/tx-details.js:165
-#: www/views/modals/paypro.html:48
-#: www/views/modals/txp-details.html:93
-#: www/views/tx-details.html:72
+#: src/js/controllers/tx-details.js:165 www/views/modals/paypro.html:48
+#: www/views/modals/txp-details.html:93 www/views/tx-details.html:72
 msgid "Memo"
 msgstr "Notiz"
 
@@ -1771,8 +1640,7 @@ msgstr ""
 msgid "Merchant Message"
 msgstr "Händlernachricht"
 
-#: www/views/buyAmazon.html:55
-#: www/views/buyMercadoLibre.html:54
+#: www/views/buyAmazon.html:55 www/views/buyMercadoLibre.html:54
 #: www/views/topup.html:63
 msgid "Miner Fee"
 msgstr ""
@@ -1785,13 +1653,11 @@ msgstr "Angabe fehlt"
 msgid "Missing private keys to sign"
 msgstr "Zum Signieren fehlen die privaten Schlüssel"
 
-#: www/views/preferences.html:61
-#: www/views/preferencesAdvanced.html:3
+#: www/views/preferences.html:61 www/views/preferencesAdvanced.html:3
 msgid "More Options"
 msgstr "Weitere Optionen"
 
-#: www/views/includes/walletHistory.html:47
-#: www/views/tx-details.html:19
+#: www/views/includes/walletHistory.html:47 www/views/tx-details.html:19
 msgid "Moved"
 msgstr "Verschoben"
 
@@ -1807,18 +1673,15 @@ msgstr "Mehrere Empfänger"
 msgid "NOTE: To import a wallet from a 3rd party software, please go to Add Wallet &gt; Create Wallet, and specify the Recovery Phrase there."
 msgstr "Hinweis: Um eine Brieftasche aus einer 3rd-Party-Software zu importieren, gehen Sie bitte auf Wallet Hinzufügen &gt; Wallet Importieren, und geben Sie die Wiederhestellungsphrase ein."
 
-#: www/views/addressbook.add.html:21
-#: www/views/addressbook.view.html:18
-#: www/views/preferences.html:15
-#: www/views/preferencesAlias.html:17
+#: www/views/addressbook.add.html:21 www/views/addressbook.view.html:18
+#: www/views/preferences.html:15 www/views/preferencesAlias.html:17
 msgid "Name"
 msgstr "Name"
 
-#: www/views/buyAmazon.html:49
-#: www/views/buyMercadoLibre.html:48
+#: www/views/buyAmazon.html:49 www/views/buyMercadoLibre.html:48
 #: www/views/topup.html:56
 msgid "Network Cost"
-msgstr ""
+msgstr "Netzwerkgebühren"
 
 #: src/js/services/bwcError.js:47
 msgid "Network error"
@@ -1847,11 +1710,11 @@ msgstr "Keine Wallet"
 #: src/js/controllers/buyAmazon.js:115
 #: src/js/controllers/buyMercadoLibre.js:115
 msgid "No access key defined"
-msgstr ""
+msgstr "Kein Zugriffsschlüssel definiert"
 
 #: www/views/onboarding/backupRequest.html:5
 msgid "No backup, no sparks."
-msgstr "Keine Sicherung, keine Sparks."
+msgstr "Keine Sicherung, keine SparksPay."
 
 #: www/views/addressbook.html:19
 msgid "No contacts yet"
@@ -1859,7 +1722,7 @@ msgstr "Noch keine Kontakte"
 
 #: www/views/preferencesLogs.html:16
 msgid "No entries for this log level"
-msgstr ""
+msgstr "Keine Einträge für diese Protokollebene"
 
 #: www/views/preferencesExternal.html:12
 msgid "No hardware information available."
@@ -1877,10 +1740,9 @@ msgstr "Keine ausstehenden Vorschläge"
 msgid "No recent transactions"
 msgstr "Keine aktuellen Transaktionen"
 
-#: src/js/controllers/buyAmazon.js:44
-#: src/js/controllers/topup.js:47
+#: src/js/controllers/buyAmazon.js:44 src/js/controllers/topup.js:47
 msgid "No signing proposal: No private key"
-msgstr ""
+msgstr "Kein Signaturvorschlag: Kein privater Schlüssel"
 
 #: www/views/walletDetails.html:204
 msgid "No transactions yet"
@@ -1896,27 +1758,26 @@ msgid "No wallet selected"
 msgstr "Kein Wallet ausgewählt"
 
 #: src/js/controllers/buyAmazon.js:302
-#: src/js/controllers/buyMercadoLibre.js:294
-#: src/js/controllers/confirm.js:85
+#: src/js/controllers/buyMercadoLibre.js:294 src/js/controllers/confirm.js:85
 #: src/js/controllers/topup.js:265
 msgid "No wallets available"
-msgstr ""
+msgstr "Keine Geldbörsen verfügbar"
 
 #: www/views/paperWallet.html:45
 msgid "No wallets available to receive funds"
 msgstr "Keine Wallet verfügbar um Guthaben zu erhalten"
 
 #: www/views/preferencesCash.html:15
-msgid "No wallets eligible for Sparks Cash support"
+msgid "No wallets eligible for SparksPay Cash support"
 msgstr ""
 
 #: src/js/controllers/preferencesCash.js:58
 msgid "Non BIP44 wallet"
-msgstr ""
+msgstr "Nicht BIP44 Geldbörse"
 
 #: www/views/preferencesCash.html:46
 msgid "Non eligible BTC wallets"
-msgstr ""
+msgstr "Nicht zugelassene BTC-Geldbörsen"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1931,15 +1792,14 @@ msgid "Not enough funds for fee"
 msgstr "Das Guthaben reicht nicht für die Gebühr"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even Sparks Dev can access it."
-msgstr "Nicht einmal Sparks Dev kann darauf zugreifen."
+msgid "Not even SparksPay Dev can access it."
+msgstr "Nicht einmal SparksPay Dev kann darauf zugreifen."
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
 msgstr "Kein Guthaben gefunden"
 
-#: www/views/feedback/rateApp.html:3
-#: www/views/onboarding/notifications.html:8
+#: www/views/feedback/rateApp.html:3 www/views/onboarding/notifications.html:8
 msgid "Not now"
 msgstr "Nicht jetzt"
 
@@ -1953,10 +1813,9 @@ msgstr ""
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell sparks"
-msgstr "Hinweis: nur 1-1 (Einzelunterschrift) Wallets können verwendet werden um Sparks zu verkaufen"
+msgstr "Hinweis: nur 1-1 (Einzelunterschrift) Wallets können verwendet werden um SparksPay zu verkaufen"
 
-#: www/views/preferencesNotifications.html:3
-#: www/views/tab-settings.html:54
+#: www/views/preferencesNotifications.html:3 www/views/tab-settings.html:54
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
@@ -1980,21 +1839,15 @@ msgstr "Jetzt ist ein guter Zeitpunkt um Ihre Wallet zu sichern. Wenn das Gerät
 msgid "Now is a perfect time to assess your surroundings. Nearby windows? Hidden cameras? Shoulder-spies?"
 msgstr "Jetzt ist die perfekte Zeit um Ihre Umgebung zu überprüfen. In der Nähe eines Fensters? Versteckte Kameras? Schulter-Spione?"
 
-#: src/js/controllers/buyAmazon.js:314
-#: src/js/controllers/topup.js:286
-#: src/js/services/incomingData.js:153
-#: src/js/services/popupService.js:16
-#: src/js/services/popupService.js:52
-#: src/js/services/popupService.js:61
-#: src/js/services/popupService.js:72
-#: www/views/modals/chooseFeeLevel.html:6
+#: src/js/controllers/buyAmazon.js:314 src/js/controllers/topup.js:286
+#: src/js/services/incomingData.js:153 src/js/services/popupService.js:16
+#: src/js/services/popupService.js:52 src/js/services/popupService.js:61
+#: src/js/services/popupService.js:72 www/views/modals/chooseFeeLevel.html:6
 msgid "OK"
 msgstr "OK"
 
-#: www/views/modals/tx-status.html:12
-#: www/views/modals/tx-status.html:24
-#: www/views/modals/tx-status.html:36
-#: www/views/modals/tx-status.html:46
+#: www/views/modals/tx-status.html:12 www/views/modals/tx-status.html:24
+#: www/views/modals/tx-status.html:36 www/views/modals/tx-status.html:46
 msgid "OKAY"
 msgstr "Okay"
 
@@ -2018,8 +1871,7 @@ msgstr "Auf diesem Bildschirm sehen Sie alle Ihre Wallets, Konten und Guthaben."
 #: src/js/controllers/modals/mercadoLibreCardDetails.js:26
 #: src/js/controllers/preferences.js:66
 #: src/js/controllers/preferencesCash.js:19
-#: src/js/controllers/tab-settings.js:48
-#: src/js/controllers/tx-details.js:55
+#: src/js/controllers/tab-settings.js:48 src/js/controllers/tx-details.js:55
 msgid "Open"
 msgstr "Öffnen"
 
@@ -2035,8 +1887,7 @@ msgstr "Öffne GitHub"
 msgid "Open GitHub Project"
 msgstr "Öffne GitHub Projekt"
 
-#: src/js/controllers/bitpayCard.js:123
-#: src/js/controllers/tx-details.js:192
+#: src/js/controllers/bitpayCard.js:123 src/js/controllers/tx-details.js:192
 msgid "Open Insight"
 msgstr "Öffne Insight"
 
@@ -2065,17 +1916,13 @@ msgid "Open website"
 msgstr ""
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the Sparks Dev Card"
-msgstr "Sparks Dev-Karte bestellen"
+msgid "Order the SparksPay Dev Card"
+msgstr "SparksPay Dev-Karte bestellen"
 
-#: www/views/join.html:105
-#: www/views/join.html:96
-#: www/views/tab-create-personal.html:69
-#: www/views/tab-create-personal.html:77
-#: www/views/tab-create-shared.html:106
-#: www/views/tab-create-shared.html:98
-#: www/views/tab-import-file.html:18
-#: www/views/tab-import-phrase.html:41
+#: www/views/join.html:105 www/views/join.html:96
+#: www/views/tab-create-personal.html:69 www/views/tab-create-personal.html:77
+#: www/views/tab-create-shared.html:106 www/views/tab-create-shared.html:98
+#: www/views/tab-import-file.html:18 www/views/tab-import-phrase.html:41
 msgid "Password"
 msgstr "Passwort"
 
@@ -2093,7 +1940,7 @@ msgstr "Den Klartext der Sicherung einfügen"
 
 #: www/views/bitpayCardIntro.html:28
 msgid "Pay 0% fees to turn sparks into dollars."
-msgstr "Zahle 0 % Gebühren um Sparks in Dollar zu wechseln."
+msgstr "Zahle 0 % Gebühren um SparksPay in Dollar zu wechseln."
 
 #: www/views/modals/paypro.html:18
 msgid "Pay To"
@@ -2132,13 +1979,11 @@ msgstr "Zahlungsprotokoll wird nicht von der Chrome App unterstützt"
 msgid "Payment Received"
 msgstr "Zahlung erhalten"
 
-#: www/views/modals/tx-status.html:43
-#: www/views/modals/txp-details.html:43
+#: www/views/modals/tx-status.html:43 www/views/modals/txp-details.html:43
 msgid "Payment Rejected"
 msgstr "Zahlung abgelehnt"
 
-#: src/js/controllers/modals/txpDetails.js:44
-#: www/views/confirm.html:124
+#: src/js/controllers/modals/txpDetails.js:44 www/views/confirm.html:124
 #: www/views/includes/walletActivity.html:11
 #: www/views/modals/txp-details.html:42
 msgid "Payment Sent"
@@ -2153,8 +1998,8 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "Zahlung akzeptiert. Sie wird durch Glidera übermittelt. Falls ein Problem auftritt, kann sie nach einer Wartezeit von 6 Stunden gelöscht werden."
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Sparks Cash address format:"
-msgstr ""
+msgid "Payment address was translated to new SparksPay Cash address format:"
+msgstr "Die Zahlungsadresse wurde in das neue Adressformat von SparksPay Cash übersetzt:"
 
 #: www/views/modals/txp-details.html:107
 msgid "Payment details"
@@ -2167,7 +2012,7 @@ msgstr "Zahlungsanforderung"
 #: www/views/mercadoLibreCards.html:22
 #: www/views/modals/mercadolibre-card-details.html:39
 msgid "Pending"
-msgstr ""
+msgstr "steht aus"
 
 #: www/views/proposals.html:4
 msgid "Pending Proposals"
@@ -2193,8 +2038,7 @@ msgstr "Bitte verbinden Sie eine Kamera um loszulegen."
 msgid "Please enter the recovery phrase"
 msgstr "Bitte geben Sie die Wiederherstellungsphrase ein"
 
-#: src/js/controllers/create.js:172
-#: src/js/controllers/join.js:138
+#: src/js/controllers/create.js:172 src/js/controllers/join.js:138
 msgid "Please enter the wallet recovery phrase"
 msgstr "Bitte geben Sie die Wallet-Wiederherstellungsphrase ein"
 
@@ -2210,10 +2054,9 @@ msgstr "Bitte tippen Sie jedes Wort in der richtigen Reihenfolge."
 msgid "Please upgrade Copay to perform this action"
 msgstr "Bitte Copay aktualisieren, um diese Aktion auszuführen"
 
-#: www/views/walletDetails.html:142
-#: www/views/walletDetails.html:62
+#: www/views/walletDetails.html:142 www/views/walletDetails.html:62
 msgid "Please wait"
-msgstr ""
+msgstr "Bitte warten"
 
 #: src/js/controllers/import.js:236
 msgid "Please, select your backup file"
@@ -2260,8 +2103,7 @@ msgid "Proposal Accepted"
 msgstr "Vorschlag angenommen"
 
 #: src/js/controllers/modals/txpDetails.js:61
-#: src/js/controllers/tx-details.js:78
-#: www/views/confirm.html:125
+#: src/js/controllers/tx-details.js:78 www/views/confirm.html:125
 msgid "Proposal Created"
 msgstr "Vorschlag erstellt"
 
@@ -2279,11 +2121,11 @@ msgstr "Vorschläge"
 
 #: src/js/controllers/buyAmazon.js:284
 msgid "Purchase Amount is limited to {{limitPerDay}} {{currency}} per day"
-msgstr ""
+msgstr "Der Kaufbetrag ist auf {{limitPerDay}} {{currency}} pro Tag begrenzt"
 
 #: src/js/controllers/buyMercadoLibre.js:283
 msgid "Purchase amount must be a value between 50 and 2000"
-msgstr ""
+msgstr "Der Kaufbetrag muss zwischen 50 und 2000 liegen"
 
 #: www/views/onboarding/notifications.html:3
 msgid "Push Notifications"
@@ -2301,8 +2143,7 @@ msgstr "QR-Code"
 msgid "Quick review!"
 msgstr "Schnelle Überprüfung!"
 
-#: src/js/controllers/create.js:82
-#: src/js/controllers/join.js:67
+#: src/js/controllers/create.js:82 src/js/controllers/join.js:67
 msgid "Random"
 msgstr "Per Zufall"
 
@@ -2318,26 +2159,23 @@ msgstr "Weniger anzeigen"
 msgid "Read more"
 msgstr "Mehr anzeigen"
 
-#: src/js/controllers/preferences.js:65
-#: src/js/controllers/tx-details.js:54
+#: src/js/controllers/preferences.js:65 src/js/controllers/tx-details.js:54
 msgid "Read more in our Wiki"
-msgstr ""
+msgstr "Lesen Sie mehr in unserem Wiki"
 
 #: src/js/controllers/preferencesCash.js:61
 msgid "Read only wallet"
-msgstr ""
+msgstr "Nur Brieftasche lesen"
 
-#: www/views/tab-receive.html:3
-#: www/views/tabs.html:7
+#: www/views/tab-receive.html:3 www/views/tabs.html:7
 msgid "Receive"
 msgstr "Empfangen"
 
 #: www/views/customAmount.html:44
 msgid "Receive in"
-msgstr ""
+msgstr "Erhalten in"
 
-#: www/views/includes/walletHistory.html:24
-#: www/views/tx-details.html:18
+#: www/views/includes/walletHistory.html:24 www/views/tx-details.html:18
 msgid "Received"
 msgstr "Empfangen"
 
@@ -2345,13 +2183,11 @@ msgstr "Empfangen"
 msgid "Received Funds"
 msgstr "Erhaltener Betrag"
 
-#: www/views/includes/walletHistory.html:57
-#: www/views/tx-details.html:24
+#: www/views/includes/walletHistory.html:57 www/views/tx-details.html:24
 msgid "Receiving"
 msgstr "Eingehend"
 
-#: www/views/bitpayCard.html:60
-#: www/views/includes/walletHistory.html:3
+#: www/views/bitpayCard.html:60 www/views/includes/walletHistory.html:3
 msgid "Recent"
 msgstr "Kürzlich"
 
@@ -2359,13 +2195,11 @@ msgstr "Kürzlich"
 msgid "Recent Transaction Card"
 msgstr "Kürzlich Ausgeführte Transaktionen Karte"
 
-#: www/views/activity.html:4
-#: www/views/tab-home.html:72
+#: www/views/activity.html:4 www/views/tab-home.html:72
 msgid "Recent Transactions"
 msgstr "Kürzliche Transaktionen"
 
-#: www/views/amount.html:18
-#: www/views/tab-send.html:14
+#: www/views/amount.html:18 www/views/tab-send.html:14
 msgid "Recipient"
 msgstr "Empfänger"
 
@@ -2383,7 +2217,7 @@ msgstr "Wallet wiederherstellen..."
 
 #: www/views/modals/mercadolibre-card-details.html:22
 msgid "Redeem now"
-msgstr ""
+msgstr "Jetzt einlösen"
 
 #: src/js/controllers/modals/txpDetails.js:63
 #: src/js/controllers/tx-details.js:80
@@ -2401,26 +2235,23 @@ msgstr "Release-Informationen"
 #: www/views/addressbook.view.html:36
 #: www/views/modals/mercadolibre-card-details.html:74
 msgid "Remove"
-msgstr ""
+msgstr "Entfernen"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove Sparks Dev Account?"
-msgstr "Sparks Dev-Konto entfernen?"
+msgid "Remove SparksPay Dev Account?"
+msgstr "SparksPay Dev-Konto entfernen?"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove Sparks Dev Card?"
-msgstr "Sparks Dev Karte entfernen?"
+msgid "Remove SparksPay Dev Card?"
+msgstr "SparksPay Dev Karte entfernen?"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your Sparks Dev account will remove all associated Sparks Dev account data from this device. Are you sure you would like to remove your Sparks Dev Account ({{email}}) from this device?"
-msgstr "Das Entfernen des Sparks Dev-Kontos löscht alle zugehörigen Daten von diesem Gerät. Soll wirklich das BityPay-Konto ({{email}}) von diesem Gerät entfernt werden?"
+msgid "Removing your SparksPay Dev account will remove all associated SparksPay Dev account data from this device. Are you sure you would like to remove your SparksPay Dev Account ({{email}}) from this device?"
+msgstr "Das Entfernen des SparksPay Dev-Kontos löscht alle zugehörigen Daten von diesem Gerät. Soll wirklich das BityPay-Konto ({{email}}) von diesem Gerät entfernt werden?"
 
-#: www/views/join.html:116
-#: www/views/join.html:124
-#: www/views/tab-create-personal.html:86
-#: www/views/tab-create-personal.html:94
-#: www/views/tab-create-shared.html:115
-#: www/views/tab-create-shared.html:123
+#: www/views/join.html:116 www/views/join.html:124
+#: www/views/tab-create-personal.html:86 www/views/tab-create-personal.html:94
+#: www/views/tab-create-shared.html:115 www/views/tab-create-shared.html:123
 #: www/views/tab-export-file.html:17
 msgid "Repeat password"
 msgstr "Passwort wiederholen"
@@ -2461,16 +2292,13 @@ msgstr "Nochmals versuchen"
 msgid "Retry Camera"
 msgstr "Kamera nochmals versuchen"
 
-#: www/views/addressbook.add.html:56
-#: www/views/includes/note.html:9
-#: www/views/preferencesAlias.html:21
-#: www/views/preferencesBwsUrl.html:25
+#: www/views/addressbook.add.html:56 www/views/includes/note.html:9
+#: www/views/preferencesAlias.html:21 www/views/preferencesBwsUrl.html:25
 #: www/views/preferencesNotifications.html:46
 msgid "Save"
 msgstr "Speichern"
 
-#: www/views/tab-scan.html:3
-#: www/views/tabs.html:11
+#: www/views/tab-scan.html:3 www/views/tabs.html:11
 msgid "Scan"
 msgstr "Scannen"
 
@@ -2484,7 +2312,7 @@ msgstr "Adresse auf neue Beträge überprüfen"
 
 #: www/views/modals/fingerprintCheck.html:11
 msgid "Scan again"
-msgstr ""
+msgstr "Nochmals scanen"
 
 #: src/js/services/fingerprintService.js:55
 msgid "Scan your fingerprint please"
@@ -2496,7 +2324,7 @@ msgstr "Prüfe Wallet auf neue Beträge..."
 
 #: www/views/includes/walletList.html:11
 msgid "Scanning funds..."
-msgstr ""
+msgstr "Scanne Geldmittel..."
 
 #: www/views/includes/screenshotWarningModal.html:7
 msgid "Screenshots are not secure"
@@ -2508,7 +2336,7 @@ msgstr "Transaktionen durchsuchen"
 
 #: www/views/tab-send.html:18
 msgid "Search or enter sparks address"
-msgstr "Sparks-Adresse suchen oder eingeben"
+msgstr "SparksPay-Adresse suchen oder eingeben"
 
 #: www/views/modals/search.html:16
 msgid "Search transactions"
@@ -2524,7 +2352,7 @@ msgstr "Sicherheit"
 
 #: www/views/modals/mercadolibre-card-details.html:64
 msgid "See invoice"
-msgstr ""
+msgstr "Rechnung einsehen"
 
 #: www/views/tab-import-file.html:7
 msgid "Select a backup file"
@@ -2539,18 +2367,15 @@ msgid "Self-signed Certificate"
 msgstr "Selbstsigniertes Zertifikat"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Sparks..."
-msgstr "Verkauf von Sparks..."
+msgid "Selling SparksPay..."
+msgstr "Verkauf von SparksPay..."
 
-#: www/views/feedback/send.html:13
-#: www/views/feedback/send.html:43
-#: www/views/tab-send.html:3
-#: www/views/tabs.html:15
+#: www/views/feedback/send.html:13 www/views/feedback/send.html:43
+#: www/views/tab-send.html:3 www/views/tabs.html:15
 msgid "Send"
 msgstr "Senden"
 
-#: www/views/feedback/send.html:3
-#: www/views/tab-settings.html:29
+#: www/views/feedback/send.html:3 www/views/tab-settings.html:29
 msgid "Send Feedback"
 msgstr "Feedback senden"
 
@@ -2562,8 +2387,7 @@ msgstr "Geld senden"
 msgid "Send addresses by email"
 msgstr "Adressen per e-Mail versenden"
 
-#: www/views/includes/logOptions.html:17
-#: www/views/tab-export-file.html:82
+#: www/views/includes/logOptions.html:17 www/views/tab-export-file.html:82
 msgid "Send by email"
 msgstr "Per E-Mail versenden"
 
@@ -2577,16 +2401,14 @@ msgstr "Sende max. Betrag"
 
 #: www/views/includes/incomingDataMenu.html:46
 msgid "Send payment to this address"
-msgstr ""
+msgstr "Zahlung an diese Adresse senden"
 
 #: www/views/feedback/rateApp.html:17
 msgid "Send us feedback instead"
 msgstr "Senden Sie uns Feedback stattdessen"
 
-#: www/views/confirm.html:15
-#: www/views/includes/txp.html:12
-#: www/views/modals/txp-details.html:19
-#: www/views/tx-details.html:23
+#: www/views/confirm.html:15 www/views/includes/txp.html:12
+#: www/views/modals/txp-details.html:19 www/views/tx-details.html:23
 msgid "Sending"
 msgstr "Senden"
 
@@ -2610,10 +2432,8 @@ msgstr "Sende Transaktion"
 msgid "Sending {{amountStr}} from your {{name}} wallet"
 msgstr "Sende {{amountStr}} aus Ihrer Wallet {{name}}"
 
-#: www/views/includes/walletHistory.html:42
-#: www/views/modals/tx-status.html:9
-#: www/views/topup.html:100
-#: www/views/tx-details.html:17
+#: www/views/includes/walletHistory.html:42 www/views/modals/tx-status.html:9
+#: www/views/topup.html:100 www/views/tx-details.html:17
 msgid "Sent"
 msgstr "Gesendet"
 
@@ -2625,10 +2445,9 @@ msgstr "Guthaben senden"
 msgid "Server response could not be verified"
 msgstr "Antwort des Servers konnte nicht verifiziert werden"
 
-#: src/js/controllers/buyAmazon.js:97
-#: src/js/controllers/buyMercadoLibre.js:97
+#: src/js/controllers/buyAmazon.js:97 src/js/controllers/buyMercadoLibre.js:97
 msgid "Service not available"
-msgstr ""
+msgstr "Service nicht verfügbar"
 
 #: www/views/includes/homeIntegrations.html:3
 msgid "Services"
@@ -2648,15 +2467,13 @@ msgstr "Passwort einrichten"
 
 #: src/js/controllers/preferencesFee.js:85
 msgid "Set your own fee in satoshis/byte"
-msgstr ""
+msgstr "Stellen Sie Ihre eigene Gebühr in Satoshis / Byte ein"
 
-#: www/views/tab-settings.html:3
-#: www/views/tabs.html:19
+#: www/views/tab-settings.html:3 www/views/tabs.html:19
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: www/views/feedback/complete.html:17
-#: www/views/feedback/complete.html:26
+#: www/views/feedback/complete.html:17 www/views/feedback/complete.html:26
 msgid "Share the love by inviting your friends."
 msgstr "Teilen Sie die Liebe indem Sie Ihre Freunde einladen."
 
@@ -2664,8 +2481,7 @@ msgstr "Teilen Sie die Liebe indem Sie Ihre Freunde einladen."
 msgid "Share this invitation with your copayers"
 msgstr "Einladung mit Copayern teilen"
 
-#: src/js/controllers/feedback/complete.js:5
-#: www/views/tab-settings.html:36
+#: src/js/controllers/feedback/complete.js:5 www/views/tab-settings.html:36
 msgid "Share {{appName}}"
 msgstr "{{appName}} weiterleiten"
 
@@ -2681,19 +2497,16 @@ msgstr "Wiederherstellungsphrase anzeigen"
 msgid "Show address"
 msgstr "Adresse anzeigen"
 
-#: www/views/join.html:48
-#: www/views/tab-create-personal.html:27
-#: www/views/tab-create-shared.html:56
-#: www/views/tab-export-file.html:24
-#: www/views/tab-import-file.html:29
-#: www/views/tab-import-hardware.html:30
+#: www/views/join.html:48 www/views/tab-create-personal.html:27
+#: www/views/tab-create-shared.html:56 www/views/tab-export-file.html:24
+#: www/views/tab-import-file.html:29 www/views/tab-import-hardware.html:30
 #: www/views/tab-import-phrase.html:35
 msgid "Show advanced options"
 msgstr "Erweiterte Optionen anzeigen"
 
 #: www/views/tab-send.html:42
 msgid "Show sparks address"
-msgstr "Sparks-Adresse anzeigen"
+msgstr "SparksPay-Adresse anzeigen"
 
 #: www/views/tab-send.html:64
 msgid "Show more"
@@ -2711,40 +2524,35 @@ msgstr "Unterschreibe Transaktion"
 msgid "Since only you control your money, you’ll need to save your backup phrase in case this app is deleted."
 msgstr "Da nur Sie Ihr Geld kontrollieren müssen Sie Ihre Wiederherstellungsphrase gut sichern, für den Fall dass die App gelöscht wird."
 
-#: www/views/tab-create-personal.html:122
-#: www/views/tab-create-shared.html:151
+#: www/views/tab-create-personal.html:122 www/views/tab-create-shared.html:151
 msgid "Single Address Wallet"
 msgstr "Wallet mit einer einzigen Adresse"
 
-#: www/views/onboarding/collectEmail.html:40
-#: www/views/onboarding/tour.html:11
+#: www/views/onboarding/collectEmail.html:40 www/views/onboarding/tour.html:11
 msgid "Skip"
 msgstr "Überspringen"
 
-#: src/js/controllers/confirm.js:371
-#: src/js/controllers/modals/txpDetails.js:47
+#: src/js/controllers/confirm.js:371 src/js/controllers/modals/txpDetails.js:47
 msgid "Slide to accept"
-msgstr ""
+msgstr "Schieben Sie, um zu akzeptieren"
 
 #: www/views/buyAmazon.html:96
 msgid "Slide to buy"
-msgstr ""
+msgstr "Schieben Sie, um zu kaufen"
 
 #: src/js/controllers/confirm.js:365
 msgid "Slide to pay"
-msgstr ""
+msgstr "Schieben Sie, um zu zahlen"
 
-#: src/js/controllers/confirm.js:377
-#: src/js/controllers/modals/txpDetails.js:40
+#: src/js/controllers/confirm.js:377 src/js/controllers/modals/txpDetails.js:40
 msgid "Slide to send"
-msgstr ""
+msgstr "Schieben Sie, um zu senden"
 
 #: www/views/preferencesCash.html:56
-msgid "Some of your wallets are not eligible for Sparks Cash support. You can try to access BCH funds from these wallets using the"
-msgstr ""
+msgid "Some of your wallets are not eligible for SparksPay Cash support. You can try to access BCH funds from these wallets using the"
+msgstr "Einige Ihrer Geldbörsen sind für die SparksPay Cash-Unterstützung nicht berechtigt. Sie können versuchen, über diese Brieftaschen auf BCH-Mittel zuzugreifen"
 
-#: src/js/controllers/create.js:86
-#: src/js/controllers/join.js:70
+#: src/js/controllers/create.js:86 src/js/controllers/join.js:70
 msgid "Specify Recovery Phrase..."
 msgstr "Wiederherstellungsphrase angeben..."
 
@@ -2761,12 +2569,12 @@ msgid "Spending Password needed"
 msgstr "Berechtigungscode erforderlich"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Sparks network fees"
-msgstr ""
+msgid "Spending this balance will need significant SparksPay network fees"
+msgstr "Die Ausgabe dieses Guthabens erfordert erhebliche SparksPay-Netzwerkgebühren"
 
 #: www/views/tab-send.html:33
 msgid "Start sending sparks"
-msgstr "Starte mit dem Senden der Sparks"
+msgstr "Starte mit dem Senden der SparksPay"
 
 #: www/views/lockSetup.html:3
 msgid "Startup Lock"
@@ -2775,7 +2583,7 @@ msgstr "Sperre des Startups"
 #: www/views/mercadoLibreCards.html:21
 #: www/views/modals/mercadolibre-card-details.html:42
 msgid "Still pending"
-msgstr ""
+msgstr "Noch ausstehend"
 
 #: www/views/topup.html:101
 msgid "Success"
@@ -2789,8 +2597,7 @@ msgstr "Niedrigste Priorität"
 msgid "Sweep"
 msgstr "Leeren"
 
-#: www/views/includes/incomingDataMenu.html:89
-#: www/views/paperWallet.html:3
+#: www/views/includes/incomingDataMenu.html:89 www/views/paperWallet.html:3
 msgid "Sweep paper wallet"
 msgstr "Paperwallet löschen"
 
@@ -2804,16 +2611,15 @@ msgstr "DIESE AKTION KANN NICHT RÜCKGÄNGIG GEMACHT WERDEN"
 
 #: www/views/onboarding/welcome.html:5
 msgid "Take control of your money,<br>get started with sparks."
-msgstr "Übernehmen Sie die Kontrolle über Ihr Geld, <br>Legen Sie los mit Sparks."
+msgstr "Übernehmen Sie die Kontrolle über Ihr Geld, <br>Legen Sie los mit SparksPay."
 
-#: www/views/walletDetails.html:132
-#: www/views/walletDetails.html:52
+#: www/views/walletDetails.html:132 www/views/walletDetails.html:52
 msgid "Tap and hold to show"
 msgstr "Anzeigen durch tippen und halten"
 
 #: www/views/includes/walletInfo.html:3
 msgid "Tap to recreate"
-msgstr ""
+msgstr "Tippen Sie auf, um neu zu erstellen"
 
 #: www/views/includes/walletInfo.html:4
 msgid "Tap to retry"
@@ -2823,15 +2629,12 @@ msgstr "Zum Wiederholen antippen"
 msgid "Terms Of Use"
 msgstr "Nutzungsbedingungen"
 
-#: www/views/modals/terms.html:3
-#: www/views/onboarding/disclaimer.html:29
-#: www/views/onboarding/disclaimer.html:43
-#: www/views/preferencesAbout.html:30
+#: www/views/modals/terms.html:3 www/views/onboarding/disclaimer.html:29
+#: www/views/onboarding/disclaimer.html:43 www/views/preferencesAbout.html:30
 msgid "Terms of Use"
 msgstr "Nutzungsbedingungen"
 
-#: www/views/tab-create-personal.html:118
-#: www/views/tab-import-phrase.html:68
+#: www/views/tab-create-personal.html:118 www/views/tab-import-phrase.html:68
 msgid "Testnet"
 msgstr "Testnet"
 
@@ -2840,8 +2643,7 @@ msgid "Text"
 msgstr ""
 
 #: src/js/controllers/feedback/send.js:27
-#: src/js/controllers/feedback/send.js:76
-#: www/views/feedback/complete.html:20
+#: src/js/controllers/feedback/send.js:76 www/views/feedback/complete.html:20
 #: www/views/feedback/rateApp.html:4
 msgid "Thank you!"
 msgstr "Vielen Dank!"
@@ -2860,15 +2662,15 @@ msgstr "Die Chrome-Anwendung für Ledger ist nicht installiert"
 
 #: www/views/modals/wallet-balance.html:55
 msgid "The amount of sparks immediately spendable from this wallet."
-msgstr "Den Betrag an Sparks sofort aus dieser Wallet zahlen."
+msgstr "Den Betrag an SparksPay sofort aus dieser Wallet zahlen."
 
 #: www/views/modals/wallet-balance.html:93
 msgid "The amount of sparks stored in this wallet that is allocated as inputs to your pending transaction proposals. The amount is determined using unspent transaction outputs associated with this wallet and may be more than the actual amounts associated with your pending transaction proposals."
-msgstr "Der Betrag an Sparks gespeichert in dieser Wallet ist zugewiesen als Einsatz für die ausstehende Transaktion. Dem Betrag wurde zugewiesen unverbrauchte Transaktions-Ausgänge zu verwenden, welche mit dieser Brieftasche verbunden sind, und entspricht möglicherweise mehr als die tatsächlichen Beträge welche im Zusammenhang mit Ihren ausstehenden Transaktions-Betrag stehen."
+msgstr "Der Betrag an SparksPay gespeichert in dieser Wallet ist zugewiesen als Einsatz für die ausstehende Transaktion. Dem Betrag wurde zugewiesen unverbrauchte Transaktions-Ausgänge zu verwenden, welche mit dieser Brieftasche verbunden sind, und entspricht möglicherweise mehr als die tatsächlichen Beträge welche im Zusammenhang mit Ihren ausstehenden Transaktions-Betrag stehen."
 
 #: www/views/modals/wallet-balance.html:74
 msgid "The amount of sparks stored in this wallet with less than 1 blockchain confirmation."
-msgstr "Die Menge an Sparks sind in dieser Geldbörse mit weniger als 1 Blockchain Bestätigung gespeichert."
+msgstr "Die Menge an SparksPay sind in dieser Geldbörse mit weniger als 1 Blockchain Bestätigung gespeichert."
 
 #: www/views/tab-import-phrase.html:5
 msgid "The derivation path"
@@ -2887,8 +2689,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "Die maximale Anzahl aufeinander folgender ungenutzter Adressen (20) wurde erreicht. Wenn eine Ihrer ungenutzten Adressen eine Zahlung erhält wird eine neue Adresse erzeugt und in der Registerkarte \"Empfangen\" gezeigt."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the Sparks Dev website."
-msgstr "Die offizielle englischen Nutzungsbedingungen sind auf der Sparks Dev Website verfügbar."
+msgid "The official English Terms of Service are available on the SparksPay Dev website."
+msgstr "Die offizielle englischen Nutzungsbedingungen sind auf der SparksPay Dev Website verfügbar."
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2902,10 +2704,8 @@ msgstr "Die Zahlung wurde erzeugt, kann aber nicht abgeschlossen werden. Bitte e
 msgid "The payment was removed by creator"
 msgstr "Die Zahlung wurde vom Ersteller entfernt"
 
-#: www/views/join.html:91
-#: www/views/tab-create-personal.html:63
-#: www/views/tab-create-shared.html:92
-#: www/views/tab-import-phrase.html:43
+#: www/views/join.html:91 www/views/tab-create-personal.html:63
+#: www/views/tab-create-shared.html:92 www/views/tab-import-phrase.html:43
 msgid "The recovery phrase could require a password to be imported"
 msgstr "Um die Wiederherstellungsphrase zu importieren könnte ein Passwort nötig sein"
 
@@ -2923,7 +2723,7 @@ msgstr "Der Zahlungsvorschlag ist nicht ausstehend"
 
 #: www/views/modals/wallet-balance.html:36
 msgid "The total amount of sparks stored in this wallet."
-msgstr "Der Gesamtbetrag an Sparks vorrätig in dieser Wallet."
+msgstr "Der Gesamtbetrag an SparksPay vorrätig in dieser Wallet."
 
 #: www/views/preferencesHistory.html:27
 msgid "The transaction history and every new incoming transaction are cached in the app. This feature clean this up and synchronizes again from the server"
@@ -2937,8 +2737,7 @@ msgstr "Die URL des Wallet-Diensts"
 msgid "There is a new version of {{appName}} available"
 msgstr "Es steht eine neue Version von {{appName}} zur Verfügung"
 
-#: src/js/controllers/import.js:227
-#: src/js/controllers/import.js:252
+#: src/js/controllers/import.js:227 src/js/controllers/import.js:252
 #: src/js/controllers/import.js:333
 msgid "There is an error in the form"
 msgstr "Es ist ein Fehler im Formular aufgetreten"
@@ -2954,14 +2753,13 @@ msgstr "Diese App ist fantastisch!"
 
 #: www/views/onboarding/tour.html:47
 msgid "This app stores your sparks with cutting-edge security."
-msgstr "Diese App speichert Ihre Sparks mit modernster Sicherheit."
+msgstr "Diese App speichert Ihre SparksPay mit modernster Sicherheit."
 
 #: src/js/controllers/confirm.js:523
 msgid "This sparks payment request has expired."
-msgstr "Diese Sparks Zahlungsaufforderung ist abgelaufen."
+msgstr "Diese SparksPay Zahlungsaufforderung ist abgelaufen."
 
-#: www/views/join.html:133
-#: www/views/tab-create-personal.html:103
+#: www/views/join.html:133 www/views/tab-create-personal.html:103
 #: www/views/tab-create-shared.html:132
 msgid "This password cannot be recovered. If the password is lost, there is no way you could recover your funds."
 msgstr "Dieses Passwort kann nicht wiederhergestellt werden. Wenn das Passwort verloren gegangen ist gibt es keine Möglichkeit mehr Ihr Geld zurück zu holen."
@@ -2971,56 +2769,49 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Diese Wiederherstellungsphrase entstand mit einem Passwort. Zur Wiederherstellung der Wallet sind die Wiederherstellungsphrase und das Passwort erforderlich."
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Sparks network fees. Spending these funds will need a Sparks network fee cost comparable to the funds itself."
-msgstr ""
+msgid "This transaction amount is too small compared to current SparksPay network fees. Spending these funds will need a SparksPay network fee cost comparable to the funds itself."
+msgstr "Dieser Transaktionsbetrag ist im Vergleich zu den aktuellen SparksPay-Netzwerkgebühren zu gering. Die Ausgabe dieser Mittel erfordert eine SparksPay-Netzgebühr, die mit den Mitteln selbst vergleichbar ist."
 
 #: www/views/tx-details.html:87
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
 msgstr "Die Bestätigung dieser Transaktion kann sehr lange dauern oder verworfen werden, da vom Absender nur geringe Gebühren eingestellt wurden"
 
-#: www/views/walletDetails.html:109
-#: www/views/walletDetails.html:29
+#: www/views/walletDetails.html:109 www/views/walletDetails.html:29
 msgid "This wallet is not registered at the given Bitcore Wallet Service (BWS). You can recreate it from the local information."
 msgstr "Dieses Wallet ist nicht beim angegebenen Bitcore Wallet Service (BWS) registriert. Bitte aus den lokalen Informationen wiederherstellen"
 
-#: www/views/modals/txp-details.html:136
-#: www/views/tx-details.html:121
+#: www/views/modals/txp-details.html:136 www/views/tx-details.html:121
 msgid "Timeline"
 msgstr "Zeitachse"
 
-#: www/views/confirm.html:31
-#: www/views/includes/output.html:2
-#: www/views/modals/txp-details.html:109
-#: www/views/modals/txp-details.html:53
-#: www/views/tx-details.html:41
-#: www/views/tx-details.html:53
+#: www/views/confirm.html:31 www/views/includes/output.html:2
+#: www/views/modals/txp-details.html:109 www/views/modals/txp-details.html:53
+#: www/views/tx-details.html:41 www/views/tx-details.html:53
 msgid "To"
 msgstr "An"
 
 #: www/views/tab-send.html:37
 msgid "To get started, buy sparks or share your address. You can receive sparks from any wallet or service."
-msgstr "Um loszulegen kaufe Sparks oder teilen Sie ihre Adresse. Sie können Sparks von jeder beliebigen Wallet oder von einem Dienstleister/Broker empfangen."
+msgstr "Um loszulegen kaufe SparksPay oder teilen Sie ihre Adresse. Sie können SparksPay von jeder beliebigen Wallet oder von einem Dienstleister/Broker empfangen."
 
 #: www/views/tab-send.html:38
 msgid "To get started, you'll need to create a sparks wallet and get some sparks."
-msgstr "Um loszulegen müssen Sie eine Sparks-Wallet erstellen und einige Sparks erhalten."
+msgstr "Um loszulegen müssen Sie eine SparksPay-Wallet erstellen und einige SparksPay erhalten."
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your Sparks Dev account - {{email}}"
-msgstr ""
+msgid "To {{reason}} you must first add your SparksPay Dev account - {{email}}"
+msgstr "Zu {{reason}} müssen Sie zuerst Ihren SparksPay Dev-Account hinzufügen - {{email}}"
 
 #: src/js/services/onGoingProcess.js:48
 msgid "Top up in progress..."
-msgstr ""
+msgstr "Aufladen in Arbeit ..."
 
 #: src/js/controllers/topup.js:206
 msgid "Top up {{amountStr}} to debit card ({{cardLastNumber}})"
-msgstr ""
+msgstr "Debitkarte {{amountStr}} aufladen ({{cardLastNumber}})"
 
-#: www/views/buyAmazon.html:61
-#: www/views/buyMercadoLibre.html:60
-#: www/views/modals/wallet-balance.html:23
-#: www/views/topup.html:70
+#: www/views/buyAmazon.html:61 www/views/buyMercadoLibre.html:60
+#: www/views/modals/wallet-balance.html:23 www/views/topup.html:70
 msgid "Total"
 msgstr "Gesamt"
 
@@ -3034,7 +2825,7 @@ msgstr "Gesamtanzahl der Copayer"
 
 #: www/views/addresses.html:81
 msgid "Total wallet inputs"
-msgstr ""
+msgstr "Summe der Walleteingaben"
 
 #: src/js/services/fingerprintService.js:62
 #: src/js/services/fingerprintService.js:67
@@ -3047,10 +2838,9 @@ msgstr "Transaktion"
 
 #: www/views/confirm.html:126
 msgid "Transaction Created"
-msgstr ""
+msgstr "Transaktion erstellt"
 
-#: www/views/preferencesAdvanced.html:29
-#: www/views/preferencesHistory.html:3
+#: www/views/preferencesAdvanced.html:29 www/views/preferencesHistory.html:3
 msgid "Transaction History"
 msgstr "Transaktionsverlauf"
 
@@ -3059,31 +2849,29 @@ msgid "Transaction already broadcasted"
 msgstr "Transaktion wurde bereits übermittelt"
 
 #: src/js/controllers/buyAmazon.js:310
-#: src/js/controllers/buyMercadoLibre.js:303
-#: src/js/controllers/topup.js:281
+#: src/js/controllers/buyMercadoLibre.js:303 src/js/controllers/topup.js:281
 msgid "Transaction has not been created"
-msgstr ""
+msgstr "Transaktion wurde nicht erstellt"
 
 #: www/views/topup.html:104
 msgid "Transaction initiated"
-msgstr ""
+msgstr "Transaktion eingeleitet"
 
 #: src/js/controllers/tx-details.js:119
 msgid "Transaction not available at this time"
 msgstr "Transaktion ist zu diesem Zeitpunkt nicht verfügbar"
 
-#: src/js/controllers/activity.js:45
-#: src/js/controllers/tab-home.js:180
+#: src/js/controllers/activity.js:45 src/js/controllers/tab-home.js:180
 msgid "Transaction not found"
 msgstr "Transaktion konnte nicht gefunden werden"
 
 #: www/views/modals/chooseFeeLevel.html:55
 msgid "Transactions without fee are not supported."
-msgstr ""
+msgstr "Transaktionen ohne Gebühr werden nicht unterstützt."
 
 #: src/js/controllers/paperWallet.js:109
 msgid "Transfer to"
-msgstr ""
+msgstr "Übertragen nach"
 
 #: www/views/tab-send.html:72
 msgid "Transfer to Wallet"
@@ -3095,7 +2883,7 @@ msgstr "Versuchen Sie es erneut in {{expires}}"
 
 #: www/views/bitpayCardIntro.html:18
 msgid "Turn sparks into dollars, swipe anywhere Visa<sup>&reg;</sup> is accepted."
-msgstr "Wechseln Sie Sparks in Dollar, wechseln Sie überall wo Visa<sup>&reg;</sup> akzeptiert wird."
+msgstr "Wechseln Sie SparksPay in Dollar, wechseln Sie überall wo Visa<sup>&reg;</sup> akzeptiert wird."
 
 #: www/views/tab-import-phrase.html:17
 msgid "Type the Recovery Phrase (usually 12 words)"
@@ -3151,10 +2939,9 @@ msgstr "Überprüfe Wiederherstellungsphrase..."
 
 #: www/views/modals/fingerprintCheck.html:4
 msgid "Verify your identity"
-msgstr ""
+msgstr "Bestätigen Sie Ihre Identität"
 
-#: www/views/preferencesAbout.html:14
-#: www/views/preferencesExternal.html:25
+#: www/views/preferencesAbout.html:14 www/views/preferencesExternal.html:25
 msgid "Version"
 msgstr "Version"
 
@@ -3170,8 +2957,7 @@ msgstr "Alle Adressen anzeigen"
 msgid "View Terms of Service"
 msgstr "Nutzungsbedingungen anzeigen"
 
-#: src/js/controllers/bitpayCard.js:122
-#: src/js/controllers/tx-details.js:191
+#: src/js/controllers/bitpayCard.js:122 src/js/controllers/tx-details.js:191
 msgid "View Transaction on Insight"
 msgstr "Transaktionen auf Insight anzeigen"
 
@@ -3204,8 +2990,8 @@ msgid "WARNING: UNTRUSTED CERTIFICATE"
 msgstr "WARNUNG: NICHT VERTRAUENSWÜRDIGES ZERTIFIKAT"
 
 #: www/views/preferencesPrivateKey.html:14
-msgid "WARNING: Your extended private keys are all that is needed to access your sparks funds. Be sure to protect your private keys and store them only on secure devices. Sparks Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
-msgstr ""
+msgid "WARNING: Your extended private keys are all that is needed to access your sparks funds. Be sure to protect your private keys and store them only on secure devices. SparksPay Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgstr "WARNUNG: Ihre erweiterten privaten Schlüssel sind alles, was Sie für den Zugriff auf Ihr Funkengeld benötigen. Stellen Sie sicher, dass Ihre privaten Schlüssel geschützt sind, und bewahren Sie sie nur auf sicheren Geräten auf. SparksPay Dev hat keinen Zugriff auf Ihre privaten Schlüssel, daher sind Sie alleine für Ihre Schlüssel verantwortlich. Wenn Sie den Schlüsselzugriff mit externen Diensten teilen, tragen Sie die Verantwortung für die Gefahr eines Diebstahls oder einer Verletzung. Nur fortgeschrittene Benutzer sollten mit erweiterten privaten Schlüsseln direkt umgehen."
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
@@ -3223,8 +3009,7 @@ msgstr "Warte auf copayer"
 msgid "Waiting..."
 msgstr "Warte..."
 
-#: www/views/addresses.html:3
-#: www/views/preferencesAdvanced.html:17
+#: www/views/addresses.html:3 www/views/preferencesAdvanced.html:17
 msgid "Wallet Addresses"
 msgstr "Wallet-Adressen"
 
@@ -3251,14 +3036,13 @@ msgstr "Wallet-Informationen"
 
 #: www/views/addresses.html:76
 msgid "Wallet Inputs"
-msgstr ""
+msgstr "Wallet-Eingänge"
 
 #: www/views/join.html:26
 msgid "Wallet Invitation"
 msgstr "Wallet Einladung"
 
-#: www/views/join.html:60
-#: www/views/tab-create-personal.html:38
+#: www/views/join.html:60 www/views/tab-create-personal.html:38
 #: www/views/tab-create-shared.html:67
 msgid "Wallet Key"
 msgstr "Wallet-Schlüssel"
@@ -3275,8 +3059,7 @@ msgstr "Wallet-Name (bei der Erzeugung)"
 msgid "Wallet Network"
 msgstr "Wallet-Netzwerk"
 
-#: www/views/join.html:77
-#: www/views/tab-create-personal.html:50
+#: www/views/join.html:77 www/views/tab-create-personal.html:50
 #: www/views/tab-create-shared.html:79
 msgid "Wallet Recovery Phrase"
 msgstr "Wallet-Wiederherstellungsphrase"
@@ -3285,8 +3068,7 @@ msgstr "Wallet-Wiederherstellungsphrase"
 msgid "Wallet Recovery Phrase is invalid"
 msgstr "Wallet-Wiederherstellungsphrase ist ungültig"
 
-#: www/views/preferencesAdvanced.html:25
-#: www/views/tab-import-phrase.html:73
+#: www/views/preferencesAdvanced.html:25 www/views/tab-import-phrase.html:73
 msgid "Wallet Service URL"
 msgstr "URL des Wallet-Diensts"
 
@@ -3294,8 +3076,7 @@ msgstr "URL des Wallet-Diensts"
 msgid "Wallet Settings"
 msgstr "Wallet-Einstellungen"
 
-#: www/views/tab-import-hardware.html:11
-#: www/views/tab-import-phrase.html:61
+#: www/views/tab-import-hardware.html:11 www/views/tab-import-phrase.html:61
 msgid "Wallet Type"
 msgstr "Wallet-Typ"
 
@@ -3305,7 +3086,7 @@ msgstr "Wallet exstiert bereits"
 
 #: src/js/services/profileService.js:516
 msgid "Wallet already in {{appName}}"
-msgstr ""
+msgstr "Geldbörse bereits in {{appName}}"
 
 #: www/views/includes/walletActivity.html:6
 msgid "Wallet created"
@@ -3327,8 +3108,7 @@ msgstr "Wallet ist gesperrt"
 msgid "Wallet is not complete"
 msgstr "Wallet ist unvollständig"
 
-#: www/views/tab-create-personal.html:12
-#: www/views/tab-create-shared.html:12
+#: www/views/tab-create-personal.html:12 www/views/tab-create-shared.html:12
 msgid "Wallet name"
 msgstr "Name des Wallets"
 
@@ -3336,8 +3116,7 @@ msgstr "Name des Wallets"
 msgid "Wallet needs backup"
 msgstr "Wallet braucht Sicherung"
 
-#: www/views/tab-receive.html:59
-#: www/views/walletDetails.html:169
+#: www/views/tab-receive.html:59 www/views/walletDetails.html:169
 msgid "Wallet not backed up"
 msgstr "Wallet nicht gesichert"
 
@@ -3345,8 +3124,7 @@ msgstr "Wallet nicht gesichert"
 msgid "Wallet not found"
 msgstr "Wallet nicht gefunden"
 
-#: src/js/controllers/preferencesCash.js:81
-#: src/js/controllers/tab-home.js:238
+#: src/js/controllers/preferencesCash.js:81 src/js/controllers/tab-home.js:238
 msgid "Wallet not registered"
 msgstr "Wallet nicht registriert"
 
@@ -3356,7 +3134,7 @@ msgstr "Wallet ist nicht beim Wallet-Service registiert. Neu erzeugen mit \"Neue
 
 #: www/views/backup.html:12
 msgid "Wallet recovery phrase not available"
-msgstr ""
+msgstr "Wallet-Wiederherstellungssatz nicht verfügbar"
 
 #: src/js/services/bwcError.js:50
 msgid "Wallet service not found"
@@ -3458,7 +3236,7 @@ msgstr "Sie können Beiträge leisten indem Sie sich auf unserer Crowdin Communi
 
 #: www/views/tab-scan.html:16
 msgid "You can scan sparks addresses, payment requests, paper wallets, and more."
-msgstr "Sie können Sparks-Adressen, Zahlungsaufforderungen, Papier-Wallets und mehr scannen."
+msgstr "Sie können SparksPay-Adressen, Zahlungsaufforderungen, Papier-Wallets und mehr scannen."
 
 #: src/js/controllers/preferencesAbout.js:14
 msgid "You can see the latest developments and contribute to this open source app by visiting our project on GitHub."
@@ -3466,7 +3244,7 @@ msgstr "Sie können auf GitHub die neuesten Entwicklungen ansehen und zu dieser 
 
 #: www/views/onboarding/tour.html:19
 msgid "You can spend sparks at millions of websites and stores worldwide."
-msgstr "Sie können Sparks auf Millionen von Webseiten und Shops weltweit ausgeben."
+msgstr "Sie können SparksPay auf Millionen von Webseiten und Shops weltweit ausgeben."
 
 #: www/views/backup.html:15
 msgid "You can still export it from Advanced &gt; Export."
@@ -3478,40 +3256,39 @@ msgstr "Sie können auch mit andere Währungen wie US-Dollar, Euro oder Pfund ha
 
 #: www/views/onboarding/tour.html:46
 msgid "You control your sparks."
-msgstr "Sie kontrollieren Ihre Sparks."
+msgstr "Sie kontrollieren Ihre SparksPay."
 
 #: www/views/modals/chooseFeeLevel.html:64
 msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
-msgstr ""
+msgstr "Sie sollten keine Gebühr höher als {{maxFeeRecommended}} Satoshis / Byte festlegen."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your Sparks Dev Card."
-msgstr ""
+msgid "You will need to log back for fill in your SparksPay Dev Card."
+msgstr "Sie müssen sich erneut anmelden, um Ihre SparksPay Dev Card auszufüllen."
 
 #: www/views/preferencesNotifications.html:34
 msgid "You'll receive email notifications about payments sent and received from your wallets."
 msgstr "Sie erhalten E-Mail Benachrichtigungen über gesendete und empfangen Zahlungen aus Ihren Wallets."
 
 #: www/views/bitpayCard.html:50
-msgid "Your Sparks Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr ""
+msgid "Your SparksPay Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgstr "Ihre SparksPay Dev Card ist fertig. Fügen Sie Ihrer Karte Geld hinzu, um sie in Geschäften und Geldautomaten weltweit zu verwenden."
 
-#: www/views/mercadoLibre.html:57
-#: www/views/mercadoLibreCards.html:6
+#: www/views/mercadoLibre.html:57 www/views/mercadoLibreCards.html:6
 msgid "Your Gift Cards"
-msgstr ""
+msgstr "Deine Gift Cards"
 
 #: www/views/includes/confirmBackupPopup.html:6
 msgid "Your sparks wallet is backed up!"
-msgstr "Ihre Sparks-Wallet wurde gesichert!"
+msgstr "Ihre SparksPay-Wallet wurde gesichert!"
 
 #: www/views/tab-home.html:50
 msgid "Your sparks wallet is ready!"
-msgstr "Ihre Sparks-Wallet ist fertig!"
+msgstr "Ihre SparksPay-Wallet ist fertig!"
 
 #: www/views/modals/chooseFeeLevel.html:61
 msgid "Your fee is lower than recommended."
-msgstr ""
+msgstr "Ihre Gebühr ist niedriger als empfohlen."
 
 #: www/views/feedback/send.html:42
 msgid "Your ideas, feedback, or comments"
@@ -3525,18 +3302,17 @@ msgstr "Ihr Name"
 msgid "Your nickname"
 msgstr "Name des Teilnehmers"
 
-#: www/views/tab-export-file.html:11
-#: www/views/tab-import-file.html:20
+#: www/views/tab-export-file.html:11 www/views/tab-import-file.html:20
 msgid "Your password"
 msgstr "Passwort"
 
 #: www/views/buyAmazon.html:102
 msgid "Your purchase could not be completed"
-msgstr ""
+msgstr "Ihr Einkauf konnte nicht abgeschlossen werden"
 
 #: www/views/buyAmazon.html:105
 msgid "Your purchase was added to the list of pending"
-msgstr ""
+msgstr "Ihr Kauf wurde zur Liste der ausstehenden Artikel hinzugefügt"
 
 #: www/views/onboarding/backupRequest.html:10
 msgid "Your wallet is never saved to cloud storage or standard device backups."
@@ -3548,22 +3324,19 @@ msgstr "Ihre Wallet wird verschlüsselt. Der Berechtigungscode kann nicht wieder
 
 #: www/views/includes/walletList.html:13
 #: www/views/includes/walletSelector.html:30
-#: www/views/includes/walletSelector.html:61
-#: www/views/paperWallet.html:33
-#: www/views/tab-receive.html:72
-#: www/views/walletDetails.html:131
+#: www/views/includes/walletSelector.html:61 www/views/paperWallet.html:33
+#: www/views/tab-receive.html:72 www/views/walletDetails.html:131
 #: www/views/walletDetails.html:51
 msgid "[Balance Hidden]"
 msgstr "[Guthaben versteckt]"
 
-#: www/views/walletDetails.html:141
-#: www/views/walletDetails.html:61
+#: www/views/walletDetails.html:141 www/views/walletDetails.html:61
 msgid "[Scanning Funds]"
 msgstr ""
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your Sparks Dev Visa card(s)"
-msgstr "Ihre Sparks Dev Visa Karte(n) hinzufügen"
+msgid "add your SparksPay Dev Visa card(s)"
+msgstr "Ihre SparksPay Dev Visa Karte(n) hinzufügen"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3583,7 +3356,7 @@ msgstr "in Arbeit..."
 
 #: www/views/preferencesCash.html:57
 msgid "recovery tool."
-msgstr ""
+msgstr "Wiederherstellungswerkzeug."
 
 #: src/js/controllers/buyAmazon.js:241
 msgid "{{amountStr}} for Amazon.com Gift Card"
@@ -3594,23 +3367,22 @@ msgid "{{amountStr}} for Mercado Livre Brazil Gift Card"
 msgstr ""
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.sparkspay.io (Sparks Dev's public BWS instance)."
-msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf https://bws.sparkspay.io (Sparks Devs öffentlicher BWS Instanz)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.sparkspay.io (SparksPay Dev's public BWS instance)."
+msgstr "{{appName}} hängt von Bitcore Wallet Service (BWS) ab bezüglich Blockchain Informationen, Vernetzung und Copayer Synchronisation. Die Standard Konfiguration verweist auf https://bws.sparkspay.io (SparksPay Devs öffentlicher BWS Instanz)."
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for sparks networking fees."
-msgstr "{{fee}} wird für Sparks-Netzwerkgebühren abgezogen werden."
+msgstr "{{fee}} wird für SparksPay-Netzwerkgebühren abgezogen werden."
 
 #: www/views/confirm.html:85
 msgid "{{tx.txp[wallet.id].feeRatePerStr}}  of the sending amount"
-msgstr ""
+msgstr "{{tx.txp [wallet.id] .feeRatePerStr}} des Sendebetrags"
 
 #: www/views/walletDetails.html:218
 msgid "{{updatingTxHistoryProgress}} transactions downloaded"
 msgstr "{{updatingTxHistoryProgress}} Transaktionen werden heruntergeladen"
 
-#: www/views/copayers.html:46
-#: www/views/includes/walletInfo.html:18
+#: www/views/copayers.html:46 www/views/includes/walletInfo.html:18
 #: www/views/preferencesCash.html:33
 msgid "{{wallet.m}}-of-{{wallet.n}}"
 msgstr "{{wallet.m}}-von-{{wallet.n}}"

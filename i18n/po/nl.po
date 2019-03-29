@@ -90,8 +90,8 @@ msgid "Add Account"
 msgstr "Account Toevoegen"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add Sparks Dev Account?"
-msgstr "Sparks Dev Account Toevoegen?"
+msgid "Add SparksPay Dev Account?"
+msgstr "SparksPay Dev Account Toevoegen?"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -135,8 +135,8 @@ msgid "Add funds"
 msgstr "Saldo toevoegen"
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this Sparks Dev account ({{email}})?"
-msgstr "Deze Sparks Dev account ({{email}}) toevoegen?"
+msgid "Add this SparksPay Dev account ({{email}})?"
+msgstr "Deze SparksPay Dev account ({{email}}) toevoegen?"
 
 #: www/views/add.html:3
 msgid "Add wallet"
@@ -233,8 +233,8 @@ msgid "Anyone with your backup phrase can access or spend your sparks."
 msgstr "Iemand die uw herstel zin weet heeft toegang tot uw sparks en kan deze uitgeven."
 
 #: www/views/addresses.html:94
-msgid "Approximate Sparks network fee to transfer wallet's balance (with normal priority)"
-msgstr "Geschatte Sparks netwerk transactiekosten voor overdracht van volledige saldo van portemonnee (met normale prioriteit)"
+msgid "Approximate SparksPay network fee to transfer wallet's balance (with normal priority)"
+msgstr "Geschatte SparksPay netwerk transactiekosten voor overdracht van volledige saldo van portemonnee (met normale prioriteit)"
 
 #: www/views/backupWarning.html:10
 msgid "Are you being watched?"
@@ -269,13 +269,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "Weet u zeker dat u dit wilt overslaan?"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your Sparks Dev Card account?"
-msgstr "Weet u zeker dat u wilt uitloggen uit uw Sparks Dev Kaart account?"
+msgid "Are you sure you would like to log out of your SparksPay Dev Card account?"
+msgstr "Weet u zeker dat u wilt uitloggen uit uw SparksPay Dev Kaart account?"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your Sparks Dev Card ({{lastFourDigits}}) from this device?"
-msgstr "Weet u zeker dat u de Sparks Dev Kaart ({{lastFourDigits}}) van dit apparaat wilt verwijderen?"
+msgid "Are you sure you would like to remove your SparksPay Dev Card ({{lastFourDigits}}) from this device?"
+msgstr "Weet u zeker dat u de SparksPay Dev Kaart ({{lastFourDigits}}) van dit apparaat wilt verwijderen?"
 
 #: www/views/includes/walletInfo.html:10
 msgid "Auditable"
@@ -349,51 +349,51 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "Zorg dat u de herstel zin op een veilige plek bewaard. Als deze app verwijderd is, kan uw saldo niet meer worden hersteld zonder de herstel zin."
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "Sparks Dev Visa&reg; Cards"
-msgstr "Sparks Dev Visa&reg; Kaarten"
+msgid "SparksPay Dev Visa&reg; Cards"
+msgstr "SparksPay Dev Visa&reg; Kaarten"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Sparks Address"
-msgstr "Sparks Adres"
+msgid "SparksPay Address"
+msgstr "SparksPay Adres"
 
 #: www/views/includes/walletSelector.html:42
 #: www/views/tab-home.html:112
 #: www/views/tab-settings.html:108
-msgid "Sparks Cash Wallets"
-msgstr "Sparks Cash Portemonnees"
+msgid "SparksPay Cash Wallets"
+msgstr "SparksPay Cash Portemonnees"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:83
-msgid "Sparks Network Fee Policy"
-msgstr "Transactiekostenbeleid Sparks-netwerk"
+msgid "SparksPay Network Fee Policy"
+msgstr "Transactiekostenbeleid SparksPay-netwerk"
 
 #: www/views/includes/walletSelector.html:11
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Sparks Wallets"
-msgstr "Sparks Portemonnees"
+msgid "SparksPay Wallets"
+msgstr "SparksPay Portemonnees"
 
 #: src/js/services/incomingData.js:151
-msgid "Sparks cash Payment"
-msgstr "Sparks cash Betaling"
+msgid "SparksPay cash Payment"
+msgstr "SparksPay cash Betaling"
 
 #: www/views/onboarding/tour.html:31
-msgid "Sparks is a currency."
-msgstr "Sparks is een valuta."
+msgid "SparksPay is a currency."
+msgstr "SparksPay is een valuta."
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Sparks is different &ndash; it cannot be safely held with a bank or web service."
-msgstr "Sparks is anders &ndash; het kan niet veilig worden bewaard bij een bank of online dienst."
+msgid "SparksPay is different &ndash; it cannot be safely held with a bank or web service."
+msgstr "SparksPay is anders &ndash; het kan niet veilig worden bewaard bij een bank of online dienst."
 
 #: www/views/onboarding/tour.html:18
-msgid "Sparks is secure,<br>digital money."
-msgstr "Sparks is veilig,<br>digitaal geld."
+msgid "SparksPay is secure,<br>digital money."
+msgstr "SparksPay is veilig,<br>digitaal geld."
 
 #: www/views/preferencesFee.html:11
-msgid "Sparks transactions include a fee collected by miners on the network."
-msgstr "Sparks transacties bevatten transactiekosten betaald aan de miners in het netwerk."
+msgid "SparksPay transactions include a fee collected by miners on the network."
+msgstr "SparksPay transacties bevatten transactiekosten betaald aan de miners in het netwerk."
 
 #: www/views/buyAmazon.html:108
 msgid "Bought {{amountUnitStr}}"
@@ -422,12 +422,12 @@ msgid "Buy"
 msgstr "Kopen"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Sparks"
-msgstr "Koop &amp; Verkoop Sparks"
+msgid "Buy &amp; Sell SparksPay"
+msgstr "Koop &amp; Verkoop SparksPay"
 
 #: www/views/tab-send.html:40
-msgid "Buy Sparks"
-msgstr "Sparks kopen"
+msgid "Buy SparksPay"
+msgstr "SparksPay kopen"
 
 #: www/views/mercadoLibre.html:22
 #: www/views/mercadoLibre.html:50
@@ -439,8 +439,8 @@ msgid "Buy from"
 msgstr "Kopen van"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Sparks..."
-msgstr "Sparks kopen..."
+msgid "Buying SparksPay..."
+msgstr "SparksPay kopen..."
 
 #: src/js/services/onGoingProcess.js:12
 msgid "Calculating fee"
@@ -593,8 +593,8 @@ msgid "Confirming"
 msgstr "Bevestigen"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my Sparks Dev Card"
-msgstr "Koppelen met mijn Sparks Dev Kaart"
+msgid "Connect my SparksPay Dev Card"
+msgstr "Koppelen met mijn SparksPay Dev Kaart"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -621,8 +621,8 @@ msgid "Contribute Translations"
 msgstr "Bijdragen aan Vertalingen"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Sparks Cash using new version numbers addresses"
-msgstr "Copay ondersteunt Sparks Cash alleen met gebruik van nieuwe versienummer adressen"
+msgid "Copay only supports SparksPay Cash using new version numbers addresses"
+msgstr "Copay ondersteunt SparksPay Cash alleen met gebruik van nieuwe versienummer adressen"
 
 #: src/js/services/bwcError.js:62
 msgid "Copayer already in this wallet"
@@ -814,7 +814,7 @@ msgstr "Gedeelde Portemonnee Aanmaken"
 #: www/views/tab-home.html:89
 #: www/views/tab-send.html:41
 msgid "Create sparks wallet"
-msgstr "Sparks portemonnee aanmaken"
+msgstr "SparksPay portemonnee aanmaken"
 
 #: www/views/tab-create-personal.html:131
 msgid "Create new wallet"
@@ -985,8 +985,8 @@ msgid "Enter Spending Password"
 msgstr "Voer Bestedingswachtwoord in"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your Sparks Dev account"
-msgstr "Voer Two Factor in voor uw Sparks Dev account"
+msgid "Enter Two Factor for your SparksPay Dev account"
+msgstr "Voer Two Factor in voor uw SparksPay Dev account"
 
 #: www/views/amount.html:4
 msgid "Enter amount"
@@ -1121,8 +1121,8 @@ msgid "Error in Payment Protocol"
 msgstr "Fout in Betalings Protocol"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing Sparks Dev Account"
-msgstr "Fout tijdens koppelen Sparks Dev Account"
+msgid "Error pairing SparksPay Dev Account"
+msgstr "Fout tijdens koppelen SparksPay Dev Account"
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
@@ -1219,8 +1219,8 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "Feedback kon niet worden ingediend. Probeer het later nog eens."
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching Sparks Dev Account..."
-msgstr "Ophalen Sparks Dev Account..."
+msgid "Fetching SparksPay Dev Account..."
+msgstr "Ophalen SparksPay Dev Account..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching payment information"
@@ -1261,8 +1261,8 @@ msgid "From"
 msgstr "Van"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From Sparks Dev account"
-msgstr "Van Sparks Dev account"
+msgid "From SparksPay Dev account"
+msgstr "Van SparksPay Dev account"
 
 #: www/views/tab-import-phrase.html:57
 msgid "From Hardware Wallet"
@@ -1313,8 +1313,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "Verkrijg lokaal contant geld waar je ook gaat, van elke Visa<sup>&reg;</sup> ondersteunende pinautomaat. Kosten voor gebruik van de pinautomaat kunnen in rekening gebracht worden."
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from Sparks Dev"
-msgstr "Ontvang nieuws en updates van Sparks Dev"
+msgid "Get news and updates from SparksPay Dev"
+msgstr "Ontvang nieuws en updates van SparksPay Dev"
 
 #: www/views/bitpayCard.html:49
 msgid "Get started"
@@ -1394,8 +1394,8 @@ msgstr "Hardware portemonnee"
 
 #: src/js/controllers/create.js:178
 #: src/js/controllers/join.js:144
-msgid "Hardware wallets are not yet supported with Sparks Cash"
-msgstr "Hardware portemonnees worden nog niet ondersteund bij Sparks Cash"
+msgid "Hardware wallets are not yet supported with SparksPay Cash"
+msgstr "Hardware portemonnees worden nog niet ondersteund bij SparksPay Cash"
 
 #: www/views/modals/mercadolibre-card-details.html:69
 #: www/views/tab-settings.html:20
@@ -1500,8 +1500,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "Indien ingeschakeld, zullen portemonnees ook onbevestigd saldo proberen te besteden. Deze optie kan transactie vertragingen veroorzaken."
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor Sparks Dev can recover your funds without a backup."
-msgstr "Als dit apparaat wordt vervangen of deze app wordt verwijderd, kunnen u noch Sparks Dev uw saldo herstellen zonder backup."
+msgid "If this device is replaced or this app is deleted, neither you nor SparksPay Dev can recover your funds without a backup."
+msgstr "Als dit apparaat wordt vervangen of deze app wordt verwijderd, kunnen u noch SparksPay Dev uw saldo herstellen zonder backup."
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1907,8 +1907,8 @@ msgid "No wallets available to receive funds"
 msgstr "Geen portemonnees beschikbaar om saldo te ontvangen"
 
 #: www/views/preferencesCash.html:15
-msgid "No wallets eligible for Sparks Cash support"
-msgstr "Geen geschikte portemonnees voor Sparks Cash ondersteuning"
+msgid "No wallets eligible for SparksPay Cash support"
+msgstr "Geen geschikte portemonnees voor SparksPay Cash ondersteuning"
 
 #: src/js/controllers/preferencesCash.js:58
 msgid "Non BIP44 wallet"
@@ -1931,8 +1931,8 @@ msgid "Not enough funds for fee"
 msgstr "Onvoldoende saldo voor transactiekosten"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even Sparks Dev can access it."
-msgstr "Zelfs Sparks Dev heeft geen toegang."
+msgid "Not even SparksPay Dev can access it."
+msgstr "Zelfs SparksPay Dev heeft geen toegang."
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -2065,8 +2065,8 @@ msgid "Open website"
 msgstr "Website openen"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the Sparks Dev Card"
-msgstr "Bestel de Sparks Dev Kaart"
+msgid "Order the SparksPay Dev Card"
+msgstr "Bestel de SparksPay Dev Kaart"
 
 #: www/views/join.html:105
 #: www/views/join.html:96
@@ -2153,8 +2153,8 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "Betaling geaccepteerd. Deze zal worden verzonden door Glidera. In geval van problemen kan de betaling worden verwijderd 6 uur na aanmaken."
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Sparks Cash address format:"
-msgstr "Betalingsadres is vertaald naar nieuw adresformat voor Sparks Cash:"
+msgid "Payment address was translated to new SparksPay Cash address format:"
+msgstr "Betalingsadres is vertaald naar nieuw adresformat voor SparksPay Cash:"
 
 #: www/views/modals/txp-details.html:107
 msgid "Payment details"
@@ -2404,16 +2404,16 @@ msgid "Remove"
 msgstr "Verwijderen"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove Sparks Dev Account?"
-msgstr "Sparks Dev Account verwijderen?"
+msgid "Remove SparksPay Dev Account?"
+msgstr "SparksPay Dev Account verwijderen?"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove Sparks Dev Card?"
-msgstr "Sparks Dev Kaart verwijderen?"
+msgid "Remove SparksPay Dev Card?"
+msgstr "SparksPay Dev Kaart verwijderen?"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your Sparks Dev account will remove all associated Sparks Dev account data from this device. Are you sure you would like to remove your Sparks Dev Account ({{email}}) from this device?"
-msgstr "Het verwijderen van uw Sparks Dev account zal alle geassocieerde Sparks Dev accountgegevens van dit apparaat verwijderen. Weet u zeker dat u de Sparks Dev Account ({{email}}) van dit apparaat wilt verwijderen?"
+msgid "Removing your SparksPay Dev account will remove all associated SparksPay Dev account data from this device. Are you sure you would like to remove your SparksPay Dev Account ({{email}}) from this device?"
+msgstr "Het verwijderen van uw SparksPay Dev account zal alle geassocieerde SparksPay Dev accountgegevens van dit apparaat verwijderen. Weet u zeker dat u de SparksPay Dev Account ({{email}}) van dit apparaat wilt verwijderen?"
 
 #: www/views/join.html:116
 #: www/views/join.html:124
@@ -2539,8 +2539,8 @@ msgid "Self-signed Certificate"
 msgstr "Zelf-gesigneerd Certificaat"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Sparks..."
-msgstr "Sparks verkopen..."
+msgid "Selling SparksPay..."
+msgstr "SparksPay verkopen..."
 
 #: www/views/feedback/send.html:13
 #: www/views/feedback/send.html:43
@@ -2740,8 +2740,8 @@ msgid "Slide to send"
 msgstr "Schuiven om te verzenden"
 
 #: www/views/preferencesCash.html:56
-msgid "Some of your wallets are not eligible for Sparks Cash support. You can try to access BCH funds from these wallets using the"
-msgstr "Sommige van uw portemonnees komen niet in aanmerking voor Sparks Cash ondersteuning. U kunt proberen toegang te krijgen tot het BCH saldo van deze portemonnees met gebruik van de"
+msgid "Some of your wallets are not eligible for SparksPay Cash support. You can try to access BCH funds from these wallets using the"
+msgstr "Sommige van uw portemonnees komen niet in aanmerking voor SparksPay Cash ondersteuning. U kunt proberen toegang te krijgen tot het BCH saldo van deze portemonnees met gebruik van de"
 
 #: src/js/controllers/create.js:86
 #: src/js/controllers/join.js:70
@@ -2761,7 +2761,7 @@ msgid "Spending Password needed"
 msgstr "Bestedingswachtwoord vereist"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Sparks network fees"
+msgid "Spending this balance will need significant SparksPay network fees"
 msgstr "Dit bedrag uitgeven vereist aanzienlijke transactiekosten"
 
 #: www/views/tab-send.html:33
@@ -2887,8 +2887,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "Het maximum aantal opeenvolgende ongebruikte adressen (20) is bereikt. Wanneer een van uw ongebruikte adressen een betaling ontvangt zal een nieuw adres worden gegenereerd en worden getoond in het tabblad Ontvangen."
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the Sparks Dev website."
-msgstr "De officiële Engelse Gebruiksvoorwaarden zijn beschikbaar op de Sparks Dev website."
+msgid "The official English Terms of Service are available on the SparksPay Dev website."
+msgstr "De officiële Engelse Gebruiksvoorwaarden zijn beschikbaar op de SparksPay Dev website."
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2971,8 +2971,8 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "Deze herstel zin is aangemaakt met een wachtwoord. Om deze portemonnee te herstellen heeft u de herstel zin en het wachtwoord nodig."
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Sparks network fees. Spending these funds will need a Sparks network fee cost comparable to the funds itself."
-msgstr "Het bedrag van deze transactie is te klein vergeleken met huidige Sparks netwerk transactiekosten. Bij dit bedrag betaald u transactiekosten vergelijkbaar met het bedrag zelf."
+msgid "This transaction amount is too small compared to current SparksPay network fees. Spending these funds will need a SparksPay network fee cost comparable to the funds itself."
+msgstr "Het bedrag van deze transactie is te klein vergeleken met huidige SparksPay netwerk transactiekosten. Bij dit bedrag betaald u transactiekosten vergelijkbaar met het bedrag zelf."
 
 #: www/views/tx-details.html:87
 msgid "This transaction could take a long time to confirm or could be dropped due to the low fees set by the sender"
@@ -3006,8 +3006,8 @@ msgid "To get started, you'll need to create a sparks wallet and get some sparks
 msgstr "Om aan de slag te gaan zult u een sparks portemonnee moeten aanmaken en wat sparks moeten verkrijgen."
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your Sparks Dev account - {{email}}"
-msgstr "Om {{reason}} zult u eerst uw Sparks Dev account moeten toevoegen - {{email}}"
+msgid "To {{reason}} you must first add your SparksPay Dev account - {{email}}"
+msgstr "Om {{reason}} zult u eerst uw SparksPay Dev account moeten toevoegen - {{email}}"
 
 #: src/js/services/onGoingProcess.js:48
 msgid "Top up in progress..."
@@ -3204,8 +3204,8 @@ msgid "WARNING: UNTRUSTED CERTIFICATE"
 msgstr "WAARSCHUWING: NIET-VERTROUWD CERTIFICAAT"
 
 #: www/views/preferencesPrivateKey.html:14
-msgid "WARNING: Your extended private keys are all that is needed to access your sparks funds. Be sure to protect your private keys and store them only on secure devices. Sparks Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
-msgstr "WAARSCHUWING: Uw verlengde privé sleutels zijn het enige dat nodig is om toegang tot uw sparks te verkrijgen. Bescherm uw privé sleutels goed en bewaar deze alleen op beveiligde apparaten. Sparks Dev heeft geen toegang tot uw privé sleutels, u bent zelf als enige verantwoordelijk voor het bewaren van uw sleutels. Als u toegang tot de sleutels deelt met externe diensten neemt u zelf de verantwoordelijkheid voor het risico op diefstal of inbraak. Het direct hanteren van verlengde privé sleutels is enkel voor gevorderde gebruikers."
+msgid "WARNING: Your extended private keys are all that is needed to access your sparks funds. Be sure to protect your private keys and store them only on secure devices. SparksPay Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgstr "WAARSCHUWING: Uw verlengde privé sleutels zijn het enige dat nodig is om toegang tot uw sparks te verkrijgen. Bescherm uw privé sleutels goed en bewaar deze alleen op beveiligde apparaten. SparksPay Dev heeft geen toegang tot uw privé sleutels, u bent zelf als enige verantwoordelijk voor het bewaren van uw sleutels. Als u toegang tot de sleutels deelt met externe diensten neemt u zelf de verantwoordelijkheid voor het risico op diefstal of inbraak. Het direct hanteren van verlengde privé sleutels is enkel voor gevorderde gebruikers."
 
 #: src/js/services/onGoingProcess.js:15
 msgid "Waiting for Ledger..."
@@ -3485,16 +3485,16 @@ msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte.
 msgstr "Het is af te raden transactiekosten te kiezen hoger dan {{maxFeeRecommended}} satoshi's/byte."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your Sparks Dev Card."
-msgstr "U zult opnieuw moeten inloggen om uw Sparks Dev Kaart op te laden."
+msgid "You will need to log back for fill in your SparksPay Dev Card."
+msgstr "U zult opnieuw moeten inloggen om uw SparksPay Dev Kaart op te laden."
 
 #: www/views/preferencesNotifications.html:34
 msgid "You'll receive email notifications about payments sent and received from your wallets."
 msgstr "U zult email meldingen ontvangen over verzonden en ontvangen betalingen van uw portemonnee."
 
 #: www/views/bitpayCard.html:50
-msgid "Your Sparks Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr "Uw Sparks Dev Kaart is gereed. Voeg saldo toe aan uw kaart om deze te kunnen gebruiken in winkels en pinautomaten over de hele wereld."
+msgid "Your SparksPay Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgstr "Uw SparksPay Dev Kaart is gereed. Voeg saldo toe aan uw kaart om deze te kunnen gebruiken in winkels en pinautomaten over de hele wereld."
 
 #: www/views/mercadoLibre.html:57
 #: www/views/mercadoLibreCards.html:6
@@ -3562,8 +3562,8 @@ msgid "[Scanning Funds]"
 msgstr "[Saldo Scannen]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your Sparks Dev Visa card(s)"
-msgstr "voeg uw Sparks Dev Visa kaart(en) toe"
+msgid "add your SparksPay Dev Visa card(s)"
+msgstr "voeg uw SparksPay Dev Visa kaart(en) toe"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3594,8 +3594,8 @@ msgid "{{amountStr}} for Mercado Livre Brazil Gift Card"
 msgstr "{{amountStr}} voor Mercado Livre Brazil Cadeaubon"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.sparkspay.io (Sparks Dev's public BWS instance)."
-msgstr "{{appName}} is afhankelijk van Bitcore Wallet Service (BWS) voor blockchain informatie, netwerk verbinding en Copayer synchronisatie. De standaard instelling wijst naar https://bws.sparkspay.io (Sparks Dev's openbare BWS instance)."
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.sparkspay.io (SparksPay Dev's public BWS instance)."
+msgstr "{{appName}} is afhankelijk van Bitcore Wallet Service (BWS) voor blockchain informatie, netwerk verbinding en Copayer synchronisatie. De standaard instelling wijst naar https://bws.sparkspay.io (SparksPay Dev's openbare BWS instance)."
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for sparks networking fees."

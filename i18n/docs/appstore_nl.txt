@@ -1,4 +1,4 @@
-Beveilig sparks op je eigen voorwaarden met een open source, meervoudige ondertekening-portemonnee van Sparks Dev. 
+Beveilig sparks op je eigen voorwaarden met een open source, meervoudige ondertekening-portemonnee van SparksPay Dev. 
 Copay gebruikers kunnen individueel saldo beheren of veilig financiën delen met andere gebruikers door middel van portemonnees met meervoudige ondertekening, dit voorkomt ongeautoriseerde betalingen doordat meerdere goedkeuringen nodig zijn. Hier zijn een aantal manieren waarop Copay gebruikt kan worden met anderen:
 
 Om te sparen voor vakanties of gezamenlijke aankopen met vrienden 
@@ -12,7 +12,7 @@ Intuïtieve meervoudige-ondertekening beveiliging voor persoonlijke of gedeelde 
 Eenvoudige bestedingsvoorstellen voor gedeelde portemonnees en groepsbetalingen
 Hiërarchisch deterministische (HD) adres generatie en portemonnee backups 
 Apparaat gebaseerde beveiliging: alle privé sleutels worden lokaal opgeslagen, niet in de cloud
-Ondersteuning voor Sparks testnet portemonnees
+Ondersteuning voor SparksPay testnet portemonnees
 Gesynchroniseerde toegang vanaf alle grote mobiele en desktop platformen
 Ondersteuning voor betalings protocol (BIP70-BIP73): gemakkelijk te herkennen betalingsverzoeken en verifieerbaar veilige sparks betalingen
 Ondersteuning voor prijsweergave in 150+ valuta's en eenheid denominatie in BTC of bits

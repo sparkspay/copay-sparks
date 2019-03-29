@@ -36,7 +36,7 @@ angular.module('copayApp.controllers').controller('buyandsellController', functi
     //var url = 'https://insight.sparkspay.io/insight/tx/' + transactionId;
     var optIn = true;
     var title = null;
-    var message = gettextCatalog.getString('Buy Sparks');
+    var message = gettextCatalog.getString('Buy SparksPay');
     var okText = gettextCatalog.getString('Open Platform');
     var cancelText = gettextCatalog.getString('Go Back');
     externalLinkService.open(url, optIn, title, message, okText, cancelText);

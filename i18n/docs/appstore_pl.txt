@@ -1,4 +1,4 @@
-Bezpieczne sparksy na twoich własnych warunkach, z elektronicznym portfelem open source z multipodpisami od Sparks Dev. 
+Bezpieczne sparksy na twoich własnych warunkach, z elektronicznym portfelem open source z multipodpisami od SparksPay Dev. 
 Użytkownicy Copay mogą posiadać fundusze indywidualnie lub bezpiecznie dzielić je z innymi użytkownikami w portfelach z multipodpisami, które uniemożliwiają nieautoryzowane płatności wymagając wielu potwierdzeń. Oto kilka sposobów, jak portfele Copay mogą być używane w połączeniu z innymi użytkownikami:
 
 Oszczędzanie na wakacje lub wspólne zakupy z przyjaciółmi 
@@ -12,7 +12,7 @@ Intuicyjne bezpieczeństwo dzięki multipodpisom dla portfeli prywatnych i wspó
 Proste zlecenia płatności dla współdzielonych portfeli i płatności grupowych
 Protokół HD (Hierarchical deterministic) do generowania adresów i kopii zapasowych portfela 
 Zabezpieczenia: wszystkie klucze prywatne przechowywane lokalnie, a nie w chmurze
-Wsparcie dla Sparks testnet wallets
+Wsparcie dla SparksPay testnet wallets
 Jednoczesny dostęp ze wszystkich głównych platform mobilnych i stacjonarnych
 Wsparcie protokołów płatności (BIP70-BIP73): łatwe do zidentyfikowania wnioski o płatność i bezpieczne, weryfikowalne płatności sparks
 Wsparcie dla wyświetlania ponad 150 walut w jednostkach BTC lub bit

@@ -90,8 +90,8 @@ msgid "Add Account"
 msgstr "添加帐户"
 
 #: src/js/services/bitpayAccountService.js:69
-msgid "Add Sparks Dev Account?"
-msgstr "添加 Sparks Dev 帐户吗？"
+msgid "Add SparksPay Dev Account?"
+msgstr "添加 SparksPay Dev 帐户吗？"
 
 #: www/views/addressbook.add.html:4
 #: www/views/addressbook.html:22
@@ -135,7 +135,7 @@ msgid "Add funds"
 msgstr "添加资金"
 
 #: src/js/services/bitpayAccountService.js:78
-msgid "Add this Sparks Dev account ({{email}})?"
+msgid "Add this SparksPay Dev account ({{email}})?"
 msgstr "确定添加此Sparks Dev账户:{{email}} 吗？"
 
 #: www/views/add.html:3
@@ -233,7 +233,7 @@ msgid "Anyone with your backup phrase can access or spend your sparks."
 msgstr "任何人只要持有你的备份短语，就可以访问或者花掉你的比特币。"
 
 #: www/views/addresses.html:94
-msgid "Approximate Sparks network fee to transfer wallet's balance (with normal priority)"
+msgid "Approximate SparksPay network fee to transfer wallet's balance (with normal priority)"
 msgstr "转移钱包余额大约需要的比特币网络费用（正常优先级）"
 
 #: www/views/backupWarning.html:10
@@ -269,13 +269,13 @@ msgid "Are you sure you want to skip it?"
 msgstr "你确定你想跳过它？"
 
 #: www/views/modals/bitpay-card-confirmation.html:4
-msgid "Are you sure you would like to log out of your Sparks Dev Card account?"
+msgid "Are you sure you would like to log out of your SparksPay Dev Card account?"
 msgstr "你确定你要登出你的Sparks Dev Card账户？"
 
 #: src/js/controllers/preferencesBitpayCard.js:7
 #: src/js/controllers/preferencesBitpayServices.js:20
-msgid "Are you sure you would like to remove your Sparks Dev Card ({{lastFourDigits}}) from this device?"
-msgstr "你确定你想要从这个设备中删除您的 Sparks Dev 卡 ({{lastFourDigits}})吗？"
+msgid "Are you sure you would like to remove your SparksPay Dev Card ({{lastFourDigits}}) from this device?"
+msgstr "你确定你想要从这个设备中删除您的 SparksPay Dev 卡 ({{lastFourDigits}})吗？"
 
 #: www/views/includes/walletInfo.html:10
 msgid "Auditable"
@@ -349,50 +349,50 @@ msgid "Be sure to store your recovery phrase in a secure place. If this app is d
 msgstr "请务必将您的恢复短语存储在一个安全的地方。如果这个程序被删除，不能没有它恢复你的钱。"
 
 #: www/views/preferencesBitpayServices.html:9
-msgid "Sparks Dev Visa&reg; Cards"
-msgstr "Sparks Dev Visa&reg; 牌"
+msgid "SparksPay Dev Visa&reg; Cards"
+msgstr "SparksPay Dev Visa&reg; 牌"
 
 #: www/views/addressbook.add.html:38
 #: www/views/includes/incomingDataMenu.html:29
-msgid "Sparks Address"
+msgid "SparksPay Address"
 msgstr "比特币地址"
 
 #: www/views/includes/walletSelector.html:42
 #: www/views/tab-home.html:112
 #: www/views/tab-settings.html:108
-msgid "Sparks Cash Wallets"
+msgid "SparksPay Cash Wallets"
 msgstr "比特币现金钱包"
 
 #: www/views/modals/chooseFeeLevel.html:4
 #: www/views/preferencesFee.html:4
 #: www/views/tab-settings.html:83
-msgid "Sparks Network Fee Policy"
+msgid "SparksPay Network Fee Policy"
 msgstr "比特币网络手续费策略"
 
 #: www/views/includes/walletSelector.html:11
 #: www/views/tab-home.html:97
 #: www/views/tab-settings.html:100
-msgid "Sparks Wallets"
+msgid "SparksPay Wallets"
 msgstr "比特币钱包"
 
 #: src/js/services/incomingData.js:151
-msgid "Sparks cash Payment"
+msgid "SparksPay cash Payment"
 msgstr "比特币现金支付"
 
 #: www/views/onboarding/tour.html:31
-msgid "Sparks is a currency."
+msgid "SparksPay is a currency."
 msgstr "比特币是一种货币。"
 
 #: www/views/onboarding/disclaimer.html:15
-msgid "Sparks is different &ndash; it cannot be safely held with a bank or web service."
+msgid "SparksPay is different &ndash; it cannot be safely held with a bank or web service."
 msgstr "比特币是不同 — — 它不能安全地举行以银行或 web 服务。"
 
 #: www/views/onboarding/tour.html:18
-msgid "Sparks is secure,<br>digital money."
+msgid "SparksPay is secure,<br>digital money."
 msgstr "比特币是安全的 <br>数字货币。"
 
 #: www/views/preferencesFee.html:11
-msgid "Sparks transactions include a fee collected by miners on the network."
+msgid "SparksPay transactions include a fee collected by miners on the network."
 msgstr "比特币交易包括在网络上被矿工所收取的费用。"
 
 #: www/views/buyAmazon.html:108
@@ -422,11 +422,11 @@ msgid "Buy"
 msgstr "购买"
 
 #: www/views/includes/buyAndSellCard.html:3
-msgid "Buy &amp; Sell Sparks"
+msgid "Buy &amp; Sell SparksPay"
 msgstr "购买或出售比特币"
 
 #: www/views/tab-send.html:40
-msgid "Buy Sparks"
+msgid "Buy SparksPay"
 msgstr "购买比特币"
 
 #: www/views/mercadoLibre.html:22
@@ -439,7 +439,7 @@ msgid "Buy from"
 msgstr "从什么地方购买"
 
 #: src/js/services/onGoingProcess.js:40
-msgid "Buying Sparks..."
+msgid "Buying SparksPay..."
 msgstr "正在发送 比特币..."
 
 #: src/js/services/onGoingProcess.js:12
@@ -593,8 +593,8 @@ msgid "Confirming"
 msgstr "确认"
 
 #: www/views/bitpayCardIntro.html:37
-msgid "Connect my Sparks Dev Card"
-msgstr "我 Sparks Dev 卡连接"
+msgid "Connect my SparksPay Dev Card"
+msgstr "我 SparksPay Dev 卡连接"
 
 #: src/js/services/onGoingProcess.js:13
 msgid "Connecting to Coinbase..."
@@ -621,7 +621,7 @@ msgid "Contribute Translations"
 msgstr "参与翻译"
 
 #: src/js/controllers/confirm.js:130
-msgid "Copay only supports Sparks Cash using new version numbers addresses"
+msgid "Copay only supports SparksPay Cash using new version numbers addresses"
 msgstr "Copay只支持新版本的比特币现金地址"
 
 #: src/js/services/bwcError.js:62
@@ -985,8 +985,8 @@ msgid "Enter Spending Password"
 msgstr "输入支出密码"
 
 #: src/js/services/bitpayAccountService.js:110
-msgid "Enter Two Factor for your Sparks Dev account"
-msgstr "为您的 Sparks Dev 帐户输入两个因素"
+msgid "Enter Two Factor for your SparksPay Dev account"
+msgstr "为您的 SparksPay Dev 帐户输入两个因素"
 
 #: www/views/amount.html:4
 msgid "Enter amount"
@@ -1121,8 +1121,8 @@ msgid "Error in Payment Protocol"
 msgstr "付款协议中的错误"
 
 #: src/js/controllers/bitpayCardIntro.js:14
-msgid "Error pairing Sparks Dev Account"
-msgstr "错误配对 Sparks Dev 帐户"
+msgid "Error pairing SparksPay Dev Account"
+msgstr "错误配对 SparksPay Dev 帐户"
 
 #: src/js/controllers/paperWallet.js:41
 msgid "Error scanning funds:"
@@ -1219,8 +1219,8 @@ msgid "Feedback could not be submitted. Please try again later."
 msgstr "无法提交反馈。请稍后再试。"
 
 #: src/js/services/onGoingProcess.js:42
-msgid "Fetching Sparks Dev Account..."
-msgstr "正在获取 Sparks Dev 帐户..."
+msgid "Fetching SparksPay Dev Account..."
+msgstr "正在获取 SparksPay Dev 帐户..."
 
 #: src/js/services/onGoingProcess.js:21
 msgid "Fetching payment information"
@@ -1261,8 +1261,8 @@ msgid "From"
 msgstr "来自"
 
 #: src/js/controllers/bitpayCardIntro.js:71
-msgid "From Sparks Dev account"
-msgstr "从 Sparks Dev 帐户"
+msgid "From SparksPay Dev account"
+msgstr "从 SparksPay Dev 帐户"
 
 #: www/views/tab-import-phrase.html:57
 msgid "From Hardware Wallet"
@@ -1313,8 +1313,8 @@ msgid "Get local cash anywhere you go, from any Visa<sup>&reg;</sup> compatible 
 msgstr "得到当地现金任何地方您去，从任何 Visa<sup>®</sup> 兼容的自动取款机 ATM 银行费用可能适用。"
 
 #: www/views/onboarding/collectEmail.html:15
-msgid "Get news and updates from Sparks Dev"
-msgstr "从 Sparks Dev 获取新闻和更新"
+msgid "Get news and updates from SparksPay Dev"
+msgstr "从 SparksPay Dev 获取新闻和更新"
 
 #: www/views/bitpayCard.html:49
 msgid "Get started"
@@ -1394,7 +1394,7 @@ msgstr "硬件钱包"
 
 #: src/js/controllers/create.js:178
 #: src/js/controllers/join.js:144
-msgid "Hardware wallets are not yet supported with Sparks Cash"
+msgid "Hardware wallets are not yet supported with SparksPay Cash"
 msgstr "比特币现金钱包暂时不支持硬件钱包"
 
 #: www/views/modals/mercadolibre-card-details.html:69
@@ -1500,8 +1500,8 @@ msgid "If enabled, wallets will also try to spend unconfirmed funds. This option
 msgstr "如果启用了，钱包也尝试使用未经证实的资金。此选项可能会导致事务延迟。"
 
 #: src/js/controllers/onboarding/backupRequest.js:18
-msgid "If this device is replaced or this app is deleted, neither you nor Sparks Dev can recover your funds without a backup."
-msgstr "如果此设备被替换或删除此应用程序，你和 Sparks Dev 都不可以恢复你的资金，也没有备份。"
+msgid "If this device is replaced or this app is deleted, neither you nor SparksPay Dev can recover your funds without a backup."
+msgstr "如果此设备被替换或删除此应用程序，你和 SparksPay Dev 都不可以恢复你的资金，也没有备份。"
 
 #: www/views/feedback/complete.html:23
 msgid "If you have additional feedback, please let us know by tapping the \"Send feedback\" option in the Settings tab."
@@ -1907,7 +1907,7 @@ msgid "No wallets available to receive funds"
 msgstr "没有可用于接收资金的钱包"
 
 #: www/views/preferencesCash.html:15
-msgid "No wallets eligible for Sparks Cash support"
+msgid "No wallets eligible for SparksPay Cash support"
 msgstr "没有錢包合乎支持小比特幣資格"
 
 #: src/js/controllers/preferencesCash.js:58
@@ -1931,8 +1931,8 @@ msgid "Not enough funds for fee"
 msgstr "费用的资金不足"
 
 #: www/views/onboarding/tour.html:50
-msgid "Not even Sparks Dev can access it."
-msgstr "甚至没有 Sparks Dev 可以访问它。"
+msgid "Not even SparksPay Dev can access it."
+msgstr "甚至没有 SparksPay Dev 可以访问它。"
 
 #: src/js/controllers/paperWallet.js:47
 msgid "Not funds found"
@@ -2065,8 +2065,8 @@ msgid "Open website"
 msgstr "打开网站"
 
 #: www/views/bitpayCardIntro.html:34
-msgid "Order the Sparks Dev Card"
-msgstr "订单 Sparks Dev 卡"
+msgid "Order the SparksPay Dev Card"
+msgstr "订单 SparksPay Dev 卡"
 
 #: www/views/join.html:105
 #: www/views/join.html:96
@@ -2153,7 +2153,7 @@ msgid "Payment accepted. It will be broadcasted by Glidera. In case there is a p
 msgstr "支付以被接受。它将由 Glidera 广播。如果出现问题，它可以在创建后的 6 个小时内删除。"
 
 #: src/js/services/incomingData.js:152
-msgid "Payment address was translated to new Sparks Cash address format:"
+msgid "Payment address was translated to new SparksPay Cash address format:"
 msgstr "付款地址转化为新的小比特幣地址格式"
 
 #: www/views/modals/txp-details.html:107
@@ -2404,16 +2404,16 @@ msgid "Remove"
 msgstr "移除"
 
 #: src/js/controllers/preferencesBitpayServices.js:7
-msgid "Remove Sparks Dev Account?"
-msgstr "删除 Sparks Dev 帐户吗？"
+msgid "Remove SparksPay Dev Account?"
+msgstr "删除 SparksPay Dev 帐户吗？"
 
 #: src/js/controllers/preferencesBitpayServices.js:19
-msgid "Remove Sparks Dev Card?"
-msgstr "删除 Sparks Dev 卡吗？"
+msgid "Remove SparksPay Dev Card?"
+msgstr "删除 SparksPay Dev 卡吗？"
 
 #: src/js/controllers/preferencesBitpayServices.js:8
-msgid "Removing your Sparks Dev account will remove all associated Sparks Dev account data from this device. Are you sure you would like to remove your Sparks Dev Account ({{email}}) from this device?"
-msgstr "从该设备删除您的 Sparks Dev 帐户将删除所有关联的 Sparks Dev 帐户数据。你确定你想要从这个设备中删除您的 Sparks Dev 帐户:({{email}})？"
+msgid "Removing your SparksPay Dev account will remove all associated SparksPay Dev account data from this device. Are you sure you would like to remove your SparksPay Dev Account ({{email}}) from this device?"
+msgstr "从该设备删除您的 SparksPay Dev 帐户将删除所有关联的 SparksPay Dev 帐户数据。你确定你想要从这个设备中删除您的 SparksPay Dev 帐户:({{email}})？"
 
 #: www/views/join.html:116
 #: www/views/join.html:124
@@ -2539,7 +2539,7 @@ msgid "Self-signed Certificate"
 msgstr "自签名证书"
 
 #: src/js/services/onGoingProcess.js:41
-msgid "Selling Sparks..."
+msgid "Selling SparksPay..."
 msgstr "出售比特币......"
 
 #: www/views/feedback/send.html:13
@@ -2740,7 +2740,7 @@ msgid "Slide to send"
 msgstr "在此點擊滑動以發送"
 
 #: www/views/preferencesCash.html:56
-msgid "Some of your wallets are not eligible for Sparks Cash support. You can try to access BCH funds from these wallets using the"
+msgid "Some of your wallets are not eligible for SparksPay Cash support. You can try to access BCH funds from these wallets using the"
 msgstr "你有些錢包不合資格得到小比特幣的支持可嘗試連結這些錢包至BCH基金"
 
 #: src/js/controllers/create.js:86
@@ -2761,7 +2761,7 @@ msgid "Spending Password needed"
 msgstr "需要支付密码"
 
 #: www/views/walletDetails.html:173
-msgid "Spending this balance will need significant Sparks network fees"
+msgid "Spending this balance will need significant SparksPay network fees"
 msgstr "这笔交易将需要非常高的比特币网络手续费"
 
 #: www/views/tab-send.html:33
@@ -2887,8 +2887,8 @@ msgid "The maximum number of consecutive unused addresses (20) has been reached.
 msgstr "已连续未使用的地址 (20) 的最大数目。当您未使用的地址之一收到付款时，将生成一个新的地址，和您接收选项卡所示。"
 
 #: src/js/controllers/onboarding/terms.js:21
-msgid "The official English Terms of Service are available on the Sparks Dev website."
-msgstr "官方的英语术语服务是可在 Sparks Dev 网站上。"
+msgid "The official English Terms of Service are available on the SparksPay Dev website."
+msgstr "官方的英语术语服务是可在 SparksPay Dev 网站上。"
 
 #: www/views/tab-import-phrase.html:4
 msgid "The password of the recovery phrase (if set)"
@@ -2971,7 +2971,7 @@ msgid "This recovery phrase was created with a password. To recover this wallet 
 msgstr "此恢复短语是用密码创建。为了恢复此钱包，需要恢复短语和密码。"
 
 #: www/views/tx-details.html:91
-msgid "This transaction amount is too small compared to current Sparks network fees. Spending these funds will need a Sparks network fee cost comparable to the funds itself."
+msgid "This transaction amount is too small compared to current SparksPay network fees. Spending these funds will need a SparksPay network fee cost comparable to the funds itself."
 msgstr "相对于当前比特币网络费，这笔交易金额太小。手续费相当于这笔交易金额本身。"
 
 #: www/views/tx-details.html:87
@@ -3006,8 +3006,8 @@ msgid "To get started, you'll need to create a sparks wallet and get some sparks
 msgstr "若要开始，您将需要创建一个比特币的钱包，并获得一些比特币。"
 
 #: src/js/services/bitpayAccountService.js:73
-msgid "To {{reason}} you must first add your Sparks Dev account - {{email}}"
-msgstr "到 {{reason}}，您必须首先添加您的 Sparks Dev 帐户-{{email}}"
+msgid "To {{reason}} you must first add your SparksPay Dev account - {{email}}"
+msgstr "到 {{reason}}，您必须首先添加您的 SparksPay Dev 帐户-{{email}}"
 
 #: src/js/services/onGoingProcess.js:48
 msgid "Top up in progress..."
@@ -3204,7 +3204,7 @@ msgid "WARNING: UNTRUSTED CERTIFICATE"
 msgstr "警告︰不受信任的证书"
 
 #: www/views/preferencesPrivateKey.html:14
-msgid "WARNING: Your extended private keys are all that is needed to access your sparks funds. Be sure to protect your private keys and store them only on secure devices. Sparks Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
+msgid "WARNING: Your extended private keys are all that is needed to access your sparks funds. Be sure to protect your private keys and store them only on secure devices. SparksPay Dev does not have access to your private keys, so you alone are responsible for your keys. If you share key access with external services, you take responsibility for the risk of theft or breach. Only advanced users should handle extended private keys directly."
 msgstr ""
 
 #: src/js/services/onGoingProcess.js:15
@@ -3485,16 +3485,16 @@ msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte.
 msgstr "你不应设置高于 {{maxFeeRecommended}} satoshis/字节 的交易手续费。"
 
 #: www/views/modals/bitpay-card-confirmation.html:5
-msgid "You will need to log back for fill in your Sparks Dev Card."
-msgstr "您将需要登录回来为你 Sparks Dev 卡填写。"
+msgid "You will need to log back for fill in your SparksPay Dev Card."
+msgstr "您将需要登录回来为你 SparksPay Dev 卡填写。"
 
 #: www/views/preferencesNotifications.html:34
 msgid "You'll receive email notifications about payments sent and received from your wallets."
 msgstr "在您的钱包进行付款操作时发送通知。"
 
 #: www/views/bitpayCard.html:50
-msgid "Your Sparks Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
-msgstr "您的 Sparks Dev 卡是准备好了。添加到您的卡开始使用它在商店和自动取款机全球基金。"
+msgid "Your SparksPay Dev Card is ready. Add funds to your card to start using it at stores and ATMs worldwide."
+msgstr "您的 SparksPay Dev 卡是准备好了。添加到您的卡开始使用它在商店和自动取款机全球基金。"
 
 #: www/views/mercadoLibre.html:57
 #: www/views/mercadoLibreCards.html:6
@@ -3562,8 +3562,8 @@ msgid "[Scanning Funds]"
 msgstr "[正在掃描資金]"
 
 #: src/js/controllers/bitpayCardIntro.js:11
-msgid "add your Sparks Dev Visa card(s)"
-msgstr "添加您的 Sparks Dev 签证卡"
+msgid "add your SparksPay Dev Visa card(s)"
+msgstr "添加您的 SparksPay Dev 签证卡"
 
 #: www/views/includes/available-balance.html:8
 msgid "locked by pending payments"
@@ -3594,8 +3594,8 @@ msgid "{{amountStr}} for Mercado Livre Brazil Gift Card"
 msgstr "梅尔卡多里弗巴西礼品卡 {{amountStr}}"
 
 #: www/views/preferencesBwsUrl.html:21
-msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.sparkspay.io (Sparks Dev's public BWS instance)."
-msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 https://bws.sparkspay.io (Sparks Dev 的公共 BWS 实例)。"
+msgid "{{appName}} depends on Bitcore Wallet Service (BWS) for blockchain information, networking and Copayer synchronization. The default configuration points to https://bws.sparkspay.io (SparksPay Dev's public BWS instance)."
+msgstr "{{appName}} 中的区块链信息依赖于 Bitcore Wallet Service (BWS)、网络和 Copayer synchronization。默认配置指向 https://bws.sparkspay.io (SparksPay Dev 的公共 BWS 实例)。"
 
 #: src/js/controllers/confirm.js:408
 msgid "{{fee}} will be deducted for sparks networking fees."

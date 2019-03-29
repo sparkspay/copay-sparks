@@ -158,8 +158,8 @@ angular.module('copayApp.services').service('incomingData', function($log, $stat
         // Translate address
         $log.debug('address transalated to:' + addr);
         popupService.showConfirm(
-          gettextCatalog.getString('Sparks Payment'),
-          gettextCatalog.getString('Payment address was translated to new Sparks address format: ' + addr),
+          gettextCatalog.getString('SparksPay Payment'),
+          gettextCatalog.getString('Payment address was translated to new SparksPay address format: ' + addr),
           gettextCatalog.getString('OK'),
           gettextCatalog.getString('Cancel'),
           function(ret) {
