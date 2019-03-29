@@ -302,8 +302,8 @@ msgid "BIP32 path for address derivation"
 msgstr "Pacote BIP32 para endereço de derivação"
 
 #: www/views/preferencesCash.html:25
-msgid "BTC wallets"
-msgstr "Carteiras BTC"
+msgid "SPK wallets"
+msgstr "Carteiras SPK"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -1915,8 +1915,8 @@ msgid "Non BIP44 wallet"
 msgstr "Carteira sem BIP44"
 
 #: www/views/preferencesCash.html:46
-msgid "Non eligible BTC wallets"
-msgstr "Carteiras BTC não elegíveis"
+msgid "Non eligible SPK wallets"
+msgstr "Carteiras SPK não elegíveis"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1948,8 +1948,8 @@ msgid "Note"
 msgstr "Nota"
 
 #: www/views/backup.html:19
-msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the same recovery phrase."
-msgstr "Nota: se esta carteira BCH foi duplicada de uma carteira BTC, elas compartilham a mesma frase de recuperação."
+msgid "Note: if this BCH wallet was duplicated from a SPK wallet, they share the same recovery phrase."
+msgstr "Nota: se esta carteira BCH foi duplicada de uma carteira SPK, elas compartilham a mesma frase de recuperação."
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell sparks"
@@ -2647,8 +2647,8 @@ msgid "Set up a password"
 msgstr "Configure uma senha"
 
 #: src/js/controllers/preferencesFee.js:85
-msgid "Set your own fee in satoshis/byte"
-msgstr "Defina sua própria taxa em satoshis/byte"
+msgid "Set your own fee in sprites/byte"
+msgstr "Defina sua própria taxa em sprites/byte"
 
 #: www/views/tab-settings.html:3
 #: www/views/tabs.html:19
@@ -3481,8 +3481,8 @@ msgid "You control your sparks."
 msgstr "Você controla o seu sparks."
 
 #: www/views/modals/chooseFeeLevel.html:64
-msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
-msgstr "Você não deve definir uma taxa maior do que {{maxFeeRecommended}} satoshis/byte."
+msgid "You should not set a fee higher than {{maxFeeRecommended}} sprites/byte."
+msgstr "Você não deve definir uma taxa maior do que {{maxFeeRecommended}} sprites/byte."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your SparksPay Dev Card."

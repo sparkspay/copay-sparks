@@ -302,8 +302,8 @@ msgid "BIP32 path for address derivation"
 msgstr "Percorso BIP32 per generare l'indirizzo"
 
 #: www/views/preferencesCash.html:25
-msgid "BTC wallets"
-msgstr "Portafogli BTC"
+msgid "SPK wallets"
+msgstr "Portafogli SPK"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -1915,8 +1915,8 @@ msgid "Non BIP44 wallet"
 msgstr "Portafoglio non BIP44"
 
 #: www/views/preferencesCash.html:46
-msgid "Non eligible BTC wallets"
-msgstr "Portafogli BTC non ammissibili"
+msgid "Non eligible SPK wallets"
+msgstr "Portafogli SPK non ammissibili"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1948,8 +1948,8 @@ msgid "Note"
 msgstr "Nota"
 
 #: www/views/backup.html:19
-msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the same recovery phrase."
-msgstr "Nota: se questo portafoglio BCH è stato duplicato da un portafoglio BTC, condividono la stessa frase di recupero."
+msgid "Note: if this BCH wallet was duplicated from a SPK wallet, they share the same recovery phrase."
+msgstr "Nota: se questo portafoglio BCH è stato duplicato da un portafoglio SPK, condividono la stessa frase di recupero."
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell sparks"
@@ -2647,7 +2647,7 @@ msgid "Set up a password"
 msgstr "Imposta una password"
 
 #: src/js/controllers/preferencesFee.js:85
-msgid "Set your own fee in satoshis/byte"
+msgid "Set your own fee in sprites/byte"
 msgstr "Impostare la propria commissione in satoshi/byte"
 
 #: www/views/tab-settings.html:3
@@ -3481,8 +3481,8 @@ msgid "You control your sparks."
 msgstr "Controlli i tuoi sparks."
 
 #: www/views/modals/chooseFeeLevel.html:64
-msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
-msgstr "Non è necessario impostare una commissione maggiore di {{maxFeeRecommended}} satoshis/byte."
+msgid "You should not set a fee higher than {{maxFeeRecommended}} sprites/byte."
+msgstr "Non è necessario impostare una commissione maggiore di {{maxFeeRecommended}} sprites/byte."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your SparksPay Dev Card."

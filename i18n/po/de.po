@@ -288,8 +288,8 @@ msgid "BIP32 path for address derivation"
 msgstr "BIP32 Pfad für die Adressen-Ableitung"
 
 #: www/views/preferencesCash.html:25
-msgid "BTC wallets"
-msgstr "BTC walltes"
+msgid "SPK wallets"
+msgstr "SPK walltes"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -1776,8 +1776,8 @@ msgid "Non BIP44 wallet"
 msgstr "Nicht BIP44 Geldbörse"
 
 #: www/views/preferencesCash.html:46
-msgid "Non eligible BTC wallets"
-msgstr "Nicht zugelassene BTC-Geldbörsen"
+msgid "Non eligible SPK wallets"
+msgstr "Nicht zugelassene SPK-Geldbörsen"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1808,7 +1808,7 @@ msgid "Note"
 msgstr "Notiz"
 
 #: www/views/backup.html:19
-msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the same recovery phrase."
+msgid "Note: if this BCH wallet was duplicated from a SPK wallet, they share the same recovery phrase."
 msgstr ""
 
 #: www/views/modals/wallets.html:25
@@ -2466,7 +2466,7 @@ msgid "Set up a password"
 msgstr "Passwort einrichten"
 
 #: src/js/controllers/preferencesFee.js:85
-msgid "Set your own fee in satoshis/byte"
+msgid "Set your own fee in sprites/byte"
 msgstr "Stellen Sie Ihre eigene Gebühr in Satoshis / Byte ein"
 
 #: www/views/tab-settings.html:3 www/views/tabs.html:19
@@ -3259,7 +3259,7 @@ msgid "You control your sparks."
 msgstr "Sie kontrollieren Ihre SparksPay."
 
 #: www/views/modals/chooseFeeLevel.html:64
-msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
+msgid "You should not set a fee higher than {{maxFeeRecommended}} sprites/byte."
 msgstr "Sie sollten keine Gebühr höher als {{maxFeeRecommended}} Satoshis / Byte festlegen."
 
 #: www/views/modals/bitpay-card-confirmation.html:5

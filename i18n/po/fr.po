@@ -302,8 +302,8 @@ msgid "BIP32 path for address derivation"
 msgstr "Chemin BIP32 pour la dérivation de l'adresse"
 
 #: www/views/preferencesCash.html:25
-msgid "BTC wallets"
-msgstr "Portefeuilles BTC"
+msgid "SPK wallets"
+msgstr "Portefeuilles SPK"
 
 #: www/views/preferences.html:34
 msgid "Backup"
@@ -1915,8 +1915,8 @@ msgid "Non BIP44 wallet"
 msgstr "Portefeuille non BIP44"
 
 #: www/views/preferencesCash.html:46
-msgid "Non eligible BTC wallets"
-msgstr "Portefeuilles BTC non éligibles"
+msgid "Non eligible SPK wallets"
+msgstr "Portefeuilles SPK non éligibles"
 
 #: src/js/services/feeService.js:12
 msgid "Normal"
@@ -1948,8 +1948,8 @@ msgid "Note"
 msgstr "Note"
 
 #: www/views/backup.html:19
-msgid "Note: if this BCH wallet was duplicated from a BTC wallet, they share the same recovery phrase."
-msgstr "Remarque : si ce portefeuille BCH a été dupliqué à partir d'un portefeuille BTC, ils partagent la même phrase de récupération."
+msgid "Note: if this BCH wallet was duplicated from a SPK wallet, they share the same recovery phrase."
+msgstr "Remarque : si ce portefeuille BCH a été dupliqué à partir d'un portefeuille SPK, ils partagent la même phrase de récupération."
 
 #: www/views/modals/wallets.html:25
 msgid "Notice: only 1-1 (single signature) wallets can be used for sell sparks"
@@ -2647,8 +2647,8 @@ msgid "Set up a password"
 msgstr "Spécifiez un mot de passe"
 
 #: src/js/controllers/preferencesFee.js:85
-msgid "Set your own fee in satoshis/byte"
-msgstr "Définissez vos propres frais en satoshis/byte"
+msgid "Set your own fee in sprites/byte"
+msgstr "Définissez vos propres frais en sprites/byte"
 
 #: www/views/tab-settings.html:3
 #: www/views/tabs.html:19
@@ -3481,8 +3481,8 @@ msgid "You control your sparks."
 msgstr "Vous contrôlez vos sparkss."
 
 #: www/views/modals/chooseFeeLevel.html:64
-msgid "You should not set a fee higher than {{maxFeeRecommended}} satoshis/byte."
-msgstr "Vous ne devriez pas définir des frais plus élevés que {{maxFeeRecommended}} satoshis/byte."
+msgid "You should not set a fee higher than {{maxFeeRecommended}} sprites/byte."
+msgstr "Vous ne devriez pas définir des frais plus élevés que {{maxFeeRecommended}} sprites/byte."
 
 #: www/views/modals/bitpay-card-confirmation.html:5
 msgid "You will need to log back for fill in your SparksPay Dev Card."

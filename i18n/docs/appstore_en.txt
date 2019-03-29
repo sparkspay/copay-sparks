@@ -15,7 +15,7 @@ Device-based security: all private keys are stored locally, not in the cloud
 Support for SparksPay testnet wallets
 Synchronous access across all major mobile and desktop platforms
 Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiably secure sparks payments
-Support for 150+ currency pricing options and unit denomination in BTC or bits
+Support for 150+ currency pricing options and unit denomination in SPK or bits
 Email notifications for payments and transfers
 Customizable wallet naming and background colors
 9 supported languages (EN, CS, FR, DE, IT, ES, JA, PL, RU)
